@@ -1,3 +1,6 @@
 alias controller='cd app/controllers'
 alias view='cd app/views'
 alias model='cd app/models'
+alias scripts='cd app/assets/javascripts'
+alias style='cd app/assets/stylesheets'
+

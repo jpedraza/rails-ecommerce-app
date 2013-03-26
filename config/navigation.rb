@@ -11,11 +11,11 @@ SimpleNavigation::Configuration.run do |navigation|
 
   # Specify the class that will be applied to the current leaf of
   # active navigation items. Defaults to 'simple-navigation-active-leaf'
-  # navigation.active_leaf_class = 'your_active_leaf_class'
+  navigation.active_leaf_class = 'active_leaf'
 
   # Item keys are normally added to list items as id.
   # This setting turns that off
-  # navigation.autogenerate_item_ids = false
+  navigation.autogenerate_item_ids = false
 
   # You can override the default logic that is used to autogenerate the item ids.
   # To do this, define a Proc which takes the key of the current item as argument.
@@ -52,14 +52,10 @@ SimpleNavigation::Configuration.run do |navigation|
     primary.item :logo, 'Home', '/'
 
     # initialize men's / women's shopping etc
-    primary.item :shop, 'Store', '/store' do |store|
-
+    primary.item :store, 'Store', 'store_path' do |store|
       # 
       store.item :men, 'Men', '/men'
-
-
       store.item :women, 'Women', '/women'
-
     end
 
 
