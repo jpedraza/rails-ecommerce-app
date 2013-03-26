@@ -5,15 +5,24 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+# 
 gem 'sqlite3'
 gem "simple-navigation", "~> 3.10.0"
 
+# add binding of caller to the element
+gem "binding_of_caller"
+
+# 
+gem 'haml', '4.0.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+
+  gem 'sass-rails', '~> 3.2.3'
+  gem 'compass-rails'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'requirejs-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -36,4 +45,5 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
+gem 'better_errors', '>= 0.3.2', :group => :development
