@@ -53,6 +53,9 @@ module Clothing
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
 
+    # make sure that we don't compile the wrong files
+    config.assets.precompile << /(^[^_\/]|\/[^_])[^\/]*$/
+
     # Enable the asset pipeline
     config.assets.enabled = true
 
