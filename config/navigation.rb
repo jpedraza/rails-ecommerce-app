@@ -50,9 +50,11 @@ SimpleNavigation::Configuration.run do |navigation|
     #                            against the current URI.  You may also use a proc, or the symbol <tt>:subpath</tt>. 
     #
     primary.item :logo, 'Home', '/'
+
     # initialize men's / women's shopping etc
     primary.item :shop, 'Store', '/store' do |store|
 
+      # 
       store.item :men, 'Men', '/men'
 
 
