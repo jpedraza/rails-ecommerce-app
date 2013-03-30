@@ -36,7 +36,7 @@ group :assets do
   # use susy grid system instead of zurb foundations
   gem 'compass-susy-plugin'
   # include zurb foundation framework
-  gem 'zurb-foundation'
+  gem 'zurb-foundation', '~> 4.0.0'
   # include sass button plugin for compass 
   gem 'sassy-buttons'
   # uglifier for elements
