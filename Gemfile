@@ -5,17 +5,21 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# sqlite3
-gem 'sqlite3'
-
-# simple navigation useful for helping to modularize navigation elements 
-gem "simple-navigation", "~> 3.10.0"
 
 # add binding of caller to the element
 gem "binding_of_caller"
 
-# 
-gem 'haml', '4.0.0'
+group :templating do
+
+  # haml templating!!!!!!!!
+  gem 'haml', '4.0.0'
+  # simple navigation useful for helping to modularize navigation elements 
+  gem "simple-navigation", "~> 3.10.0"
+  # To use Jbuilder templates for JSON
+  gem 'jbuilder'
+
+end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -46,19 +50,24 @@ group :assets do
   
 end
 
+group :development, :test do
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+  gem 'tmux-ruby'  
+  # To use ActiveModel has_secure_password
+  gem 'bcrypt-ruby', '~> 3.0.0'
 
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+  # Use unicorn as the app server
+  gem 'unicorn'
 
-# Deploy with Capistrano
-# gem 'capistrano'
+  # Deploy with Capistrano
+  gem 'capistrano'
 
-# To use debugger
-gem 'debugger'
-gem 'better_errors', '>= 0.3.2', :group => :development
+  # To use debugger
+  gem 'debugger'
+  gem 'better_errors', '>= 0.3.2', :group => :development
+
+
+end
+
+
