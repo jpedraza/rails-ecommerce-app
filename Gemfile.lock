@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/MorehouseJ09/compass-colors.git
+  revision: 003629755d6f653c645c346bcfda4a7c7cc5002a
+  specs:
+    compass-colors (0.3.1)
+      compass (>= 0.8.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -56,8 +63,6 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
-    compass-colors (0.9.0)
-      compass (>= 0.8.7)
     compass-rails (1.0.3)
       compass (>= 0.12.2, < 0.14)
     compass-susy-plugin (0.9)
@@ -166,7 +171,7 @@ DEPENDENCIES
   binding_of_caller
   capistrano
   coffee-rails (~> 3.2.1)
-  compass-colors
+  compass-colors!
   compass-rails
   compass-susy-plugin
   debugger
