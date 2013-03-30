@@ -50,12 +50,11 @@ group :assets do
   
 end
 
+gem 'tmux-ruby'  
 group :development, :test do
 
-  gem 'tmux-ruby'  
   # To use ActiveModel has_secure_password
   gem 'bcrypt-ruby', '~> 3.0.0'
-
 
   # Use unicorn as the app server
   gem 'unicorn'
@@ -65,8 +64,7 @@ group :development, :test do
 
   # To use debugger
   gem 'debugger'
-  gem 'better_errors', '>= 0.3.2', :group => :development
-
+  gem 'better_errors', '>= 0.3.2'
 
 end
 

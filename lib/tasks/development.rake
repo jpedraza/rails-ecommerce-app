@@ -1,11 +1,16 @@
 require 'rake'
 # require ruby tmux to create new tasks etc
-# require 'tmux-ruby'
-
+require 'tmux'
 
 begin
 	namespace :development do
 
+		desc "Clear static assets"
+		do
+
+			puts "Clear static assets as created by compass watcher"
+
+		end
 		# start compass watcher
 		desc "Start compass"
 		task :compass do
