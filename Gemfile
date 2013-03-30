@@ -5,8 +5,10 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# 
+# sqlite3
 gem 'sqlite3'
+
+# simple navigation useful for helping to modularize navigation elements 
 gem "simple-navigation", "~> 3.10.0"
 
 # add binding of caller to the element
@@ -19,20 +21,31 @@ gem 'haml', '4.0.0'
 # in production environments by default.
 group :assets do
 
-  gem 'sass-rails', '~> 3.2.3'
-  gem 'compass-rails'
+  # javascript gems 
+  # gem 'requirejs-rails'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'requirejs-rails'
+  # gem 'jquery-rails'
+
+  # compass gems etc
+  # sass rails elements
+  gem 'sass-rails', '~> 3.2.3'
+  # use compass with rails plugin for requiring
   gem 'compass-rails'
-  gem 'compass-susy-plugin'
+
   
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  gem 'therubyracer', :platforms => :ruby
+  # use susy grid system instead of zurb foundations
+  gem 'compass-susy-plugin'
+  # include zurb foundation framework
+  gem 'zurb-foundation'
+  # include sass button plugin for compass 
+  gem 'sassy-buttons'
+  # uglifier for elements
   gem 'uglifier', '>= 1.0.3'
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  # gem 'therubyracer', :platforms => :ruby
   
 end
 
-gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
