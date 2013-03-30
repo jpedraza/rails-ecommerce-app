@@ -62,7 +62,17 @@ module Clothing
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
+    # configure sass to use nested styles by default!
+    # config.sass.line_comments = false
+    # config.sass.style = :nested
+    # config.sass.syntax = :sass
+
     # compass settings
     config.compass.require "susy"
+
+    # make sure that stylesheet engine is working properly!
+    config.generators.stylesheet_engine = :sass
+
+
   end
 end
