@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+# gem 'rails', :github => 'rails/rails'
 
 
 # add binding of caller to the element
@@ -38,7 +39,7 @@ group :assets do
   # use susy grid system instead of zurb foundations
   gem 'compass-susy-plugin'
   # include color-themes 
-  gem 'compass-colors'
+  gem 'compass-colors', :github => 'MorehouseJ09/compass-colors'
   # include zurb foundation framework
   gem 'zurb-foundation', '~> 4.0.0'
   # include sass button plugin for compass 
