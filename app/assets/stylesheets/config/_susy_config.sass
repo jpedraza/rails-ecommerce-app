@@ -1,10 +1,8 @@
 // Imports -------------------------------------------------------------------
-
 @import susy
 
 // Grid ----------------------------------------------------------------------
-
-$total-cols: 4 
+$total-cols: 3 
 $col-width: 4em
 $gutter-width: 1em
 $side-gutter-width: $gutter-width
@@ -14,7 +12,15 @@ $show-grid-backgrounds: true
 
 // set how large our large columns are in terms of number of columns of grid etc
 $large-columns: 12
+$medium-columns: 8
+$small-columns: 4
+
 
 
 // set master container width 
-$container-width  : container-outer-width($large-columns)
+// $container-width  : container-outer-width($large-columns)
+$container-width: 100%
+
+
+// anchor corresponds to how much of the next element is visible in the current viewport for off canvas setups
+$anchor: 1

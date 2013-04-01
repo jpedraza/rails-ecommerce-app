@@ -42,7 +42,7 @@ group :assets do
   
   gem 'susy'
   # use susy grid system instead of zurb foundations
-  gem 'compass-susy-plugin'
+  # gem 'compass-susy-plugin'
   # include color-themes 
   gem 'compass-colors', :github => 'MorehouseJ09/compass-colors'
   # include zurb foundation framework

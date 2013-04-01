@@ -1,29 +1,7 @@
-@import "partials/base"
-@import susy
+// import all base settings etc
+@import "config/base"
 
-body
+// include our main off_canvas setup 
+@import "partials/off_canvas"
 
-	@include container
-	@include susy-grid-background
-	// background-color: $lightest_base_color
-	overflow: hidden
-
-	header
-
-		@include span-columns(12)
-		background-color: orange
-
-	// #main
-
-		// background-color: red
-
-	// #about
-
-		// background-color: red
-
-	// footer
-
-		// background-color: blue
-
-
-
+// include other elements here....
