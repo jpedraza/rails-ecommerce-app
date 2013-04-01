@@ -6072,7 +6072,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 30, ../../app/assets/stylesheets/partials/_body.sass */
 #content {
-  background-color: blue;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 20em;
 }
 @media (min-width: 0em) {
   /* line 30, ../../app/assets/stylesheets/partials/_body.sass */
@@ -6092,7 +6093,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   }
 }
 
-/* line 48, ../../app/assets/stylesheets/partials/_body.sass */
+/* line 50, ../../app/assets/stylesheets/partials/_body.sass */
 body ul {
   list-style-type: none;
 }
@@ -6201,6 +6202,16 @@ header {
   #main > ul {
     padding: 0.2em 0 0.2em 0;
     width: 100%;
+    *zoom: 1;
+  }
+  /* line 184, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/zurb-foundation-4.0.9/scss/foundation/_foundation-global.scss */
+  #main > ul:before, #main > ul:after {
+    content: " ";
+    display: table;
+  }
+  /* line 185, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/zurb-foundation-4.0.9/scss/foundation/_foundation-global.scss */
+  #main > ul:after {
+    clear: both;
   }
   /* line 17, ../../app/assets/stylesheets/mixins/_navigation.sass */
   #main > ul > li {
@@ -6224,12 +6235,18 @@ header {
   #main > ul > li:last-of-type {
     border-right: none;
   }
-  /* line 76, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 75, ../../app/assets/stylesheets/partials/_header.sass */
+  #main > ul > li:nth-of-type(2) {
+    float: left;
+    position: relative;
+    height: auto;
+  }
+  /* line 81, ../../app/assets/stylesheets/partials/_header.sass */
   #main > ul > li:nth-of-type(2) > ul {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    min-width: 200px;
+    position: relative;
+    top: 1em;
+    width: 100%;
+    float: left;
     *zoom: 1;
   }
   /* line 184, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/zurb-foundation-4.0.9/scss/foundation/_foundation-global.scss */
@@ -6241,40 +6258,20 @@ header {
   #main > ul > li:nth-of-type(2) > ul:after {
     clear: both;
   }
-  /* line 17, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 92, ../../app/assets/stylesheets/partials/_header.sass */
   #main > ul > li:nth-of-type(2) > ul > li {
-    float: left;
-    padding: 1em 2em 1em 2em;
-    width: 19.6%;
     position: relative;
-    text-align: center;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    height: 1em;
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    zoom: 1;
-    *display: inline;
-    font-size: 1em;
-  }
-  /* line 30, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  #main > ul > li:nth-of-type(2) > ul > li:last-of-type {
-    border-right: none;
-  }
-  /* line 85, ../../app/assets/stylesheets/partials/_header.sass */
-  #main > ul > li:nth-of-type(2) > ul > li {
-    background-color: gray;
-    width: 40px;
+    width: 100%;
+    float: left;
+    height: 2em;
   }
 
-  /* line 92, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 101, ../../app/assets/stylesheets/partials/_header.sass */
   #social {
     width: 30%;
   }
 
-  /* line 97, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 106, ../../app/assets/stylesheets/partials/_header.sass */
   #interaction {
     width: 25%;
   }
