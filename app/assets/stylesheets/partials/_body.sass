@@ -1,20 +1,25 @@
 // 
-
 body
+	
+	// position: fixed
+	// width: 100%	
+
 	@include at-breakpoint($phone $phone-columns)
 
+		$container-width: container-outer-width($phone-columns)
 		@include container
 		@include susy-grid-background	
 
 	@include at-breakpoint($tablet $tablet-columns)
 
+		$container-width: 100%
 		@include container
 		@include susy-grid-background	
 
 	@include at-breakpoint($desktop $desktop-columns)
 
+		$container-width: 100%
 		@include container
-
 		@include susy-grid-background	
 
 
@@ -30,5 +35,10 @@ body
 	// include breakpoint for tablet / desktop
 	@include at-breakpoint($tablet $tablet-columns)
 
-		@include span-columns($tablet-columns - 2) //leave a space on each side for both desktop and tablets
+		@include span-columns($tablet-columns - 2)
+		@include push($anchor)
+
+
+
+
 

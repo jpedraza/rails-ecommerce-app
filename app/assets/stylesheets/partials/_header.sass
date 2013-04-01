@@ -7,5 +7,16 @@ header
 		@include span-columns($phone-size)
 		@include pull($phone-size - 1)
 
+	// header doesn't necessarily need to be aligned to the grid
+	// this is so that we can ensure that it stays across the entire top of the page
+	// while our content is scaled properly on the rest of the page via our grid
+	@include at-breakpoint($tablet $tablet-columns)	
+
+		@include pull(0)
+		@include span-columns($tablet-columns)
+		
+					
+
+
 
 

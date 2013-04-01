@@ -12,9 +12,10 @@ $column-width: 4em
 $gutter-width: 1em
 
 // padding on left / right 
-$grid-padding: 0
+$grid-padding: 0em
 // $side-gutter-width: $gutter-width
-// global anchor
+
+// global anchor used for off-canvas element
 $anchor: 1
 
 // 
@@ -25,18 +26,14 @@ $phone: 0em
 $phone-columns: 8
 $phone-size: $phone-columns - $anchor*1.5
 
-$tablet: 35em 
-$tablet-columns: 3
+$tablet: 48em 
+$tablet-columns: 12
+// tablet size used for main elements on the page
+$tablet-size: $tablet-columns - $anchor*2
 
-//
+// desktop elements -- should not be used too awfully much because the tablet element does a pretty good job
 $desktop: 50em
-$desktop-columns: 8
-// $desktop_main
+$desktop-columns: 12
+$desktop-size: $tablet-columns - $anchor*2
 
 
-// set master container width 
-// $container-width  : container-outer-width($large-columns)
-// $container-width: container-outer-width($large-columns) 
-
-
-// anchor corresponds to how much of the next element is visible in the current viewport for off canvas setups

@@ -2,10 +2,10 @@
 class HomeController < ApplicationController
 
 	# index for home page initialization 
-	def index
+	def home 
 
 		# index home page			
-				
+							
 
 	end
 
