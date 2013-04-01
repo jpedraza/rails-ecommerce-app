@@ -1,6 +1,29 @@
 @import "partials/base"
+@import susy
 
 body
-	background-color: $lightest_base_color
+
+	@include container
+	@include susy-grid-background
+	// background-color: $lightest_base_color
+	overflow: hidden
+
+	header
+
+		@include span-columns(12)
+		background-color: orange
+
+	// #main
+
+		// background-color: red
+
+	// #about
+
+		// background-color: red
+
+	// footer
+
+		// background-color: blue
+
 
 

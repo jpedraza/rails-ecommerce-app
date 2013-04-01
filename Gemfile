@@ -39,6 +39,8 @@ group :assets do
   gem 'sass-rails', '~> 3.2.3'
   # use compass with rails plugin for requiring
   gem 'compass-rails'
+  
+  gem 'susy'
   # use susy grid system instead of zurb foundations
   gem 'compass-susy-plugin'
   # include color-themes 
