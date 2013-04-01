@@ -53,12 +53,44 @@ SimpleNavigation::Configuration.run do |navigation|
 
     # initialize men's / women's shopping etc
     primary.item :store, 'Store', 'store_path' do |store|
-      # 
-      store.item :men, 'Men', '/men'
-      store.item :women, 'Women', '/women'
+
+      # men subnavigation 
+      store.item :men, 'Men', '/men' do |men|
+
+        men.item :shirts, 'Shirts', '/men/shirts'
+        men.item :shorts, 'Shorts', '/men/shorts'
+        men.item :pants, 'Pants', '/men/pants'
+
+      end
+
+      # women sub navigation
+      store.item :women, 'Women', '/women' do |women|
+
+        women.item :tops, 'Tops', '/women/tops'
+        women.item :bottoms, 'Bottoms', '/women/bottoms'
+        women.item :pants, 'Pants', '/women/pants'
+
+      end 
     end
 
+    # angular js driven elements here!
+    primary.item :sports, 'Sports', '/sports' do |sports|
 
+      sports.item :football, 'Football', '#football'
+
+    end
+
+    # technology has its own route!
+    primary.item :technology, 'Technology', '/technology' do |technology|
+
+      technology.item :energy, 'EnergyDNA', 'http://energyDNA.com'
+      technology.item :celliant, 'Celliant', 'http://celliant.com'
+      technology.item :trimera, 'Trimera', 'http://trimera.com'
+
+    end 
+
+    # angular bumpbox here
+    primary.item :footwear, 'Footwear', '/footwear'
 
     # # Add an item which has a sub navigation (same params, but with block)
     # primary.item :key_2, 'name', url, options do |sub_nav|

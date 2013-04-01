@@ -6,13 +6,16 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 # gem 'rails', :github => 'rails/rails'
 
+gem 'sqlite3'
 
 # add binding of caller to the element
 gem "binding_of_caller"
 
-group :templating do
+# 
+group :development, :test, :production do
 
   # haml templating!!!!!!!!
+  # haml gem templating
   gem 'haml', '4.0.0'
   # simple navigation useful for helping to modularize navigation elements 
   gem "simple-navigation", "~> 3.10.0"
