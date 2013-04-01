@@ -13,9 +13,35 @@ $text-padding: 0.1em
 		padding: $padding-top $padding-right $padding-bottom $padding-left
 
 
-@mixin horizontal_nav($items, $padding-top: $text-padding, $padding-right: $text-padding, $padding-bottom: $text-padding, $padding-left: $text-padding)	
+@mixin horizontal_nav($elements, $padding-top: $text-padding, $padding-right: $text-padding, $padding-bottom: $text-padding, $padding-left: $text-padding)	
 	
 	> li
 
 		float: left
 		padding: $padding-top $padding-right $padding-bottom $padding-left
+		width: 98%/$elements
+		position: relative
+		text-align: center
+		border-right: 1px solid black
+		border-bottom: 1px solid black
+		height: 1em		
+
+		&:last-of-type
+		
+			border-right: none	
+
+
+
+// mixin pull out for li's with dropdown elements
+// 
+@mixin pull_out
+	
+	> ul	
+
+		display: none
+
+	&:hover
+
+		> ul
+
+			display: block

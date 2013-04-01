@@ -52,31 +52,25 @@ header
 			@include inline-block
 			float: left
 
-			background-color: gray
-			height: 4em
-
 			// first level navigation -- this is what the user sees first!
 			> ul	
-
 				width: 100%
+				height: 4em
 				@include clearfix
 				@include inline-block
 
 				// lets apply the transition effects here!
-				> li 
-					> ul 
-						display: none
-
+				li 
+					@include pull_out
 
 	// main element
 	#main
-
 		width: 45%
 
 		> ul
+			padding: 0.2em 0 0.2em 0
 			width: 100%
-			@include horizontal_nav(5)
-
+			@include horizontal_nav(5, 1em, 0em, 1em, 0em)
 
 	#social	
 

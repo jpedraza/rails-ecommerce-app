@@ -39,16 +39,17 @@ group :assets do
   gem 'sass-rails', '~> 3.2.3'
   # use compass with rails plugin for requiring
   gem 'compass-rails'
-  
+  # susy grid system -- actually the greatest!!!
   gem 'susy'
-  # use susy grid system instead of zurb foundations
-  # gem 'compass-susy-plugin'
   # include color-themes 
   gem 'compass-colors', :github => 'MorehouseJ09/compass-colors'
   # include zurb foundation framework
   gem 'zurb-foundation', '~> 4.0.0'
   # include sass button plugin for compass 
-  gem 'sassy-buttons'
+  # sassy-buttons is great but maybe not for this particular project?
+  # gem 'sassy-buttons' 
+  gem 'animate-sass'
+
   # uglifier for elements
   gem 'uglifier', '>= 1.0.3'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes

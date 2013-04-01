@@ -246,8 +246,6 @@ header {
     zoom: 1;
     *display: inline;
     float: left;
-    background-color: gray;
-    height: 4em;
   }
   /* line 184, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/zurb-foundation-4.0.9/scss/foundation/_foundation-global.scss */
   header > div:before, header > div:after {
@@ -258,9 +256,10 @@ header {
   header > div:after {
     clear: both;
   }
-  /* line 59, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 56, ../../app/assets/stylesheets/partials/_header.sass */
   header > div > ul {
     width: 100%;
+    height: 4em;
     *zoom: 1;
     display: -moz-inline-stack;
     display: inline-block;
@@ -278,31 +277,46 @@ header {
   header > div > ul:after {
     clear: both;
   }
-  /* line 67, ../../app/assets/stylesheets/partials/_header.sass */
-  header > div > ul > li > ul {
+  /* line 39, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header > div > ul li > ul {
     display: none;
   }
+  /* line 45, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header > div > ul li:hover > ul {
+    display: block;
+  }
 
-  /* line 72, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 67, ../../app/assets/stylesheets/partials/_header.sass */
   #main {
     width: 45%;
   }
-  /* line 76, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 70, ../../app/assets/stylesheets/partials/_header.sass */
   #main > ul {
+    padding: 0.2em 0 0.2em 0;
     width: 100%;
   }
   /* line 18, ../../app/assets/stylesheets/mixins/_navigation.sass */
   #main > ul > li {
     float: left;
-    padding: 0.1em 0.1em 0.1em 0.1em;
+    padding: 1em 0em 1em 0em;
+    width: 19.6%;
+    position: relative;
+    text-align: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 1em;
+  }
+  /* line 29, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  #main > ul > li:last-of-type {
+    border-right: none;
   }
 
-  /* line 81, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 75, ../../app/assets/stylesheets/partials/_header.sass */
   #social {
     width: 30%;
   }
 
-  /* line 86, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 80, ../../app/assets/stylesheets/partials/_header.sass */
   #interaction {
     width: 25%;
   }
