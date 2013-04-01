@@ -2,5 +2,6 @@
 project_type = :rails
 
 require "susy"
+require "animate-sass"
 
 
