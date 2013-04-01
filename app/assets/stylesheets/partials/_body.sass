@@ -1,0 +1,40 @@
+// assume susy config loaded in apriori
+
+body
+
+	// use susy-determined height / width
+	@include container($large)
+
+	// keep overflow from showing both x/y on element
+	@include at-breakpoint($small)
+
+		overflow: hidden
+		height: 100%
+		
+
+	// medium / large layout etc
+	@include at-breakpoint($medium)	
+
+		overflow-y: auto
+		
+	// only show the susy grid in development mode
+	@include susy-grid-background
+
+#main
+	
+	@include span-columns($total-cols)	
+	background-color: gray
+
+	@include at-breakpoint($small)
+
+		$size: 5
+		@include span-columns(3)
+		padding: 0
+		overflow-y: auto
+		height: 100%
+		display: block
+
+	// include breakpoints for 
+	@include at-breakpoint($medium)
+
+	
