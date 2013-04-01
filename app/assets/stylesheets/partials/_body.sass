@@ -1,40 +1,34 @@
-// assume susy config loaded in apriori
+// 
 
 body
+	@include at-breakpoint($phone $phone-columns)
 
-	// use susy-determined height / width
-	@include container($large)
+		@include container
+		@include susy-grid-background	
 
-	// keep overflow from showing both x/y on element
-	@include at-breakpoint($small)
+	@include at-breakpoint($tablet $tablet-columns)
 
-		overflow: hidden
-		height: 100%
-		
+		@include container
+		@include susy-grid-background	
 
-	// medium / large layout etc
-	@include at-breakpoint($medium)	
+	@include at-breakpoint($desktop $desktop-columns)
 
-		overflow-y: auto
-		
-	// only show the susy grid in development mode
-	@include susy-grid-background
+		@include container
 
-#main
+		@include susy-grid-background	
+
+
+#main 
 	
-	@include span-columns($total-cols)	
-	background-color: gray
+	background-color: blue
 
-	@include at-breakpoint($small)
+	// phone columns
+	@include at-breakpoint($phone $phone-columns)
 
-		$size: 5
-		@include span-columns(3)
-		padding: 0
-		overflow-y: auto
-		height: 100%
-		display: block
+		@include span-columns($phone-size)
 
-	// include breakpoints for 
-	@include at-breakpoint($medium)
+	// include breakpoint for tablet / desktop
+	@include at-breakpoint($tablet $tablet-columns)
 
-	
+		@include span-columns($tablet-columns - 2) //leave a space on each side for both desktop and tablets
+

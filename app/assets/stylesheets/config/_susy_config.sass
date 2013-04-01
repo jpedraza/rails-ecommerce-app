@@ -2,25 +2,41 @@
 @import susy
 
 // Grid ----------------------------------------------------------------------
-$total-cols: 12 
-$col-width: 4em
+$total-columns: 8 
+
+// width of a single column!
+// $column-width: 100%/$total-columns
+$column-width: 4em 
+
+// space-between columns
 $gutter-width: 1em
-$side-gutter-width: $gutter-width
+
+// padding on left / right 
+$grid-padding: 0
+// $side-gutter-width: $gutter-width
+// global anchor
+$anchor: 1
 
 // 
 $show-grid-backgrounds: true
 
 // set how large our large columns are in terms of number of columns of grid etc
-$large: 12
-$medium: 8
-$small: 4
+$phone: 0em 
+$phone-columns: 8
+$phone-size: $phone-columns - $anchor*1.5
 
+$tablet: 35em 
+$tablet-columns: 3
+
+//
+$desktop: 50em
+$desktop-columns: 8
+// $desktop_main
 
 
 // set master container width 
 // $container-width  : container-outer-width($large-columns)
-$container-width: 100%
+// $container-width: container-outer-width($large-columns) 
 
 
 // anchor corresponds to how much of the next element is visible in the current viewport for off canvas setups
-$anchor: 1

@@ -1,28 +1,11 @@
 header
 	
-	background-color: gray	
+	background-color: orange
 
-	@include at-breakpoint($small)
+	@include at-breakpoint($phone $phone-columns)
 
-		$size: $total-cols - $anchor
-		// when we are only 4 columns wide -- only show this as three columns!
-		@include span-columns(11)
-		// margin-left: - space($total-cols)
-		margin-left: - space(10.2) 
-		//	
-		height: 100%
-		//
-		background-color: orange	
+		@include span-columns($phone-size)
+		@include pull($phone-size - 1)
 
-	// assume that we're not using off-canvas vertical for our medium setup
-	@include at-breakpoint($medium)
-
-		@include span-columns($total-cols)
-		margin: 0
-		background-color: gray
-
-		
-
-			
 
 
