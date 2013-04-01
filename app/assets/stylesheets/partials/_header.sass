@@ -1,11 +1,16 @@
+@import "../mixins/navigation"
+
+
+// initialize basic responsive layouts and structure of navigation elements
 header
-	
+	// general responsive layout etc
 	background-color: orange
 
 	@include at-breakpoint($phone $phone-columns)
 
 		@include span-columns($phone-size)
-		@include pull($phone-size - 1)
+		// comment out the following to make changing main navigation easier!
+		// @include pull($phone-size - 1)
 
 	// header doesn't necessarily need to be aligned to the grid
 	// this is so that we can ensure that it stays across the entire top of the page
@@ -14,7 +19,81 @@ header
 
 		@include pull(0)
 		@include span-columns($tablet-columns)
-		
+
+
+// set up phone piece first!
+@include at-breakpoint($phone $phone-columns)
+	
+	header
+
+		height: 100%
+		overflow-y: auto
+
+		> div
+
+			// height: 20em
+			background-color: gray	
+
+// set up browser etc elements
+@include at-breakpoint($tablet $tablet-columns)
+
+	header 
+
+		padding: 0
+		height: 5em
+		@include clearfix
+
+		// generic navigation div pieces / items go here
+		> div
+
+			padding: 0
+			margin: 0
+			@include clearfix
+			@include inline-block
+			float: left
+
+			background-color: gray
+			height: 4em
+
+			// first level navigation -- this is what the user sees first!
+			> ul	
+
+				width: 100%
+				@include clearfix
+				@include inline-block
+
+				// lets apply the transition effects here!
+				> li 
+					> ul 
+						display: none
+
+
+	// main element
+	#main
+
+		width: 45%
+
+		> ul
+			width: 100%
+			@include horizontal_nav(5)
+
+
+	#social	
+
+		// 10% of page for each element?
+		width: 30%
+
+	#interaction
+
+		width: 25%
+
+
+
+
+
+
+	
+
 					
 
 

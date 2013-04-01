@@ -9,21 +9,25 @@ body
 		$container-width: container-outer-width($phone-columns)
 		@include container
 		@include susy-grid-background	
+		overflow-y: hidden
+		overflow-x: hidden
+
 
 	@include at-breakpoint($tablet $tablet-columns)
 
 		$container-width: 100%
 		@include container
 		@include susy-grid-background	
+		overflow-y: auto
 
 	@include at-breakpoint($desktop $desktop-columns)
 
 		$container-width: 100%
 		@include container
 		@include susy-grid-background	
+		overflow-y: auto
 
-
-#main 
+#content
 	
 	background-color: blue
 
@@ -37,6 +41,13 @@ body
 
 		@include span-columns($tablet-columns - 2)
 		@include push($anchor)
+
+// include some custom reset settings for my local elements / needs
+body
+	
+	ul 
+		list-style-type: none
+
 
 
 

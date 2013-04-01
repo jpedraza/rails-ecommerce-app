@@ -1,0 +1,21 @@
+
+// this is our generic vertical navigation bar as used throughout the site
+// assume that we inject this inside of a ul element
+// this will make it easier to expand and set widths etc
+$text-padding: 0.1em
+@mixin vertical_nav($top : 0.2em, $padding-top: $text-padding, $padding-right: $text-padding, $padding-bottom: $text-padding, $padding-left: $text-padding)	
+		
+	> li			
+
+		margin-top: $top
+		width: 100%		
+		// generate our padding by analyzing passed in values etc
+		padding: $padding-top $padding-right $padding-bottom $padding-left
+
+
+@mixin horizontal_nav($items, $padding-top: $text-padding, $padding-right: $text-padding, $padding-bottom: $text-padding, $padding-left: $text-padding)	
+	
+	> li
+
+		float: left
+		padding: $padding-top $padding-right $padding-bottom $padding-left
