@@ -26,9 +26,6 @@ header
 	
 	header
 
-		height: 100%
-		overflow-y: auto
-
 		> div
 
 			// height: 20em
@@ -39,13 +36,13 @@ header
 
 	header 
 
-		padding: 0
-		height: 5em
 		@include clearfix
+		padding: 0
 
 		// generic navigation div pieces / items go here
 		> div
 
+			position: relative
 			padding: 0
 			margin: 0
 			@include clearfix
@@ -55,9 +52,10 @@ header
 			// first level navigation -- this is what the user sees first!
 			> ul	
 				width: 100%
-				height: 4em
 				@include clearfix
 				@include inline-block
+				position: relative
+
 
 				// lets apply the transition effects here!
 				li 
@@ -71,6 +69,25 @@ header
 			padding: 0.2em 0 0.2em 0
 			width: 100%
 			@include horizontal_nav(5, 1em, 0em, 1em, 0em)
+
+			// include horizontal_nav for only the store option!
+			> li:nth-of-type(2)
+
+				> ul
+					position: absolute
+					top: 100%
+					left: 0
+					min-width: 200px
+					@include clearfix
+
+					@include horizontal_nav(5, 1em, 2em, 1em, 2em)
+
+					> li
+
+						background-color: gray
+						width: 40px 
+						// @include inline-block
+
 
 	#social	
 

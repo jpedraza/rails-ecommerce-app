@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/MorehouseJ09/animate.sass.git
+  revision: a6e41ed48d3de9ccd9a47d505c3348d248fa70ab
+  specs:
+    animate-sass (0.1.1)
+      compass (>= 0.11.5)
+
+GIT
   remote: git://github.com/MorehouseJ09/compass-colors.git
   revision: 003629755d6f653c645c346bcfda4a7c7cc5002a
   specs:
@@ -35,8 +42,6 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
-    animate-sass (0.1.1)
-      compass (>= 0.11.5)
     arel (3.0.2)
     bcrypt-ruby (3.0.1)
     better_errors (0.7.2)
@@ -167,7 +172,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  animate-sass
+  animate-sass!
   bcrypt-ruby (~> 3.0.0)
   better_errors (>= 0.3.2)
   binding_of_caller

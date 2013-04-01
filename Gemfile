@@ -48,7 +48,7 @@ group :assets do
   # include sass button plugin for compass 
   # sassy-buttons is great but maybe not for this particular project?
   # gem 'sassy-buttons' 
-  gem 'animate-sass'
+  gem 'animate-sass', :github => 'MorehouseJ09/animate.sass'
 
   # uglifier for elements
   gem 'uglifier', '>= 1.0.3'
@@ -77,3 +77,4 @@ group :development, :test do
 end
 
 
+# rails plugin install git@github.com:get/Rename.git
