@@ -28,4 +28,9 @@ On generate, have the compass application add the configuration etc into the pro
 	
 	Or have it create a task that will add the proper bundle exec compass install?
 
-	
+Rake Tasks	
+=
+
+I'm working on building on top of the tmux-ruby library to incorporate a nice build setup so that you can launch all of your favorite apps etc in various tmux-windows on different systems etc
+
+Overwrite rake stats to incorporate statistics for my assets directory etc

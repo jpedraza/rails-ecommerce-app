@@ -178,6 +178,9 @@ GEM
       compass (>= 0.12.2)
     simple-navigation (3.10.0)
       activesupport (>= 2.3.2)
+    simple_form (2.1.0)
+      actionpack (~> 3.0)
+      activemodel (~> 3.0)
     singularitygs (1.0.0)
       breakpoint (>= 1.1.1)
       compass (>= 0.12.2)
@@ -228,6 +231,7 @@ DEPENDENCIES
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   simple-navigation (~> 3.10.0)
+  simple_form
   stitch
   susy
   tmux-ruby

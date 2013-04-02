@@ -19,7 +19,7 @@ group :development, :test, :production do
   # simple navigation useful for helping to modularize navigation elements 
   gem "simple-navigation", "~> 3.10.0"
   # simple-form useful for helping with generating forms etc
-  gem "simple-form"
+  gem "simple_form"
   # To use Jbuilder templates for JSON
   gem 'jbuilder'
   
