@@ -48,13 +48,10 @@ group :assets do
   # sassy-buttons is great but maybe not for this particular project?
   # gem 'sassy-buttons' 
   gem 'animate-sass', :github => 'MorehouseJ09/animate.sass'
-
   # use stitch framework for helpers throughout
-  # gem 'stitch'
-
+  gem 'stitch'
   # sass helpers / assistance -- a little better than stitch but keep both for now?
   gem 'toolkit', :github => 'MorehouseJ09/toolkit'
-
   # uglifier for elements
   gem 'uglifier', '>= 1.0.3'
 
