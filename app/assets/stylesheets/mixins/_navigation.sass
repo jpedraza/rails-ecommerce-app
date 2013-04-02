@@ -12,20 +12,26 @@ $text-padding: 0.1em
 		padding: $padding-top $padding-right $padding-bottom $padding-left
 
 
-@mixin horizontal_nav($elements, $padding-top: $text-padding, $padding-right: $text-padding, $padding-bottom: $text-padding, $padding-left: $text-padding)	
+@mixin horizontal_nav($elements-padding, $padding-bottom: $text-padding, $padding-left: $text-padding)	
 	
 	> li
 
 		float: left
-		padding: $padding-top $padding-right $padding-bottom $padding-left
+		// padding: $padding-top $padding-right $padding-bottom $padding-left
 		width: 98%/$elements
 		position: relative
 		text-align: center
 		border-right: 1px solid black
 		border-bottom: 1px solid black
-		height: 1em		
 		@include inline-block
 		font-size: 1em
+
+		> a
+
+			height: 100%
+			width: 100%
+
+
 
 		&:last-of-type
 		
@@ -33,7 +39,7 @@ $text-padding: 0.1em
 
 // mixin pull out for li's with dropdown elements
 // 
-@mixin pull_out
+@mixin dropdown
 	
 	> ul	
 		display: none
@@ -45,4 +51,44 @@ $text-padding: 0.1em
 
 			// sample animation call!
 			// @include animation-basic((bounceIn, fadeIn), (1.25s, 1.25s), (ease, ease))
+
+
+// this is primarily used for the 
+// also controls how far to move to the left etc
+// assumes that we are calling this from an li element
+@mixin dropout($height, $width, $elements, $left : 0)
+	
+	// height: auto
+
+	> ul
+		position: relative
+		// top: $height
+		margin-left: $left
+		@include clearfix
+		width: $elements*$width
+
+		> li
+
+			position: relative
+			height: $height
+			width: $width
+			float: left
+			background-color: rgba(255,255,255,0.5)
+
+			> a
+
+
+			
+// hard code in sports background images etc here
+@mixin sports_nav($height, $width)
+
+	// do stuff to make these look good
+
+
+
+
+
+
+
+
 

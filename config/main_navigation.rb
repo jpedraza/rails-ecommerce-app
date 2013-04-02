@@ -77,6 +77,9 @@ SimpleNavigation::Configuration.run do |navigation|
     primary.item :sports, 'Sports', '/sports' do |sports|
 
       sports.item :football, 'Football', '#football'
+      sports.item :football, 'Football', '#football'
+      sports.item :football, 'Football', '#football'
+      sports.item :football, 'Football', '#football'
 
     end
 

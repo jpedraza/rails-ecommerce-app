@@ -59,10 +59,13 @@ header
 
 				// lets apply the transition effects here!
 				li 
-					@include pull_out
+					// include the base dropdown mixin
+					@include dropdown
 
 	// main element
 	#main
+
+		// hard code in the width for desktop version etc
 		width: 45%
 
 		> ul
@@ -74,26 +77,8 @@ header
 			// include horizontal_nav for only the store option!
 			> li:nth-of-type(3)
 
-				position: relative
 				height: auto
-
-				> ul
-
-					position: relative
-					top: 1em
-					float: left
-					height: 4em
-
-					// @include inline-block
-					// display: block
-					@include clearfix
-
-					> li
-					
-						position: relative
-						width: 100%
-						float: left
-						height: 5em
+				@include dropout(5em, 5em, 4, 0em)
 
 
 
