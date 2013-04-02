@@ -48,24 +48,66 @@ header
 				// background-color: black
 				> li
 					position: relative
-					@include span-columns(2.2)
-					@include horizontal_dropdown	
+					// span 1 out of 6 columns for each li element
+					@include span-columns(1, 6)
 
-					// store element goes here
-					&:nth-of-type(2)
+					// this is an li element for the store
+					// we want to call the horizontal dropdown for 
+					&:nth-of-type(2)		
 
-						> ul
-							@include pull(13)
-							
-						$container-width: 100%
-						@include container
+						// include the horizontal dropdown base element
+						@include horizontal_dropdown(1)
+						// initialize the structure of these dropdowns so that all spacing is set up for me already!
+						@include horizontal_dropdown_structure(2)
 
-						> li
+						// now include the individual vertical lists for each piece
+						> ul > li
 
-							height: 2em
-							@include span-columns(4)
+							// call vertical navigation mixin
+							@include vertical_nav
 
-					
+					// sports
+					&:nth-of-type(3)
+
+						// base dropdown element
+						@include horizontal_dropdown(2)
+						// now space out each of our elements properly so that we have the correct elements
+						@include horizontal_dropdown_structure(4)	
+
+						// grab each individual element and place an image in there! -- assuming background image!
+						> ul > li
+
+							// no need for an image element etc here so lets just call the background !
+							&:nth-of-type(1)	
+								@include image_element("football")
+
+							&:nth-of-type(2)		
+								@include image_element("soccer")
+
+							&:nth-of-type(3)
+								@include image_element("basketball")
+
+					// set up our tech element
+					&:nth-of-type(4)
+
+						// create our generic horizontal dropdown element
+						@include horizontal_dropdown(3)
+						// include the horizontal dropdown structure for each element
+						@include horizontal_dropdown_structure
+
+						// now include the image_element piece for each individual li element
+						> ul > li	
+
+							// include the proper images etc for each piece! 
+							@include image_element("energy_dna")
+							@include image_element("celliant")
+							@include image_element("trimera")
+
+
+
+
+
+								
 
 		
 

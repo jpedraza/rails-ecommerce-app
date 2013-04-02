@@ -1,46 +1,78 @@
 // this is our generic vertical navigation bar as used throughout the site
 // single li element
-@mixin element
-
-
-// mainly for one of the sports elements
-@mixin image_element($sprite, $height: $column-width, $width: $column-width)
+@mixin base_element
 	
-	// hide the element
-	// set height / set width etc
+	// base element for a piece of our structure
+	
+// assumes that we will be putting an image as the background color
+// assumes that our sprite is the class provided
+@mixin image_element($class)	
+	
+		
 
+// STYLISTIC APPROACHES FOR ALL PIECES HERE!
 @mixin horizontal_nav
 	// top level navigation!
 	// horizontal navigation element
 
+
+@mixin vertical_nav
+	
+	// vertical navigation for a ul element
+
+
+
+// HORIZONTAL STRUCTURAL ELEMENTS
+
 // horizontal dropdown as built out in main element
 // this assumes that the element being attached is a
-@mixin horizontal_dropdown 
+// pass in how far left to shift this element relative to the parent
+// we will assume that the element is smaller
+@mixin horizontal_dropdown($left_columns:0, $parent_columns:1) 
 
 	&:hover	
 
 		> ul 
 			display: block
 	> ul
-		
+
 		display: none
-		@include span-columns(23, 1)
+		// 12 columns of 1 column (parent width)
+		@include span-columns(12, $parent_columns)
+		// pull the entire list left according to the passed in parameter
+		@include pull($left_columns, $parent_columns)
 		position: relative
 		height: 4em
 		background-color: rgba(36,36,36,1)
 
-		// sub navigation sections go here!
-		> li		
 
-			height: 2em
-			background-color: rgba(36,36,36,0.8)
+// a list of vertical elements!
+// the vertical nav is responsible for displaying $elements(li) elements 
+@mixin horizontal_dropdown_structure($elements, $padding_columns: 2, $parent_columns: 12)
 
-			> a
+	// grab the total size all columns can span after padding!
+	$total_size: $total-columns - 2*$padding_columns 		
+	// grab the number of columns for each element
+	$element_size: $total_size / $elements
 
-				color: white
+	// we will assume that ul element is being called from a full width screen -- can fix this later
+	> ul
+		// include individual li elements!!! 
+		> li
+
+			// by default span the element by a fraction of 12 columns
+			@include span-columns($element_size, $parent_columns)
+			// first li element needs to be pushed to the left!
+			&:first-of-type
+
+				// push it 2 columns relative of 12 by default!
+				@include push($padding_columns, $parent_columns)
 
 
 
 
+
+		
+			
 
 
