@@ -88,7 +88,7 @@ SimpleNavigation::Configuration.run do |navigation|
 
       technology.item :energy, 'EnergyDNA', 'http://energyDNA.com'
       technology.item :celliant, 'Celliant', 'http://celliant.com'
-      technology.item :trimera, 'Trimera', 'http://trimera.com'
+      technology.item :trimera, 'Trimera', 'http://www.trimeragroup.com'
 
     end 
 

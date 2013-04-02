@@ -1,100 +1,43 @@
 // this is our generic vertical navigation bar as used throughout the site
-// assume that we inject this inside of a ul element
-// this will make it easier to expand and set widths etc
-$text-padding: 0.1em
-@mixin vertical_nav($top : 0.2em, $padding-top: $text-padding, $padding-right: $text-padding, $padding-bottom: $text-padding, $padding-left: $text-padding)	
-		
-	> li			
-
-		margin-top: $top
-		width: 100%		
-		// generate our padding by analyzing passed in values etc
-		padding: $padding-top $padding-right $padding-bottom $padding-left
+// single li element
+@mixin element
 
 
-@mixin horizontal_nav($elements)	
+// mainly for one of the sports elements
+@mixin image_element($sprite, $height: $column-width, $width: $column-width)
 	
-	width: 100%	
-	position: relative
-	@include clearfix
-	> li
+	// hide the element
+	// set height / set width etc
 
-		float: left
-		width: 100%/$elements
-		position: relative
-		text-align: center
-		border-right: 1px solid black
-		border-bottom: 1px solid black
-		font-size: 1em
+@mixin horizontal_nav
+	// top level navigation!
+	// horizontal navigation element
 
-		> a
+// horizontal dropdown as built out in main element
+// this assumes that the element being attached is a
+@mixin horizontal_dropdown 
 
-			height: 100%
-			width: 100%
+	&:hover	
 
-		&:last-of-type
-		
-			border-right: none	
-
-// mixin pull out for li's with dropdown elements
-// 
-@mixin dropdown
-	
-	> ul
-		position: absolute
-		display: none
-
-	&:hover
-
-		> ul
+		> ul 
 			display: block
-
-			// sample animation call!
-			// @include animation-basic((bounceIn, fadeIn), (1.25s, 1.25s), (ease, ease))
-
-
-// this is primarily used for the 
-// also controls how far to move to the left etc
-// assumes that we are calling this from an li element
-@mixin dropout($height, $width, $margin, $elements, $left : 0)
-	
-	// height: auto
 	> ul
+		
+		display: none
+		@include span-columns(23, 1)
 		position: relative
-		// top: $height
-		left: $left
-		@include inline-block
-		@include clearfix
-		height: $height 
-		// override this later if relative to percentages etc
-		$container-width: container-outer-width($desktop-columns)
-		// @include container
-		@include span-columns(12)	
-		background-color: red 
-		// width: container-outer-width($desktop-columns)
-		// width: $elements *($width+$margin)
+		height: 4em
+		background-color: rgba(36,36,36,1)
 
-		> li
+		// sub navigation sections go here!
+		> li		
 
-			display: none
-			position: relative
-			height: $height
-			width: $width
-			margin-left: $margin
-			float: left
-			background-color: rgba(255,255,255,0.5)
+			height: 2em
+			background-color: rgba(36,36,36,0.8)
 
-			&:first-of-type
-				margin-left: 0em
-			
-// hard code in sports background images etc here
-@mixin sports_nav($height, $width)
+			> a
 
-	// do stuff to make these look good
-	height: $height
-	width: $width
-
-
+				color: white
 
 
 

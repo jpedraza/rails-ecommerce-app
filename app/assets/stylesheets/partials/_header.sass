@@ -34,71 +34,42 @@ header
 
 	header 
 
-		@include clearfix
-		padding: 0
+		$container-width: 100%
+		@include container
+		@include susy-grid-background
 
-		// generic navigation div pieces / items go here
-		> div
+		// do some one off grid math to help with the drop down navigation system
 
-			position: relative
-			padding: 0
-			margin: 0
-			@include clearfix
-			@include inline-block
-			float: left
+		#main
+			@include span-columns(6)
 
-			// first level navigation -- this is what the user sees first!
-			> ul	
-				// lets apply the transition effects here!
-				> li 
-					// include the base dropdown mixin
-					@include dropdown
+			ul
+				// @include span-columns(12)
+				// background-color: black
+				> li
+					position: relative
+					@include span-columns(2.2)
+					@include horizontal_dropdown	
 
-	// main element
-	#main
+					// store element goes here
+					&:nth-of-type(2)
 
-		// hard code in the width for desktop version etc
-		width: 45%
-		$elements: 5
-		$element_width: 100%/$elements
-
-
-		// initialize main navigation bar with primary plugin for horizontal navigation
-		> ul
-			@include horizontal_nav($elements)
-
-			// custom li rules for individual pieces
-			> li	
-				// for the third dropdown list do some different stuff!
-				&:nth-of-type(3)
-
-					$sports_elements: 4
-					// include our dropout piece
-					@include dropout(5em, 5em, 1em, $sports_elements)
-
-					> ul 
-					// we want to make this third element a horizontal navigation etc 
-
-						@include sports_nav(5em, 5em)
-						// do custom elemental mixins etc
+						> ul
+							@include pull(13)
 							
-	#social	
+						$container-width: 100%
+						@include container
 
-		// 10% of page for each element?
-		width: 30%
+						> li
 
-	#interaction
-
-		width: 25%
-
-
-
-
-
-
-	
+							height: 2em
+							@include span-columns(4)
 
 					
+
+		
+
+						
 
 
 
