@@ -12,26 +12,25 @@ $text-padding: 0.1em
 		padding: $padding-top $padding-right $padding-bottom $padding-left
 
 
-@mixin horizontal_nav($elements-padding, $padding-bottom: $text-padding, $padding-left: $text-padding)	
+@mixin horizontal_nav($elements)	
 	
+	width: 100%	
+	position: relative
+	@include clearfix
 	> li
 
 		float: left
-		// padding: $padding-top $padding-right $padding-bottom $padding-left
-		width: 98%/$elements
+		width: 100%/$elements
 		position: relative
 		text-align: center
 		border-right: 1px solid black
 		border-bottom: 1px solid black
-		@include inline-block
 		font-size: 1em
 
 		> a
 
 			height: 100%
 			width: 100%
-
-
 
 		&:last-of-type
 		
@@ -41,7 +40,8 @@ $text-padding: 0.1em
 // 
 @mixin dropdown
 	
-	> ul	
+	> ul
+		position: absolute
 		display: none
 
 	&:hover
@@ -56,34 +56,43 @@ $text-padding: 0.1em
 // this is primarily used for the 
 // also controls how far to move to the left etc
 // assumes that we are calling this from an li element
-@mixin dropout($height, $width, $elements, $left : 0)
+@mixin dropout($height, $width, $margin, $elements, $left : 0)
 	
 	// height: auto
-
 	> ul
 		position: relative
 		// top: $height
-		margin-left: $left
+		left: $left
+		@include inline-block
 		@include clearfix
-		width: $elements*$width
+		height: $height 
+		// override this later if relative to percentages etc
+		$container-width: container-outer-width($desktop-columns)
+		// @include container
+		@include span-columns(12)	
+		background-color: red 
+		// width: container-outer-width($desktop-columns)
+		// width: $elements *($width+$margin)
 
 		> li
 
+			display: none
 			position: relative
 			height: $height
 			width: $width
+			margin-left: $margin
 			float: left
 			background-color: rgba(255,255,255,0.5)
 
-			> a
-
-
+			&:first-of-type
+				margin-left: 0em
 			
 // hard code in sports background images etc here
 @mixin sports_nav($height, $width)
 
 	// do stuff to make these look good
-
+	height: $height
+	width: $width
 
 
 

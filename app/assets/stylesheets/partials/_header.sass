@@ -27,8 +27,6 @@ header
 	header
 
 		> div
-
-			// height: 20em
 			background-color: gray	
 
 // set up browser etc elements
@@ -51,14 +49,8 @@ header
 
 			// first level navigation -- this is what the user sees first!
 			> ul	
-				width: 100%
-				@include clearfix
-				@include inline-block
-				position: relative
-
-
 				// lets apply the transition effects here!
-				li 
+				> li 
 					// include the base dropdown mixin
 					@include dropdown
 
@@ -67,21 +59,29 @@ header
 
 		// hard code in the width for desktop version etc
 		width: 45%
+		$elements: 5
+		$element_width: 100%/$elements
 
+
+		// initialize main navigation bar with primary plugin for horizontal navigation
 		> ul
-			padding: 0.2em 0 0.2em 0
-			width: 100%
-			@include clearfix
-			@include horizontal_nav(5, 1em, 0em, 1em, 0em)
+			@include horizontal_nav($elements)
 
-			// include horizontal_nav for only the store option!
-			> li:nth-of-type(3)
+			// custom li rules for individual pieces
+			> li	
+				// for the third dropdown list do some different stuff!
+				&:nth-of-type(3)
 
-				height: auto
-				@include dropout(5em, 5em, 4, 0em)
+					$sports_elements: 4
+					// include our dropout piece
+					@include dropout(5em, 5em, 1em, $sports_elements)
 
+					> ul 
+					// we want to make this third element a horizontal navigation etc 
 
-
+						@include sports_nav(5em, 5em)
+						// do custom elemental mixins etc
+							
 	#social	
 
 		// 10% of page for each element?
