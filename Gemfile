@@ -72,7 +72,10 @@ group :development, :test do
   # use a little tmux library to work with 
   gem 'tmux-ruby'  
   # Use unicorn as the app server
-  gem 'unicorn'
+  # gem 'thin'
+
+  # guard is useful for watching assets etc
+  gem 'guard' 
 
   # Deploy with Capistrano
   gem 'capistrano'

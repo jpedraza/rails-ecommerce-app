@@ -2,13 +2,16 @@ require 'rake'
 # require ruby tmux to create new tasks etc
 require 'tmux'
 
+# 
+
 begin
 	namespace :development do
 
 		desc "Clear static assets"
-		do
+		task :clear do
 
-			puts "Clear static assets as created by compass watcher"
+			# puts "Clear static assets as created by compass watcher"
+			# 
 
 		end
 		# start compass watcher
@@ -16,14 +19,19 @@ begin
 		task :compass do
 
 			# puts start compass in own compass window
-			puts "Compass"
-
+			# puts %x{rvm gemset use clothing}				
+			# make sure that the gemset switch doesn't screw up our pwd
+			# rvm gemset not working with this element
+			# exec "rvm gemset use clothing"
+			# watch the current rails project for compass changes
+			exec "bundle exec compass watch"	
+				
 		end
 
 		desc "Start server"
 		task :server do
 			# start local server in new tmux-pane
-			puts "Server"
+			# puts "Server"
 
 		end
 
