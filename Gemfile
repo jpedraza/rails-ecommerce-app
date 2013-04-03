@@ -38,6 +38,9 @@ group :assets do
   # compass gems etc
   # sass rails elements
   gem 'sass-rails', '~> 3.2.3'
+
+  # install generic compasss gem
+  gem 'compass' 
   # use compass with rails plugin for requiring
   gem 'compass-rails'
   # susy grid system -- actually the greatest!!!

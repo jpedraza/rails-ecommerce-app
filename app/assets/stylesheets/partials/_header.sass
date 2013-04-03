@@ -42,20 +42,18 @@ header
 			@include container
 
 			// basic div configuration for all of the various horizontal navigations etc 
-			> div
-
 			// do some one off grid math to help with the drop down navigation system
 			#main
 
 				> ul
 					@include horizontal_ul_structure(5,5)
+					@include horizontal_nav
 					// approximate the size of the li element
 					// 
 					> li
 
 						// now add our navigation mixin for a basic horizontal navigation bar
 						// @include horizontal_nav
-
 
 						// this is an li element for the store
 						// we want to call the horizontal dropdown for 
@@ -117,6 +115,7 @@ header
 					@include pre(0.5)
 					// parent width / elements
 					@include horizontal_ul_structure(3.5, 3)	
+					@include horizontal_nav
 
 
 			// initialize the interaction menu here
@@ -125,6 +124,6 @@ header
 				> ul
 					@include pre(0.5)
 					@include horizontal_ul_structure(2.5, 3)
+					@include horizontal_nav
 				
 										
-								

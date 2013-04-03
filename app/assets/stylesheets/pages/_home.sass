@@ -1,38 +1,43 @@
-#gallery
-	
-	$gutter-width: 1em	
-	@include span-columns(10, 12)
-	@include pre(1, 12)
-	height: 20em
+@include at-breakpoint($phone $phone-columns)
 
-	> div
+	// for our phone break point make sure that we are spanning the correct number of elements etc
+	#gallery, #about
 
-		@include span-columns(3, 12)
+		@include span-columns(12, 12)
 
-		&:first-child
+// include tablet-desktop specific styles so that our body is centered properly		
+@include at-breakpoint($tablet $tablet-columns)
 
-			@include pre(1,12)	
+	#gallery, #about
 
-		height: 20em	
+		@include span-columns(10, 12)
+
+// global gallery / about styles etc
+// create a new container here?
+
+
+// 
+#gallery 
+
+	// make this its own grid etc to help with various pieces so that we can use the 12 column grid for children
+	@include container
+
+	// only add the left element for the desktop size
+	@include at-breakpoint($tablet $tablet-columns)
+
+		@include pre(1)
+
+	> div		
+
+		margin-top: 2em
 		background-color: gray
+		@include span-columns(12, 12)
+		height: 5em
 
-
-
+// include spacing that is specific for the elements	
 #about
-	
-	$gutter-width: 2em	
-	@include span-columns(10, 12)
-	@include pre(1, 12)
-	height: 20em
 
-	> div
 
-		@include span-columns(3, 12)
 
-		&:first-child
 
-			@include pre(1,12)	
-
-		height: 20em	
-		background-color: gray
 

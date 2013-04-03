@@ -2,17 +2,43 @@
 // single li element
 @mixin base_element
 	
+	@include box-emboss(1, 1)
+	@include trailer
+    @include leader
+    // @include adjust-font-size-to($base-font-size * 3, $lines:2)
 	// base element for a piece of our structure
+	> a
+
+		height: 100%
+		width: 100%
+		display: block
+
 	
 // assumes that we will be putting an image as the background color
 // assumes that our sprite is the class provided
 @mixin image_element($class)	
+
+
 	
 		
 @mixin horizontal_nav
 
 	// navigation styles go here!
-	// 
+	> li
+		@include box-emboss(0.8, 0.05)
+		@include base_element
+
+		> a
+
+			// color: orange
+
+@mixin vertical_nav
+
+	// this is responsible for the store etc pieces
+
+	
+
+
 
 
 // decided that this isn't the best way to implement the grid system due to percentages
@@ -28,21 +54,10 @@
 
 	// now make sure that the child spans the proper amount of elements with no overflow
 	> li
-		background-color: gray
 		@include span-columns($element_size, $parent)
-
-		&:hover
-
-			background-color: orange
-
 		&:last-of-type		
 
 			@include span-columns($element_size omega, $parent)
-
-@mixin vertical_nav
-	
-	// vertical navigation for a ul element
-
 
 
 // HORIZONTAL STRUCTURAL ELEMENTS

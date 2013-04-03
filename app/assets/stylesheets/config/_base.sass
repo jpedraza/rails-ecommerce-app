@@ -2,6 +2,19 @@
 @import "compass/reset"
 // import compass utilities
 @import "compass/utilities"
+
+// initialize compass settings for vertical rhythym throughout
+// Settings --------------------------------------------------------------
+// Susy & Compass use HTML hacks to support IE 6 and 7. You can turn that off:
+// $legacy-support-for-ie6 : false;
+// $legacy-support-for-ie7 : true;
+
+// Font Sizes --------------------------------------------------------------
+$relative-font-sizing : false
+$base-font-size       : 13px
+$base-line-height     : 20px
+@include establish-baseline
+
 // include sass button mixins
 // @import "sassybuttons"
 // import susy grid system -- plus my custom settings for this project
@@ -22,8 +35,8 @@ $base_color: rgba(35, 37, 36, 0.8)
 
 $environment: "development"
 
-
 // load local project includes etc
+@import "mixins/box"
 @import "mixins/typography"
 @import "mixins/general"
 
