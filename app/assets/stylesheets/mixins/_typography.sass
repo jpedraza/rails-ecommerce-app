@@ -4,13 +4,23 @@
 // load in our custom icon font here
 // located in
 +font-face("Icons", font-files("fonts/icons.eot", "fonts/icons.svg", "fonts/icons.ttf", "fonts/icons.woff"))
- 
+
+// load in google fonts
+@import url("http://fonts.googleapis.com/css?family=Noto+Sans") 
 
 // similar to letter press
-@mixin letterpress($opacity)
+@mixin letterpress($opacity, $color)
 
-	text-shadow: white($opacity) 0 1px 0
-
-
+	// text-shadow: white($opacity) 0 1px 0
 
 
+
+@mixin anchor_font($size: 1em)
+	
+	// include special text rendering -- experimentary 
+	@include improve-text-rendering
+	color: rgba(36,36,36,0.9)
+	font-size: 1.1em
+	// @include arial()
+	font-family: 'Noto Sans', sans-serif
+	// font-family: arial

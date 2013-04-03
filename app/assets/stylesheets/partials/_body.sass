@@ -39,15 +39,27 @@ body
 		@include span-columns($tablet-columns)
 
 
+
 // include some custom reset settings for my local elements / needs
 body
 		
-	background: image-url("global_background.png")
+	// body background!
+	background: image-url("global_background.png") 
+	// +background: color(rgba(0,0,0,0.4))
 	
+	// basic and generic ul / li elements!
 	ul 
 		list-style-type: none
 
+		> li 
+			display: block
+			text-align: center
+			// include our base font!
+			@include anchor_font 
 
+			> a		
+				@include anchor_font
+				text-decoration: none
 
 
 

@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url("http://fonts.googleapis.com/css?family=Noto+Sans")  ;
 /* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -6089,22 +6091,42 @@ html {
   }
 }
 
-/* line 43, ../../app/assets/stylesheets/partials/_body.sass */
+/* line 44, ../../app/assets/stylesheets/partials/_body.sass */
 body {
   background: url(/assets/global_background.png);
 }
-/* line 47, ../../app/assets/stylesheets/partials/_body.sass */
+/* line 51, ../../app/assets/stylesheets/partials/_body.sass */
 body ul {
   list-style-type: none;
+}
+/* line 54, ../../app/assets/stylesheets/partials/_body.sass */
+body ul > li {
+  display: block;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(36, 36, 36, 0.9);
+  font-size: 1.1em;
+  font-family: "Noto Sans", sans-serif;
+}
+/* line 60, ../../app/assets/stylesheets/partials/_body.sass */
+body ul > li > a {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(36, 36, 36, 0.9);
+  font-size: 1.1em;
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
 }
 
 /* line 4, ../../app/assets/stylesheets/partials/_header.sass */
 header {
   background: url(/assets/medium_background.png);
+  box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0;
 }
 
 @media (min-width: 0em) {
-  /* line 12, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 13, ../../app/assets/stylesheets/partials/_header.sass */
   header {
     width: 82.05128%;
     float: left;
@@ -6113,7 +6135,7 @@ header {
   }
 }
 @media (min-width: 48em) {
-  /* line 12, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 13, ../../app/assets/stylesheets/partials/_header.sass */
   header {
     margin-left: 0%;
     width: 100%;
@@ -6123,7 +6145,7 @@ header {
 }
 
 @media (min-width: 48em) {
-  /* line 44, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 45, ../../app/assets/stylesheets/partials/_header.sass */
   header {
     max-width: 100%;
     padding-left: 0em;
@@ -6137,36 +6159,41 @@ header {
     display: table;
     clear: both;
   }
-  /* line 54, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 55, ../../app/assets/stylesheets/partials/_header.sass */
   header #main > ul {
     width: 58.33333%;
     float: left;
     margin-right: 0%;
   }
-  /* line 73, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 84, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li {
     width: 20%;
     float: left;
     margin-right: 0%;
   }
-  /* line 75, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 86, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:last-of-type {
     width: 20%;
     float: right;
     margin-right: 0;
   }
-  /* line 43, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 44, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li {
     box-shadow: white(0.8) 0 1px 0, inset black(0.05) 0 1px 0;
     border-right: 0px solid black;
   }
-  /* line 9, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 10, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:hover > a {
     box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0;
     background: transparent;
     border-bottom: 0px;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66)));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
   }
-  /* line 14, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 16, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li > a {
     padding: 1em 0 1em 0;
     width: 100%;
@@ -6181,11 +6208,11 @@ header {
     background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66));
     border-bottom: 1px solid black;
   }
-  /* line 96, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 107, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2):hover > ul {
     display: block;
   }
-  /* line 98, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 109, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul {
     display: none;
     width: 857.14286%;
@@ -6194,29 +6221,40 @@ header {
     margin-left: -100%;
     position: relative;
   }
-  /* line 126, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 137, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li {
     width: 25%;
     float: left;
     margin-right: 0%;
   }
-  /* line 131, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 142, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li:hover {
     background-color: orange;
   }
-  /* line 136, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 147, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li:first-of-type {
     margin-left: 25%;
   }
-  /* line 75, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 76, ../../app/assets/stylesheets/partials/_header.sass */
   header #main > ul > li:nth-of-type(2) > ul > li {
-    height: 5em;
+    position: relative;
   }
-  /* line 96, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 58, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > a {
+    display: block;
+    color: black;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 64, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul {
+    color: red;
+  }
+  /* line 107, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3):hover > ul {
     display: block;
   }
-  /* line 98, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 109, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul {
     display: none;
     width: 857.14286%;
@@ -6225,25 +6263,25 @@ header {
     margin-left: -200%;
     position: relative;
   }
-  /* line 126, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 137, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li {
     width: 16.66667%;
     float: left;
     margin-right: 0%;
   }
-  /* line 131, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 142, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:hover {
     background-color: orange;
   }
-  /* line 136, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 147, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:first-of-type {
     margin-left: 16.66667%;
   }
-  /* line 96, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 107, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4):hover > ul {
     display: block;
   }
-  /* line 98, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 109, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul {
     display: none;
     width: 857.14286%;
@@ -6252,51 +6290,56 @@ header {
     margin-left: -300.0%;
     position: relative;
   }
-  /* line 126, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 137, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li {
     width: 22.22222%;
     float: left;
     margin-right: 0%;
   }
-  /* line 131, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 142, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:hover {
     background-color: orange;
   }
-  /* line 136, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 147, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:first-of-type {
     margin-left: 16.66667%;
   }
-  /* line 120, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 121, ../../app/assets/stylesheets/partials/_header.sass */
   header #social > ul {
     margin-left: 2.08333%;
     width: 16.66667%;
     float: left;
     margin-right: 0%;
   }
-  /* line 73, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 84, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #social > ul > li {
     width: 33.33333%;
     float: left;
     margin-right: 0%;
   }
-  /* line 75, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 86, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #social > ul > li:last-of-type {
     width: 33.33333%;
     float: right;
     margin-right: 0;
   }
-  /* line 43, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 44, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #social > ul > li {
     box-shadow: white(0.8) 0 1px 0, inset black(0.05) 0 1px 0;
     border-right: 0px solid black;
   }
-  /* line 9, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 10, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #social > ul > li:hover > a {
     box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0;
     background: transparent;
     border-bottom: 0px;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66)));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
   }
-  /* line 14, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 16, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #social > ul > li > a {
     padding: 1em 0 1em 0;
     width: 100%;
@@ -6311,43 +6354,48 @@ header {
     background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66));
     border-bottom: 1px solid black;
   }
-  /* line 127, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 128, ../../app/assets/stylesheets/partials/_header.sass */
   header #social > ul > li {
     text-indent: -119988px;
     overflow: hidden;
     text-align: left;
   }
-  /* line 135, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 136, ../../app/assets/stylesheets/partials/_header.sass */
   header #interaction > ul {
     margin-left: 2.08333%;
     width: 20.83333%;
     float: left;
     margin-right: 0%;
   }
-  /* line 73, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 84, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #interaction > ul > li {
     width: 33.33333%;
     float: left;
     margin-right: 0%;
   }
-  /* line 75, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 86, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #interaction > ul > li:last-of-type {
     width: 33.33333%;
     float: right;
     margin-right: 0;
   }
-  /* line 43, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 44, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #interaction > ul > li {
     box-shadow: white(0.8) 0 1px 0, inset black(0.05) 0 1px 0;
     border-right: 0px solid black;
   }
-  /* line 9, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 10, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #interaction > ul > li:hover > a {
     box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0;
     background: transparent;
     border-bottom: 0px;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66)));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66));
   }
-  /* line 14, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 16, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #interaction > ul > li > a {
     padding: 1em 0 1em 0;
     width: 100%;

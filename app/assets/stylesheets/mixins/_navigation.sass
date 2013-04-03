@@ -3,6 +3,7 @@
 @mixin base_element
 	
 	border-right: 0px solid black
+	$background-opacity: 0.6
 
 	&:hover
 
@@ -11,6 +12,7 @@
 			@include box-emboss(0.8, 0.5)
 			background: transparent
 			border-bottom: 0px
+			+background-image(linear-gradient(rgba(#fff, $background-opacity), rgba(#655f5f,  $background-opacity*0.5), rgba(#aaa, $background-opacity*1.1)))
 	> a
 
 		// include our base font as stylized before!
@@ -21,7 +23,6 @@
 		vertical-align: middle
 		// background-color: orange
 		border-right: 1px solid black
-		$background-opacity: 0.6
 		+background-image(linear-gradient(rgba(#fff, $background-opacity), rgba(#ccc,  $background-opacity), rgba(#aaa, $background-opacity*1.1)))
 		// background-opacity 
 		border-bottom: 1px solid black
@@ -46,13 +47,23 @@
 
 		> a
 			// color: orange
+				
 
-
+// vertical nav is called in the context of an li element with a ul inside!
 @mixin vertical_nav
 
 	// this is responsible for the store etc pieces
-	height: 5em
-	text-align:middle
+	position: relative
+
+	> a 
+		display: block	
+		color: black
+		width: 100%
+		text-align: center
+
+	> ul
+		color: red
+
 		
 
 
