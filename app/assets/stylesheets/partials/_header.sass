@@ -1,8 +1,16 @@
 @import "../mixins/navigation"
 
+// stylistic pieces at top here
+header
+	
+	// background: image-url("medium_background.png")
+	background: image-url("medium_background.png")
+
+
 
 // initialize basic responsive layouts and structure of navigation elements
 header
+
 	// general responsive layout etc
 	@include at-breakpoint($phone $phone-columns)
 
@@ -25,8 +33,6 @@ header
 	header
 
 		> div
-			background-color: gray	
-
 
 // initialize the grid for the tablet / desktop header sections
 @include with-grid-settings(12, 4em, 0em, 0em)
@@ -48,34 +54,34 @@ header
 				> ul
 					// horizontal ul structure (parent-columns, elemnets)
 					@include horizontal_ul_structure(7,5)
+					$size: 7/5 
 					@include horizontal_nav
 					// approximate the size of the li element
 					// 
 					> li
 
 						// now add our navigation mixin for a basic horizontal navigation bar
-						// @include horizontal_nav
-
 						// this is an li element for the store
 						// we want to call the horizontal dropdown for 
 						&:nth-of-type(2)		
 
 							// include the horizontal dropdown base element
-							@include horizontal_dropdown(1)
+							// (parent_column, shift)
+							@include horizontal_dropdown($size, 1)
 							// initialize the structure of these dropdowns so that all spacing is set up for me already!
-							@include horizontal_dropdown_structure(2)
+							@include horizontal_dropdown_structure(2, 3)
 
 							// now include the individual vertical lists for each piece
 							> ul > li
 
-								// call vertical navigation mixin
+								// call vertical navigation mixin for each sub menu we have!
 								@include vertical_nav
 
 						// sports
 						&:nth-of-type(3)
 
 							// base dropdown element
-							@include horizontal_dropdown(2)
+							@include horizontal_dropdown($size, 2)
 							// now space out each of our elements properly so that we have the correct elements
 							@include horizontal_dropdown_structure(4)	
 
@@ -96,7 +102,7 @@ header
 						&:nth-of-type(4)
 
 							// create our generic horizontal dropdown element
-							@include horizontal_dropdown(3)
+							@include horizontal_dropdown($size, 3)
 							// include the horizontal dropdown structure for each element
 							@include horizontal_dropdown_structure(3)
 
@@ -117,6 +123,10 @@ header
 					// parent width / elements
 					@include horizontal_ul_structure(2, 3)	
 					@include horizontal_nav
+
+					> li
+
+						@include hide-text
 
 
 			// initialize the interaction menu here

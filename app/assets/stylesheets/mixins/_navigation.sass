@@ -2,7 +2,15 @@
 // single li element
 @mixin base_element
 	
-	
+	border-right: 0px solid black
+
+	&:hover
+
+		> a
+
+			@include box-emboss(0.8, 0.5)
+			background: transparent
+			border-bottom: 0px
 	> a
 
 		// include our base font as stylized before!
@@ -11,14 +19,16 @@
 		display: block
 		text-align: center
 		vertical-align: middle
-		background-color: orange
+		// background-color: orange
 		border-right: 1px solid black
-
-
+		$background-opacity: 0.6
+		+background-image(linear-gradient(rgba(#fff, $background-opacity), rgba(#ccc,  $background-opacity), rgba(#aaa, $background-opacity*1.1)))
+		// background-opacity 
+		border-bottom: 1px solid black
 		// place a triangle after each element
 		span 
 
-			font-family: "Icons"		
+			// font-family: "Icons"		
 
 	
 // assumes that we will be putting an image as the background color
@@ -35,14 +45,15 @@
 		@include base_element
 
 		> a
-
 			// color: orange
+
 
 @mixin vertical_nav
 
 	// this is responsible for the store etc pieces
-
-	
+	height: 5em
+	text-align:middle
+		
 
 
 
@@ -72,7 +83,13 @@
 // this assumes that the element being attached is a
 // pass in how far left to shift this element relative to the parent
 // we will assume that the element is smaller
-@mixin horizontal_dropdown($left_columns:0, $parent_columns:1) 
+@mixin horizontal_dropdown($parent_column, $shift_columns:1) 
+	
+	// first determine how many columns constitute a parent column
+
+	// determine how many columns across the entire screen is	
+	$max_columns: $total-columns/$parent_column * $parent_column
+	$shift: $shift_columns*$parent_column
 
 	&:hover	
 
@@ -80,15 +97,16 @@
 			display: block
 	> ul
 
+		// lets make this a new grid
+		// that way we can properly space everything below!
 		display: none
 
 		// 12 columns of 1 column (parent width)
-		@include span-columns(12, $parent_columns)
+		@include span-columns($max_columns, $parent_column)
+
 		// pull the entire list left according to the passed in parameter
-		@include pull($left_columns, $parent_columns)
+		@include pull($shift, $parent_column)
 		position: relative
-		height: 4em
-		background-color: rgba(36,36,36,1)
 
 
 // a list of vertical elements!
