@@ -4,14 +4,12 @@
 // initialize basic responsive layouts and structure of navigation elements
 header
 	// general responsive layout etc
-	// background-color: orange
-	background-color: orange
-
 	@include at-breakpoint($phone $phone-columns)
+
 		@include span-columns($phone-size)
 
 		// comment out the following to make changing main navigation easier!
-		// @include pull($phone-size - 1)
+		@include pull($phone-size - 1)
 
 	// header doesn't necessarily need to be aligned to the grid
 	// this is so that we can ensure that it stays across the entire top of the page
@@ -29,94 +27,104 @@ header
 		> div
 			background-color: gray	
 
-// set up browser etc elements
-@include at-breakpoint($tablet $tablet-columns)
 
-	header 
+// initialize the grid for the tablet / desktop header sections
+@include with-grid-settings(12, 4em, 0em, 0em)
 
-		$container-width: 100%
-		$gutter-width: 0em
-		@include container
+	// set up browser etc elements
+	@include at-breakpoint($tablet $tablet-columns)
 
-		// basic div configuration for all of the various horizontal navigations etc 
-		> div
-			// do something here
+		// use special grid settings here!
+		header 
+			// ensure that our container width is properly set!
+			// initialize different grid settings (columns, column-width, gutter-width, padding)
+			$container-width: 100%
+			@include container
 
-		// do some one off grid math to help with the drop down navigation system
-		#main
+			// basic div configuration for all of the various horizontal navigations etc 
+			> div
 
-			> ul
-				@include horizontal_ul_structure(5,5)
-				// approximate the size of the li element
-				// 
-				> li
+			// do some one off grid math to help with the drop down navigation system
+			#main
 
-					// now add our navigation mixin for a basic horizontal navigation bar
-					// @include horizontal_nav
+				> ul
+					@include horizontal_ul_structure(5,5)
+					// approximate the size of the li element
+					// 
+					> li
+
+						// now add our navigation mixin for a basic horizontal navigation bar
+						// @include horizontal_nav
 
 
-					// this is an li element for the store
-					// we want to call the horizontal dropdown for 
-					&:nth-of-type(2)		
+						// this is an li element for the store
+						// we want to call the horizontal dropdown for 
+						&:nth-of-type(2)		
 
-						// include the horizontal dropdown base element
-						@include horizontal_dropdown(1)
-						// initialize the structure of these dropdowns so that all spacing is set up for me already!
-						@include horizontal_dropdown_structure(2)
+							// include the horizontal dropdown base element
+							@include horizontal_dropdown(1)
+							// initialize the structure of these dropdowns so that all spacing is set up for me already!
+							@include horizontal_dropdown_structure(2)
 
-						// now include the individual vertical lists for each piece
-						> ul > li
+							// now include the individual vertical lists for each piece
+							> ul > li
 
-							// call vertical navigation mixin
-							@include vertical_nav
+								// call vertical navigation mixin
+								@include vertical_nav
 
-					// sports
-					&:nth-of-type(3)
+						// sports
+						&:nth-of-type(3)
 
-						// base dropdown element
-						@include horizontal_dropdown(2)
-						// now space out each of our elements properly so that we have the correct elements
-						@include horizontal_dropdown_structure(4)	
+							// base dropdown element
+							@include horizontal_dropdown(2)
+							// now space out each of our elements properly so that we have the correct elements
+							@include horizontal_dropdown_structure(4)	
 
-						// grab each individual element and place an image in there! -- assuming background image!
-						> ul > li
+							// grab each individual element and place an image in there! -- assuming background image!
+							> ul > li
 
-							// no need for an image element etc here so lets just call the background !
-							&:nth-of-type(1)	
-								@include image_element("football")
+								// no need for an image element etc here so lets just call the background !
+								&:nth-of-type(1)	
+									@include image_element("football")
 
-							&:nth-of-type(2)		
-								@include image_element("soccer")
+								&:nth-of-type(2)		
+									@include image_element("soccer")
 
-							&:nth-of-type(3)
-								@include image_element("basketball")
+								&:nth-of-type(3)
+									@include image_element("basketball")
 
-					// set up our tech element
-					&:nth-of-type(4)
+						// set up our tech element
+						&:nth-of-type(4)
 
-						// create our generic horizontal dropdown element
-						@include horizontal_dropdown(3)
-						// include the horizontal dropdown structure for each element
-						@include horizontal_dropdown_structure(3)
+							// create our generic horizontal dropdown element
+							@include horizontal_dropdown(3)
+							// include the horizontal dropdown structure for each element
+							@include horizontal_dropdown_structure(3)
 
-						// now include the image_element piece for each individual li element
-						> ul > li	
+							// now include the image_element piece for each individual li element
+							> ul > li	
 
-							// include the proper images etc for each piece! 
-							@include image_element("energy_dna")
-							@include image_element("celliant")
-							@include image_element("trimera")
+								// include the proper images etc for each piece! 
+								@include image_element("energy_dna")
+								@include image_element("celliant")
+								@include image_element("trimera")
 
-		#social						
+			// initialize the social element
+			#social						
 
-			> ul	
+				> ul	
 
-				// @include horizontal_ul_structure(3.5, 3)	
+					@include pre(0.5)
+					// parent width / elements
+					@include horizontal_ul_structure(3.5, 3)	
 
-		#interaction		
 
-			> ul
+			// initialize the interaction menu here
+			#interaction		
 
-				// @include horizontal_ul_structure(2.25 omega, 3)
-					
-							
+				> ul
+					@include pre(0.5)
+					@include horizontal_ul_structure(2.5, 3)
+				
+										
+								
