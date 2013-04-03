@@ -4,11 +4,12 @@
 // initialize basic responsive layouts and structure of navigation elements
 header
 	// general responsive layout etc
-	background-color: orange
+	// background-color: orange
+	background-color: rgba(0,0,0,0.8)
 
 	@include at-breakpoint($phone $phone-columns)
-
 		@include span-columns($phone-size)
+
 		// comment out the following to make changing main navigation easier!
 		// @include pull($phone-size - 1)
 
@@ -36,20 +37,28 @@ header
 
 		$container-width: 100%
 		@include container
-		@include susy-grid-background
+
+		// basic div configuration for all of the various horizontal navigations etc 
+		> div
+
+			// do something here
+
 
 		// do some one off grid math to help with the drop down navigation system
-
 		#main
-			@include span-columns(6)
 
-			ul
-				// @include span-columns(12)
-				// background-color: black
+			> ul
+				@include horizontal_ul_structure(6,5)
+				// approximate the size of the li element
+				$element_size: 6/5
+
+				// 
 				> li
-					position: relative
-					// span 1 out of 6 columns for each li element
-					@include span-columns(1, 6)
+
+					background-color: orange
+					// now add our navigation mixin for a basic horizontal navigation bar
+					// @include horizontal_nav
+
 
 					// this is an li element for the store
 					// we want to call the horizontal dropdown for 
@@ -93,7 +102,7 @@ header
 						// create our generic horizontal dropdown element
 						@include horizontal_dropdown(3)
 						// include the horizontal dropdown structure for each element
-						@include horizontal_dropdown_structure
+						@include horizontal_dropdown_structure(3)
 
 						// now include the image_element piece for each individual li element
 						> ul > li	
@@ -103,16 +112,16 @@ header
 							@include image_element("celliant")
 							@include image_element("trimera")
 
+		#social						
 
+			> ul	
 
+				@include horizontal_ul_structure(3.5, 3)	
 
+		#interaction		
 
-								
+			> ul
 
-		
-
-						
-
-
-
-
+				@include horizontal_ul_structure(2.25 omega, 3)
+					
+							

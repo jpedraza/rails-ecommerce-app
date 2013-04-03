@@ -9,12 +9,26 @@
 @mixin image_element($class)	
 	
 		
-
-// STYLISTIC APPROACHES FOR ALL PIECES HERE!
 @mixin horizontal_nav
-	// top level navigation!
-	// horizontal navigation element
 
+	// navigation styles go here!
+	// 
+
+
+// decided that this isn't the best way to implement the grid system due to percentages
+// decimals mess up the proportions etc of the grid
+// thus, when parent!==elements we had all kind of issues
+@mixin horizontal_ul_structure($parent, $elements)
+
+	// assumes that it will be called in the context of a ul
+	// span the parent # number of elements across
+	@include span-columns($parent)
+
+	// now make sure that the child spans the proper amount of elements with no overflow
+	> li
+		// @include span-columns($element_size, $parent)
+		width: 100% / $elements
+		float: left
 
 @mixin vertical_nav
 	
@@ -37,6 +51,7 @@
 	> ul
 
 		display: none
+		
 		// 12 columns of 1 column (parent width)
 		@include span-columns(12, $parent_columns)
 		// pull the entire list left according to the passed in parameter
@@ -57,6 +72,7 @@
 
 	// we will assume that ul element is being called from a full width screen -- can fix this later
 	> ul
+
 		// include individual li elements!!! 
 		> li
 
