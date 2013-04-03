@@ -24,8 +24,7 @@
 // assumes that we will be putting an image as the background color
 // assumes that our sprite is the class provided
 @mixin image_element($class)	
-
-
+	
 	
 		
 @mixin horizontal_nav
@@ -96,6 +95,7 @@
 // the vertical nav is responsible for displaying $elements(li) elements 
 @mixin horizontal_dropdown_structure($elements, $padding_columns: 2, $parent_columns: 12)
 
+	// initialize a new grid here?
 	// grab the total size all columns can span after padding!
 	$total_size: $total-columns - 2*$padding_columns 		
 	// grab the number of columns for each element
