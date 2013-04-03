@@ -6071,13 +6071,8 @@ img, video {
   }
 }
 
-/* line 30, ../../app/assets/stylesheets/partials/_body.sass */
-#content {
-  background-color: rgba(0, 0, 0, 0.2);
-  height: 20em;
-}
 @media (min-width: 0em) {
-  /* line 30, ../../app/assets/stylesheets/partials/_body.sass */
+  /* line 29, ../../app/assets/stylesheets/partials/_body.sass */
   #content {
     width: 82.05128%;
     float: left;
@@ -6085,23 +6080,22 @@ img, video {
   }
 }
 @media (min-width: 48em) {
-  /* line 30, ../../app/assets/stylesheets/partials/_body.sass */
+  /* line 29, ../../app/assets/stylesheets/partials/_body.sass */
   #content {
-    width: 83.05085%;
+    width: 100%;
     float: left;
     margin-right: 1.69492%;
-    margin-left: 8.47458%;
   }
 }
 
-/* line 50, ../../app/assets/stylesheets/partials/_body.sass */
+/* line 45, ../../app/assets/stylesheets/partials/_body.sass */
 body ul {
   list-style-type: none;
 }
 
 /* line 5, ../../app/assets/stylesheets/partials/_header.sass */
 header {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: orange;
 }
 @media (min-width: 0em) {
   /* line 5, ../../app/assets/stylesheets/partials/_header.sass */
@@ -6122,13 +6116,13 @@ header {
 }
 
 @media (min-width: 0em) {
-  /* line 30, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 29, ../../app/assets/stylesheets/partials/_header.sass */
   header > div {
     background-color: gray;
   }
 }
 @media (min-width: 48em) {
-  /* line 36, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 35, ../../app/assets/stylesheets/partials/_header.sass */
   header {
     max-width: 100%;
     padding-left: 0em;
@@ -6142,116 +6136,159 @@ header {
     display: table;
     clear: both;
   }
-  /* line 50, ../../app/assets/stylesheets/partials/_header.sass */
+  /* line 48, ../../app/assets/stylesheets/partials/_header.sass */
   header #main > ul {
-    width: 49.15254%;
+    width: 41.66667%;
     float: left;
-    margin-right: 1.69492%;
+    margin-right: 0%;
   }
-  /* line 28, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  /* line 30, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li {
+    background-color: gray;
     width: 20%;
     float: left;
+    margin-right: 0%;
   }
-  /* line 56, ../../app/assets/stylesheets/partials/_header.sass */
-  header #main > ul > li {
+  /* line 34, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:hover {
     background-color: orange;
   }
-  /* line 49, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(2):hover > ul {
-    display: block;
-  }
-  /* line 51, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(2) > ul {
-    display: none;
-    width: 1475%;
-    float: left;
-    margin-right: 25%;
-    margin-left: -125%;
-    position: relative;
-    height: 4em;
-    background-color: #242424;
-  }
-  /* line 77, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(2) > ul > li {
-    width: 32.20339%;
-    float: left;
-    margin-right: 1.69492%;
-  }
-  /* line 82, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(2) > ul > li:first-of-type {
-    margin-left: 16.94915%;
-  }
-  /* line 49, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(3):hover > ul {
-    display: block;
-  }
-  /* line 51, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(3) > ul {
-    display: none;
-    width: 1475%;
-    float: left;
-    margin-right: 25%;
-    margin-left: -250%;
-    position: relative;
-    height: 4em;
-    background-color: #242424;
-  }
-  /* line 77, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(3) > ul > li {
-    width: 15.25424%;
-    float: left;
-    margin-right: 1.69492%;
-  }
-  /* line 82, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(3) > ul > li:first-of-type {
-    margin-left: 16.94915%;
-  }
-  /* line 49, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(4):hover > ul {
-    display: block;
-  }
-  /* line 51, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(4) > ul {
-    display: none;
-    width: 1475%;
-    float: left;
-    margin-right: 25%;
-    margin-left: -375%;
-    position: relative;
-    height: 4em;
-    background-color: #242424;
-  }
-  /* line 77, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(4) > ul > li {
-    width: 21.46893%;
-    float: left;
-    margin-right: 1.69492%;
-  }
-  /* line 82, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(4) > ul > li:first-of-type {
-    margin-left: 16.94915%;
-  }
-  /* line 117, ../../app/assets/stylesheets/partials/_header.sass */
-  header #social > ul {
-    width: 28.81356%;
-    float: left;
-    margin-right: 1.69492%;
-  }
-  /* line 28, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #social > ul > li {
-    width: 33.33333%;
-    float: left;
-  }
-  /* line 123, ../../app/assets/stylesheets/partials/_header.sass */
-  header #interaction > ul {
-    width: 18.64407%;
+  /* line 38, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:last-of-type {
+    width: 20%;
     float: right;
     margin-right: 0;
   }
-  /* line 28, ../../app/assets/stylesheets/mixins/_navigation.sass */
-  header #interaction > ul > li {
+  /* line 58, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2):hover > ul {
+    display: block;
+  }
+  /* line 60, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul {
+    display: none;
+    width: 1200%;
+    float: left;
+    margin-right: 0%;
+    margin-left: -100%;
+    position: relative;
+    height: 4em;
+    background-color: #242424;
+  }
+  /* line 86, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li {
     width: 33.33333%;
     float: left;
+    margin-right: 0%;
   }
+  /* line 91, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li:hover {
+    background-color: orange;
+  }
+  /* line 96, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li:first-of-type {
+    margin-left: 16.66667%;
+  }
+  /* line 58, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3):hover > ul {
+    display: block;
+  }
+  /* line 60, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul {
+    display: none;
+    width: 1200%;
+    float: left;
+    margin-right: 0%;
+    margin-left: -200%;
+    position: relative;
+    height: 4em;
+    background-color: #242424;
+  }
+  /* line 86, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li {
+    width: 16.66667%;
+    float: left;
+    margin-right: 0%;
+  }
+  /* line 91, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:hover {
+    background-color: orange;
+  }
+  /* line 96, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:first-of-type {
+    margin-left: 16.66667%;
+  }
+  /* line 58, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4):hover > ul {
+    display: block;
+  }
+  /* line 60, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul {
+    display: none;
+    width: 1200%;
+    float: left;
+    margin-right: 0%;
+    margin-left: -300%;
+    position: relative;
+    height: 4em;
+    background-color: #242424;
+  }
+  /* line 86, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li {
+    width: 22.22222%;
+    float: left;
+    margin-right: 0%;
+  }
+  /* line 91, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:hover {
+    background-color: orange;
+  }
+  /* line 96, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:first-of-type {
+    margin-left: 16.66667%;
+  }
+}
+/* line 1, ../../app/assets/stylesheets/pages/_home.sass */
+#gallery {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 8.47458%;
+  height: 20em;
+}
+/* line 8, ../../app/assets/stylesheets/pages/_home.sass */
+#gallery > div {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  height: 20em;
+  background-color: gray;
+}
+/* line 12, ../../app/assets/stylesheets/pages/_home.sass */
+#gallery > div:first-child {
+  margin-left: 8.47458%;
+}
+
+/* line 21, ../../app/assets/stylesheets/pages/_home.sass */
+#about {
+  width: 82.85714%;
+  float: left;
+  margin-right: 2.85714%;
+  display: inline;
+  margin-left: 8.57143%;
+  height: 20em;
+}
+/* line 28, ../../app/assets/stylesheets/pages/_home.sass */
+#about > div {
+  width: 22.85714%;
+  float: left;
+  margin-right: 2.85714%;
+  display: inline;
+  height: 20em;
+  background-color: gray;
+}
+/* line 32, ../../app/assets/stylesheets/pages/_home.sass */
+#about > div:first-child {
+  margin-left: 8.57143%;
 }

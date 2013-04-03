@@ -22,17 +22,12 @@ body
 
 	@include at-breakpoint($desktop $desktop-columns)
 
-		$container-width: 100%
 		@include container
 		// @include susy-grid-background	
 		overflow-y: auto
 
 #content
 	
-	background-color: rgba(0,0,0,0.2)
-
-	height: 20em
-
 	// phone columns
 	@include at-breakpoint($phone $phone-columns)
 
@@ -41,8 +36,8 @@ body
 	// include breakpoint for tablet / desktop
 	@include at-breakpoint($tablet $tablet-columns)
 
-		@include span-columns($tablet-columns - 2)
-		@include push($anchor)
+		@include span-columns($tablet-columns)
+
 
 // include some custom reset settings for my local elements / needs
 body

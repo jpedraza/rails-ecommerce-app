@@ -19,16 +19,25 @@
 // decimals mess up the proportions etc of the grid
 // thus, when parent!==elements we had all kind of issues
 @mixin horizontal_ul_structure($parent, $elements)
-
+	
+	// best if this works as no decimal otherwise screws up everything!
+	$element_size: $parent / $elements
 	// assumes that it will be called in the context of a ul
 	// span the parent # number of elements across
 	@include span-columns($parent)
 
 	// now make sure that the child spans the proper amount of elements with no overflow
 	> li
-		// @include span-columns($element_size, $parent)
-		width: 100% / $elements
-		float: left
+		background-color: gray
+		@include span-columns($element_size, $parent)
+
+		&:hover
+
+			background-color: orange
+
+		&:last-of-type		
+
+			@include span-columns($element_size omega, $parent)
 
 @mixin vertical_nav
 	
@@ -51,7 +60,7 @@
 	> ul
 
 		display: none
-		
+
 		// 12 columns of 1 column (parent width)
 		@include span-columns(12, $parent_columns)
 		// pull the entire list left according to the passed in parameter
@@ -78,17 +87,14 @@
 
 			// by default span the element by a fraction of 12 columns
 			@include span-columns($element_size, $parent_columns)
+
+			&:hover	
+
+				background-color: orange
+
 			// first li element needs to be pushed to the left!
 			&:first-of-type
 
 				// push it 2 columns relative of 12 by default!
 				@include push($padding_columns, $parent_columns)
-
-
-
-
-
-		
-			
-
 

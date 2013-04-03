@@ -1,0 +1,38 @@
+#gallery
+	
+	$gutter-width: 1em	
+	@include span-columns(10, 12)
+	@include pre(1, 12)
+	height: 20em
+
+	> div
+
+		@include span-columns(3, 12)
+
+		&:first-child
+
+			@include pre(1,12)	
+
+		height: 20em	
+		background-color: gray
+
+
+
+#about
+	
+	$gutter-width: 2em	
+	@include span-columns(10, 12)
+	@include pre(1, 12)
+	height: 20em
+
+	> div
+
+		@include span-columns(3, 12)
+
+		&:first-child
+
+			@include pre(1,12)	
+
+		height: 20em	
+		background-color: gray
+

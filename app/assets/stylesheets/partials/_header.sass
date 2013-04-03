@@ -5,7 +5,7 @@
 header
 	// general responsive layout etc
 	// background-color: orange
-	background-color: rgba(0,0,0,0.8)
+	background-color: orange
 
 	@include at-breakpoint($phone $phone-columns)
 		@include span-columns($phone-size)
@@ -21,7 +21,6 @@ header
 		@include pull(0)
 		@include span-columns($tablet-columns)
 
-
 // set up phone piece first!
 @include at-breakpoint($phone $phone-columns)
 	
@@ -36,26 +35,22 @@ header
 	header 
 
 		$container-width: 100%
+		$gutter-width: 0em
 		@include container
 
 		// basic div configuration for all of the various horizontal navigations etc 
 		> div
-
 			// do something here
-
 
 		// do some one off grid math to help with the drop down navigation system
 		#main
 
 			> ul
-				@include horizontal_ul_structure(6,5)
+				@include horizontal_ul_structure(5,5)
 				// approximate the size of the li element
-				$element_size: 6/5
-
 				// 
 				> li
 
-					background-color: orange
 					// now add our navigation mixin for a basic horizontal navigation bar
 					// @include horizontal_nav
 
@@ -116,12 +111,12 @@ header
 
 			> ul	
 
-				@include horizontal_ul_structure(3.5, 3)	
+				// @include horizontal_ul_structure(3.5, 3)	
 
 		#interaction		
 
 			> ul
 
-				@include horizontal_ul_structure(2.25 omega, 3)
+				// @include horizontal_ul_structure(2.25 omega, 3)
 					
 							
