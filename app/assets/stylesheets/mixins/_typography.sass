@@ -13,7 +13,12 @@
 
 	// text-shadow: white($opacity) 0 1px 0
 
+// control the size using the compass vertical rhythym
+@mixin base_font
+	
+	@include improve-text-rendering	
 
+	
 
 @mixin anchor_font($size: 1em)
 	
@@ -21,6 +26,9 @@
 	@include improve-text-rendering
 	color: rgba(36,36,36,0.9)
 	font-size: 1.1em
+	1
 	// @include arial()
 	font-family: 'Noto Sans', sans-serif
-	// font-family: arial
+
+	// include a sans-serif font by default
+	@include sans-serif('Noto Sans')
