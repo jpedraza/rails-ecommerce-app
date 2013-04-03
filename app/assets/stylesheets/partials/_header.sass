@@ -46,7 +46,8 @@ header
 			#main
 
 				> ul
-					@include horizontal_ul_structure(5,5)
+					// horizontal ul structure (parent-columns, elemnets)
+					@include horizontal_ul_structure(7,5)
 					@include horizontal_nav
 					// approximate the size of the li element
 					// 
@@ -112,9 +113,9 @@ header
 
 				> ul	
 
-					@include pre(0.5)
+					@include pre(0.25)
 					// parent width / elements
-					@include horizontal_ul_structure(3.5, 3)	
+					@include horizontal_ul_structure(2, 3)	
 					@include horizontal_nav
 
 
@@ -122,7 +123,7 @@ header
 			#interaction		
 
 				> ul
-					@include pre(0.5)
+					@include pre(0.25)
 					@include horizontal_ul_structure(2.5, 3)
 					@include horizontal_nav
 				

@@ -2,16 +2,23 @@
 // single li element
 @mixin base_element
 	
-	@include box-emboss(1, 1)
-	@include trailer
-    @include leader
-    // @include adjust-font-size-to($base-font-size * 3, $lines:2)
-	// base element for a piece of our structure
+	
 	> a
 
-		height: 100%
+		// include our base font as stylized before!
+		padding: 1em 0 1em 0	
 		width: 100%
 		display: block
+		text-align: center
+		vertical-align: middle
+		background-color: orange
+		border-right: 1px solid black
+
+
+		// place a triangle after each element
+		span 
+
+				
 
 	
 // assumes that we will be putting an image as the background color
