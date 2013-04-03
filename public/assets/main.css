@@ -5986,6 +5986,11 @@ html {
   backface-visibility: visible !important;
 }
 
+@font-face {
+  font-family: "Icons";
+  src: url(/assets/fonts/icons.eot) format('embedded-opentype'), url(/assets/fonts/icons.svg) format('svg'), url(/assets/fonts/icons.ttf) format('truetype'), url(/assets/fonts/icons.woff) format('woff');
+}
+
 @media (min-width: 0em) {
   /* line 2, ../../app/assets/stylesheets/partials/_body.sass */
   body {
@@ -6165,6 +6170,10 @@ body ul {
     background-color: orange;
     border-right: 1px solid black;
   }
+  /* line 19, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #main > ul > li > a span {
+    font-family: "Icons";
+  }
   /* line 79, ../../app/assets/stylesheets/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2):hover > ul {
     display: block;
@@ -6285,6 +6294,10 @@ body ul {
     background-color: orange;
     border-right: 1px solid black;
   }
+  /* line 19, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #social > ul > li > a span {
+    font-family: "Icons";
+  }
   /* line 125, ../../app/assets/stylesheets/partials/_header.sass */
   header #interaction > ul {
     margin-left: 2.08333%;
@@ -6317,6 +6330,10 @@ body ul {
     vertical-align: middle;
     background-color: orange;
     border-right: 1px solid black;
+  }
+  /* line 19, ../../app/assets/stylesheets/mixins/_navigation.sass */
+  header #interaction > ul > li > a span {
+    font-family: "Icons";
   }
 }
 @media (min-width: 0em) {

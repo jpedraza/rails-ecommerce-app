@@ -78,6 +78,8 @@ module Clothing
     # make sure that stylesheet engine is working properly!
     config.generators.stylesheet_engine = :sass
 
+    # include the fonts directory in the assets directory
+    config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
   end
 end
