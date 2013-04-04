@@ -1,5 +1,6 @@
 {
 	"directory": "app/assets/javascripts/vendor",
+	"json": "bower.json",
 	"searchpath" : [
 
 
