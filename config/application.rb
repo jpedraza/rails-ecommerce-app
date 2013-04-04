@@ -73,7 +73,7 @@ module Clothing
     # config.sass.syntax = :sass
 
     # compass settings
-    config.compass.require "susy"
+    # config.compass.require "susy"
 
     # make sure that stylesheet engine is working properly!
     config.generators.stylesheet_engine = :sass

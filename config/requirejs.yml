@@ -2,3 +2,13 @@ modules:
  - name: 'application'
 paths:
  jquery: 'jquery/jquery.min'
+ hammer: 'hammerjs/dist/jquery.hammer.min'
+ modernizr: 'modernizr/modernizr'
+ angular: 'angular/angular.min'
+ plugins: 'plugins/plugins'
+
+
+
+# plugins: 'jquery_plugins/main'
+# mobile_gallery: 'jquery_plugins/plugins/mobile_gallery'
+# desktop_gallery: 'jquery_plugins/plugins/desktop_gallery'
