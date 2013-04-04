@@ -3,7 +3,13 @@
 	"version": "0.0.1",
 	"dependencies": {
 
+		"modernizr": "latest",
+		"jquery": "latest",
+		"MorehouseJ09/jquery_plugins": "latest",
 		"angular": "latest",
 		"hammerjs": "latest"	
-	}
+	},
+
+	"shorthand_resolver": "git://example.com/{{{ organization }}}/{{{ package }}}.git"
+
 }
