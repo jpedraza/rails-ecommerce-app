@@ -1,0 +1,4 @@
+modules:
+ - name: 'application'
+paths:
+ jquery: 'jquery/jquery.min'

@@ -5,11 +5,12 @@
 
 		"modernizr": "latest",
 		"jquery": "latest",
-		"MorehouseJ09/jquery_plugins": "latest",
+		"jquery_plugins": "MorehouseJ09/jquery_plugins",
 		"angular": "latest",
 		"hammerjs": "latest"	
 	},
 
-	"shorthand_resolver": "git://example.com/{{{ organization }}}/{{{ package }}}.git"
+	"shorthand_resolver": "git://github.com/{{{ organization }}}/{{{ package }}}.git"
+
 
 }

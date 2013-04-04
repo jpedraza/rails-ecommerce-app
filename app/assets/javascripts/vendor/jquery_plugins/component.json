@@ -1,0 +1,24 @@
+{
+  "name": "jquery_plugins",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "requirejs": "latest",
+    "jquery": "latest",
+    "hammerjs": "latest"
+  },
+  "gitHead": "4aae10ab6e2ebda6aaf98f294dbfd5072857eab7",
+  "readme": "Jon Morehouse's Jquery Plugin Library\n=\n\nThis repository is going to hold all of my jquery plugins and libraries.\nI'm planning to modularize all of my code that I use in projects into one easily installable bower package (this) that can be dropped into any existing project etc...\n\n",
+  "readmeFilename": "readme.md",
+  "_id": "plugins@0.0.0",
+  "description": "Jon Morehouse's Jquery Plugin Library =",
+  "commit": "4aae10ab6e2ebda6aaf98f294dbfd5072857eab7",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MorehouseJ09/jquery_plugins.git"
+  }
+}

@@ -80,6 +80,9 @@ module Clothing
 
     # include the fonts directory in the assets directory
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
+    # include the assets paths for the rails application so that our original bower install works well with this
+    config.assets.paths << "#{Rails.root}/app/assets/javascripts/vendor"
+
 
   end
 end
