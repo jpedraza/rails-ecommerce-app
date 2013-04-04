@@ -1,1337 +1,0 @@
-Script started on Wed Apr  3 17:04:53 2013
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Ksscripts
-zsh: command not found: scripts
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Krreload
-Source Loaded.
-Gemfile       Rakefile      bower.json    config.ru     [1m[36mdoc[39;49m[0m           [1m[36mlog[39;49m[0m           [1m[36mpublic[39;49m[0m        [1m[36mscript[39;49m[0m        [1m[36mtmp[39;49m[0m           [1m[36mvendor[39;49m[0m
-Gemfile.lock  [1m[36mapp[39;49m[0m           [1m[36mconfig[39;49m[0m        [1m[36mdb[39;49m[0m            [1m[36mlib[39;49m[0m           npm-debug.log readme.md     [1m[36mtest[39;49m[0m          typescript
-Source Loaded.
-Gemfile       Rakefile      bower.json    config.ru     [1m[36mdoc[39;49m[0m           [1m[36mlog[39;49m[0m           [1m[36mpublic[39;49m[0m        [1m[36mscript[39;49m[0m        [1m[36mtmp[39;49m[0m           [1m[36mvendor[39;49m[0m
-Gemfile.lock  [1m[36mapp[39;49m[0m           [1m[36mconfig[39;49m[0m        [1m[36mdb[39;49m[0m            [1m[36mlib[39;49m[0m           npm-debug.log readme.md     [1m[36mtest[39;49m[0m          typescript
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Ksscripts
-application.js.coffee [1m[36mfoundation[39;49m[0m            [1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Kb l
-application.js.coffee
-[1m[36mfoundation[39;49m[0m
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Kl
-application.js.coffee
-[1m[36mfoundation[39;49m[0m
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Knnpm uninstall bower
-[37m[40mnpm[0m [0m[30m[41mWARN[0m [0m[35muninstall[0m not installed in /Users/MorehouseJ09/node_modules: "bower"
-[0m[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Kbbower install -g bower
-^C[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Knnpm install -g bower
-[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/bower
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/bower
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/bower/-/bower-0.8.6.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/bower/-/bower-0.8.6.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/glob
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/async
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/colors
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/rimraf
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/mkdirp
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/fstream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/nopt
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/hogan.js
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/lodash
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/unzip/0.1.4
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/promptly
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/semver
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/tmp
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/archy
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/stable
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/request
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/read-package-json
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/tar
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/rc
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/glob
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/async
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/async/-/async-0.2.6.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/rimraf
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/colors
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/fstream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/mkdirp
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/nopt
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/hogan.js
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/lodash
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/tmp
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/semver
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/unzip/0.1.4
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/archy
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/promptly
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/unzip/-/unzip-0.1.4.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/promptly/-/promptly-0.1.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/stable
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/read-package-json
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/rc
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/tar
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/unzip/-/unzip-0.1.4.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/async/-/async-0.2.6.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/promptly/-/promptly-0.1.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/request
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/optimist
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/config-chain
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/read
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/graceful-fs
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/abbrev
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/lru-cache
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/slide
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/graceful-fs
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/npmlog
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/optimist
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/config-chain
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/lru-cache
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/read
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/slide
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/read/-/read-1.0.4.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/npmlog
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/graceful-fs
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/graceful-fs
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/abbrev
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/minimatch
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/pullstream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/binary
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/inherits
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/inherits
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/readable-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/setimmediate
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/buffers
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/over/0.0.5
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/read/-/read-1.0.4.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/inherits
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/readable-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/pullstream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/minimatch
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/inherits
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/binary
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/pullstream/-/pullstream-0.1.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/readable-stream/-/readable-stream-0.2.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/buffers
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/setimmediate
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/ini
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/proto-list
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/over/0.0.5
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/ansi
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/block-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/pullstream/-/pullstream-0.1.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/readable-stream/-/readable-stream-0.2.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/wordwrap
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/block-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/proto-list
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/ini
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/sigmund
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/ansi
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/wordwrap
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/mute-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/sigmund
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/mute-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.3.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.3.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/chainsaw
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/chainsaw
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/traverse
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/traverse
-[0m/usr/local/share/npm/bin/bower -> /usr/local/share/npm/lib/node_modules/bower/bin/bower
-bower@0.8.6 /usr/local/share/npm/lib/node_modules/bower
-├── stable@0.1.3
-├── archy@0.0.2
-├── colors@0.6.0-1
-├── semver@1.1.4
-├── tmp@0.0.16
-├── async@0.2.6
-├── mkdirp@0.3.5
-├── nopt@2.0.0 (abbrev@1.0.4)
-├── rimraf@2.0.3 (graceful-fs@1.1.14)
-├── fstream@0.1.22 (inherits@1.0.0, graceful-fs@1.2.0)
-├── read-package-json@0.1.13 (graceful-fs@1.2.0, lru-cache@2.0.4, slide@1.1.3, npmlog@0.0.2)
-├── tar@0.1.17 (inherits@1.0.0, block-stream@0.0.6)
-├── rc@0.0.8 (config-chain@0.3.3, optimist@0.3.5)
-├── glob@3.1.21 (inherits@1.0.0, graceful-fs@1.2.0, minimatch@0.2.11)
-├── request@2.11.4
-├── hogan.js@2.0.0
-├── promptly@0.1.0 (read@1.0.4)
-├── lodash@1.0.1
-└── unzip@0.1.4 (buffers@0.1.1, over@0.0.5, pullstream@0.1.0, setimmediate@1.0.1, readable-stream@0.2.0, binary@0.3.0)
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Kl
-application.js.coffee
-[1m[36mfoundation[39;49m[0m
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Knnpm   [H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Kl
-application.js.coffee
-[1m[36mfoundation[39;49m[0m
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K.
-[1m[36mfonts[39;49m[0m       [1m[36mimages[39;49m[0m      [1m[36mjavascripts[39;49m[0m [1m[36msprites[39;49m[0m     [1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kl
-.DS_Store
-[1m[36mfonts[39;49m[0m
-[1m[36mimages[39;49m[0m
-[1m[36mjavascripts[39;49m[0m
-[1m[36msprites[39;49m[0m
-[1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kl
-.DS_Store
-[1m[36mfonts[39;49m[0m
-[1m[36mimages[39;49m[0m
-[1m[36mjavascripts[39;49m[0m
-[1m[36msprites[39;49m[0m
-[1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kb l
-.DS_Store
-[1m[36mfonts[39;49m[0m
-[1m[36mimages[39;49m[0m
-[1m[36mjavascripts[39;49m[0m
-[1m[36msprites[39;49m[0m
-[1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Krrm .DS_Store[1m [0m[0m 
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kl
-[1m[36mfonts[39;49m[0m
-[1m[36mimages[39;49m[0m
-[1m[36mjavascripts[39;49m[0m
-[1m[36msprites[39;49m[0m
-[1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kl
-[1m[36mfonts[39;49m[0m
-[1m[36mimages[39;49m[0m
-[1m[36mjavascripts[39;49m[0m
-[1m[36msprites[39;49m[0m
-[1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kddocument[1m [0m[0m 
-[1m[36mcourses[39;49m[0m                [1m[36mmedia[39;49m[0m                  [1m[36mproduction_development[39;49m[0m [1m[36mresources[39;49m[0m              [1m[36mtemp[39;49m[0m
-[1m[36mgeneral_development[39;49m[0m    [1m[36mpersonal[39;49m[0m               [1m[36mprograms[39;49m[0m               [1m[36mstart_ups[39;49m[0m              [1m[36mwork[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [Kbbower install jquery
-bower [36mcloning[39m [90mgit://github.com/components/jquery.git[39m
-bower [36mcached[39m [90mgit://github.com/components/jquery.git[39m
-bower [36mfetching[39m [90mjquery[39m
-bower [36mchecking out[39m [90mjquery#1.9.1[39m
-bower [36mcopying[39m [90m/Users/MorehouseJ09/.bower/jquery/cf68c4c4e7507c8d20fee7b5f26709d9[39m
-bower [36minstalling[39m [90mjquery#1.9.1[39m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [Krrm -rf components[1m/[0m[0m 
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [Kl
-[1m[36mcourses[39;49m[0m
-[1m[36mgeneral_development[39;49m[0m
-[1m[36mmedia[39;49m[0m
-[1m[36mpersonal[39;49m[0m
-[1m[36mproduction_development[39;49m[0m
-[1m[36mprograms[39;49m[0m
-[1m[36mresources[39;49m[0m
-[1m[36mstart_ups[39;49m[0m
-[1m[36mtemp[39;49m[0m
-[1m[36mwork[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [Kl
-[1m[36mcourses[39;49m[0m
-[1m[36mgeneral_development[39;49m[0m
-[1m[36mmedia[39;49m[0m
-[1m[36mpersonal[39;49m[0m
-[1m[36mproduction_development[39;49m[0m
-[1m[36mprograms[39;49m[0m
-[1m[36mresources[39;49m[0m
-[1m[36mstart_ups[39;49m[0m
-[1m[36mtemp[39;49m[0m
-[1m[36mwork[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [Kcclothing
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kcclothing
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            bo[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kbbower install
-bower [36mcloning[39m [90mgit://github.com/angular/bower-angular.git[39m
-bower [36mcloning[39m [90mgit://github.com/EightMedia/hammer.js.git[39m
-bower [36mcached[39m [90mgit://github.com/angular/bower-angular.git[39m
-bower [36mfetching[39m [90mangular[39m
-bower [36mcached[39m [90mgit://github.com/EightMedia/hammer.js.git[39m
-bower [36mfetching[39m [90mhammerjs[39m
-bower [36mcloning[39m [90mgit://github.com/documentcloud/backbone.git[39m
-bower [36mcached[39m [90mgit://github.com/documentcloud/backbone.git[39m
-bower [36mfetching[39m [90mbackbone[39m
-bower [36mchecking out[39m [90mhammerjs#v1.0.4[39m
-bower [36mcopying[39m [90m/Users/MorehouseJ09/.bower/hammerjs/680df2f2b66850a6a755fd676e618cf9[39m
-bower [36mchecking out[39m [90mangular#v1.0.5[39m
-bower [36mcopying[39m [90m/Users/MorehouseJ09/.bower/angular/683afc7e2aea6bbad5baa3ce1e59216d[39m
-bower [36mchecking out[39m [90mbackbone#1.0.0[39m
-bower [36mcopying[39m [90m/Users/MorehouseJ09/.bower/backbone/f184345e8f03dbe160c843ce1b7248eb[39m
-bower [36mcloning[39m [90mgit://github.com/documentcloud/underscore.git[39m
-bower [36mcached[39m [90mgit://github.com/documentcloud/underscore.git[39m
-bower [36mfetching[39m [90munderscore[39m
-bower [36mchecking out[39m [90munderscore#1.4.4[39m
-bower [36mcopying[39m [90m/Users/MorehouseJ09/.bower/underscore/9180b1f1c10d9b9f1d0c111b684df18e[39m
-bower [36minstalling[39m [90mangular#1.0.5[39m
-bower [36minstalling[39m [90mhammerjs#1.0.4[39m
-bower [36minstalling[39m [90mbackbone#1.0.0[39m
-bower [36minstalling[39m [90munderscore#1.4.4[39m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            gi[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kggit add .
-cim [1m[3m%[23m[1m[0m                                                                                                                                                            "U[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kccim "Update       Inlc    Include base  ic bower   r confgi  iguration / installation / paga  ckage list"
-p[master 2e619f0] Include basic bower configuration / installation / package list
- 160 files changed, 85687 insertions(+), 11507 deletions(-)
- create mode 100644 .bowerrc
- delete mode 100644 app/assets/javascripts/application.js
- create mode 100644 app/assets/javascripts/application.js.coffee
- create mode 100644 app/assets/javascripts/vendor/angular/angular.js
- create mode 100644 app/assets/javascripts/vendor/angular/angular.min.js
- create mode 100644 app/assets/javascripts/vendor/angular/component.json
- create mode 100644 app/assets/javascripts/vendor/backbone/.gitignore
- create mode 100644 app/assets/javascripts/vendor/backbone/.npmignore
- create mode 100644 app/assets/javascripts/vendor/backbone/.travis.yml
- create mode 100644 app/assets/javascripts/vendor/backbone/CNAME
- create mode 100644 app/assets/javascripts/vendor/backbone/CONTRIBUTING.md
- create mode 100644 app/assets/javascripts/vendor/backbone/LICENSE
- create mode 100644 app/assets/javascripts/vendor/backbone/README.md
- create mode 100644 app/assets/javascripts/vendor/backbone/Rakefile
- create mode 100644 app/assets/javascripts/vendor/backbone/backbone-min.js
- create mode 100644 app/assets/javascripts/vendor/backbone/backbone-min.map
- create mode 100644 app/assets/javascripts/vendor/backbone/backbone.js
- create mode 100644 app/assets/javascripts/vendor/backbone/component.json
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/backbone-localstorage.html
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/backbone.html
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/backbone.localstorage.html
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/docco.css
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/images/favicon.ico
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/js/jquery.lazyload.js
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/jsl.conf
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-bold.eot
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-bold.ttf
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-bold.woff
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-light.eot
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-light.ttf
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-light.woff
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/fleurons.eot
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/fleurons.ttf
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/fleurons.woff
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/novecento-bold.eot
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/novecento-bold.ttf
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/novecento-bold.woff
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/public/stylesheets/normalize.css
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/todos.html
- create mode 100644 app/assets/javascripts/vendor/backbone/examples/backbone.localStorage.js
- create mode 100644 app/assets/javascripts/vendor/backbone/examples/todos/index.html
- create mode 100644 app/assets/javascripts/vendor/backbone/examples/todos/todos.css
- create mode 100644 app/assets/javascripts/vendor/backbone/examples/todos/todos.js
- create mode 100644 app/assets/javascripts/vendor/backbone/index.html
- create mode 100644 app/assets/javascripts/vendor/backbone/index.js
- create mode 100644 app/assets/javascripts/vendor/backbone/package.json
- create mode 100644 app/assets/javascripts/vendor/backbone/test/collection.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/environment.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/events.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/index.html
- create mode 100644 app/assets/javascripts/vendor/backbone/test/model.coffee
- create mode 100644 app/assets/javascripts/vendor/backbone/test/model.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/noconflict.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/router.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/sync.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/vendor/jquery.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/vendor/json2.js
- create mode 100755 app/assets/javascripts/vendor/backbone/test/vendor/qunit.css
- create mode 100755 app/assets/javascripts/vendor/backbone/test/vendor/qunit.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/vendor/runner.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/vendor/underscore.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/view.js
- delete mode 100644 app/assets/javascripts/vendor/custom.modernizr.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/.bowerrc
- create mode 100644 app/assets/javascripts/vendor/hammerjs/.gitignore
- create mode 100644 app/assets/javascripts/vendor/hammerjs/.travis.yml
- create mode 100644 app/assets/javascripts/vendor/hammerjs/Gruntfile.coffee
- create mode 100644 app/assets/javascripts/vendor/hammerjs/LICENSE
- create mode 100644 app/assets/javascripts/vendor/hammerjs/README.md
- create mode 100644 app/assets/javascripts/vendor/hammerjs/bower.json
- create mode 100644 app/assets/javascripts/vendor/hammerjs/component.json
- create mode 100644 app/assets/javascripts/vendor/hammerjs/dist/hammer.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/dist/hammer.min.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/dist/jquery.hammer.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/dist/jquery.hammer.min.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/README.md
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/assets/js/ga.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/assets/js/modernizr.js
- create mode 100755 app/assets/javascripts/vendor/hammerjs/examples/carousel.html
- create mode 100755 app/assets/javascripts/vendor/hammerjs/examples/drag.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/events.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/fastclick.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/jquery.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/no-jquery.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/nodejs.js
- create mode 100755 app/assets/javascripts/vendor/hammerjs/examples/pinchzoom.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/pull-to-refresh.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/zepto.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/package.json
- create mode 100644 app/assets/javascripts/vendor/hammerjs/plugins/hammer.fakemultitouch.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/plugins/hammer.showtouches.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/plugins/jquery.hammer.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/core.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/detection.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/event.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/gestures.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/instance.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/intro.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/outro.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/pointerevent.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/setup.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/utils.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/gestures.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/libs/jquery.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/libs/qunit.css
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/libs/qunit.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/libs/underscore.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/mouseevents.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/mousetouchevents.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/pointerevents_mouse.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/pointerevents_touch.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/touchevents.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/utils.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/utils.js
- delete mode 100644 app/assets/javascripts/vendor/jquery.js
- create mode 100644 app/assets/javascripts/vendor/jquery/bower.json
- create mode 100644 app/assets/javascripts/vendor/jquery/component.json
- create mode 100644 app/assets/javascripts/vendor/jquery/composer.json
- create mode 100644 app/assets/javascripts/vendor/jquery/jquery-migrate.js
- create mode 100644 app/assets/javascripts/vendor/jquery/jquery-migrate.min.js
- create mode 100644 app/assets/javascripts/vendor/jquery/jquery.js
- create mode 100644 app/assets/javascripts/vendor/jquery/jquery.min.js
- create mode 100644 app/assets/javascripts/vendor/underscore/.gitignore
- create mode 100644 app/assets/javascripts/vendor/underscore/.npmignore
- create mode 100644 app/assets/javascripts/vendor/underscore/.travis.yml
- create mode 100644 app/assets/javascripts/vendor/underscore/CNAME
- create mode 100644 app/assets/javascripts/vendor/underscore/CONTRIBUTING.md
- create mode 100644 app/assets/javascripts/vendor/underscore/LICENSE
- create mode 100644 app/assets/javascripts/vendor/underscore/README.md
- create mode 100644 app/assets/javascripts/vendor/underscore/Rakefile
- create mode 100644 app/assets/javascripts/vendor/underscore/component.json
- create mode 100644 app/assets/javascripts/vendor/underscore/docs/docco.css
- create mode 100644 app/assets/javascripts/vendor/underscore/docs/favicon.ico
- create mode 100644 app/assets/javascripts/vendor/underscore/docs/underscore.html
- create mode 100644 app/assets/javascripts/vendor/underscore/favicon.ico
- create mode 100644 app/assets/javascripts/vendor/underscore/index.html
- create mode 100644 app/assets/javascripts/vendor/underscore/index.js
- create mode 100644 app/assets/javascripts/vendor/underscore/package.json
- create mode 100644 app/assets/javascripts/vendor/underscore/test/arrays.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/chaining.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/collections.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/functions.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/index.html
- create mode 100644 app/assets/javascripts/vendor/underscore/test/objects.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/speed.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/utility.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/vendor/jquery.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/vendor/jslitmus.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/vendor/qunit.css
- create mode 100644 app/assets/javascripts/vendor/underscore/test/vendor/qunit.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/vendor/runner.js
- create mode 100644 app/assets/javascripts/vendor/underscore/underscore-min.js
- create mode 100644 app/assets/javascripts/vendor/underscore/underscore.js
- delete mode 100644 app/assets/javascripts/vendor/zepto.js
- create mode 100644 bower.json
- create mode 100644 component.json
- create mode 100644 typescript
-[1m[3m%[23m[1m[0m                                                                                                                                                            ush[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kppush
-Counting objects: 200, done.
-Delta compression using up to 2 threads.
-Compressing objects:   0% (1/173)   Compressing objects:   1% (2/173)   Compressing objects:   2% (4/173)   Compressing objects:   3% (6/173)   Compressing objects:   4% (7/173)   Compressing objects:   5% (9/173)   Compressing objects:   6% (11/173)   Compressing objects:   7% (13/173)   Compressing objects:   8% (14/173)   Compressing objects:   9% (16/173)   Compressing objects:  10% (18/173)   Compressing objects:  11% (20/173)   Compressing objects:  12% (21/173)   Compressing objects:  13% (23/173)   Compressing objects:  14% (25/173)   Compressing objects:  15% (26/173)   Compressing objects:  16% (28/173)   Compressing objects:  17% (30/173)   Compressing objects:  18% (32/173)   Compressing objects:  19% (33/173)   Compressing objects:  20% (35/173)   Compressing objects:  21% (37/173)   Compressing objects:  22% (39/173)   Compressing objects:  23% (40/173)   Compressing objects:  24% (42/173)   Compressing objects:  25% (44/173)   Compressing objects:  26% (45/173)   Compressing objects:  27% (47/173)   Compressing objects:  28% (49/173)   Compressing objects:  29% (51/173)   Compressing objects:  30% (52/173)   Compressing objects:  31% (54/173)   Compressing objects:  32% (56/173)   Compressing objects:  33% (58/173)   Compressing objects:  34% (59/173)   Compressing objects:  35% (61/173)   Compressing objects:  36% (63/173)   Compressing objects:  37% (65/173)   Compressing objects:  38% (66/173)   Compressing objects:  39% (68/173)   Compressing objects:  40% (70/173)   Compressing objects:  41% (71/173)   Compressing objects:  42% (73/173)   Compressing objects:  43% (75/173)   Compressing objects:  44% (77/173)   Compressing objects:  45% (78/173)   Compressing objects:  46% (80/173)   Compressing objects:  47% (82/173)   Compressing objects:  48% (84/173)   Compressing objects:  49% (85/173)   Compressing objects:  50% (87/173)   Compressing objects:  51% (89/173)   Compressing objects:  52% (90/173)   Compressing objects:  53% (92/173)   Compressing objects:  54% (94/173)   Compressing objects:  55% (96/173)   Compressing objects:  56% (97/173)   Compressing objects:  57% (99/173)   Compressing objects:  58% (101/173)   Compressing objects:  59% (103/173)   Compressing objects:  60% (104/173)   Compressing objects:  61% (106/173)   Compressing objects:  62% (108/173)   Compressing objects:  63% (109/173)   Compressing objects:  64% (111/173)   Compressing objects:  65% (113/173)   Compressing objects:  66% (115/173)   Compressing objects:  67% (116/173)   Compressing objects:  68% (118/173)   Compressing objects:  69% (120/173)   Compressing objects:  70% (122/173)   Compressing objects:  71% (123/173)   Compressing objects:  72% (125/173)   Compressing objects:  73% (127/173)   Compressing objects:  74% (129/173)   Compressing objects:  75% (130/173)   Compressing objects:  76% (132/173)   Compressing objects:  77% (134/173)   Compressing objects:  78% (135/173)   Compressing objects:  79% (137/173)   Compressing objects:  80% (139/173)   Compressing objects:  81% (141/173)   Compressing objects:  82% (142/173)   Compressing objects:  83% (144/173)   Compressing objects:  84% (146/173)   Compressing objects:  85% (148/173)   Compressing objects:  86% (149/173)   Compressing objects:  87% (151/173)   Compressing objects:  88% (153/173)   Compressing objects:  89% (154/173)   Compressing objects:  90% (156/173)   Compressing objects:  91% (158/173)   Compressing objects:  92% (160/173)   Compressing objects:  93% (161/173)   Compressing objects:  94% (163/173)   Compressing objects:  95% (165/173)   Compressing objects:  96% (167/173)   Compressing objects:  97% (168/173)   Compressing objects:  98% (170/173)   Compressing objects:  99% (172/173)   Compressing objects: 100% (173/173)   Compressing objects: 100% (173/173), done.
-Writing objects:   0% (1/188)   Writing objects:   1% (2/188)   Writing objects:   2% (4/188)   Writing objects:   3% (6/188)   Writing objects:   4% (8/188)   Writing objects:   5% (10/188)   Writing objects:   6% (12/188)   Writing objects:   7% (14/188)   Writing objects:   8% (16/188)   Writing objects:   9% (17/188)   Writing objects:  10% (19/188)   Writing objects:  11% (22/188)   Writing objects:  12% (23/188)   Writing objects:  13% (25/188)   Writing objects:  14% (27/188)   Writing objects:  15% (29/188)   Writing objects:  16% (31/188)   Writing objects:  17% (32/188)   Writing objects:  18% (34/188)   Writing objects:  19% (36/188)   Writing objects:  20% (38/188)   Writing objects:  21% (40/188)   Writing objects:  22% (42/188)   Writing objects:  23% (44/188)   Writing objects:  24% (46/188)   Writing objects:  25% (47/188)   Writing objects:  26% (49/188)   Writing objects:  27% (51/188)   Writing objects:  28% (53/188)   Writing objects:  29% (55/188)   Writing objects:  30% (57/188)   Writing objects:  31% (59/188)   Writing objects:  32% (61/188)   Writing objects:  33% (63/188)   Writing objects:  34% (64/188)   Writing objects:  35% (66/188)   Writing objects:  36% (68/188)   Writing objects:  37% (71/188)   Writing objects:  38% (72/188)   Writing objects:  39% (74/188)   Writing objects:  40% (76/188)   Writing objects:  42% (79/188)   Writing objects:  43% (81/188)   Writing objects:  44% (83/188)   Writing objects:  45% (85/188)   Writing objects:  46% (87/188)   Writing objects:  47% (89/188)   Writing objects:  48% (91/188)   Writing objects:  49% (93/188)   Writing objects:  50% (94/188)   Writing objects:  51% (96/188)   Writing objects:  52% (98/188)   Writing objects:  53% (100/188)   Writing objects:  54% (102/188)   Writing objects:  55% (104/188)   Writing objects:  56% (106/188)   Writing objects:  57% (108/188)   Writing objects:  58% (110/188)   Writing objects:  59% (111/188)   Writing objects:  60% (113/188)   Writing objects:  61% (115/188)   Writing objects:  62% (117/188)   Writing objects:  63% (119/188)   Writing objects:  64% (121/188)   Writing objects:  65% (123/188)   Writing objects:  66% (125/188)   Writing objects:  67% (126/188)   Writing objects:  68% (128/188)   Writing objects:  69% (130/188)   Writing objects:  70% (132/188)   Writing objects:  71% (134/188)   Writing objects:  72% (136/188)   Writing objects:  73% (138/188)   Writing objects:  74% (140/188)   Writing objects:  75% (141/188)   Writing objects:  76% (143/188)   Writing objects:  77% (145/188)   Writing objects:  78% (147/188)   Writing objects:  79% (149/188)   Writing objects:  80% (151/188)   Writing objects:  81% (153/188)   Writing objects:  82% (155/188)   Writing objects:  83% (157/188)   Writing objects:  84% (158/188)   Writing objects:  85% (160/188)   Writing objects:  86% (162/188)   Writing objects:  87% (164/188)   Writing objects:  88% (166/188)   Writing objects:  89% (168/188)   Writing objects:  90% (170/188)   Writing objects:  91% (172/188)   Writing objects:  92% (173/188)   Writing objects:  93% (175/188)   Writing objects:  94% (177/188)   Writing objects:  95% (179/188)   Writing objects:  96% (181/188)   Writing objects:  97% (183/188)   Writing objects:  98% (185/188)   Writing objects:  99% (187/188)   Writing objects: 100% (188/188)   Writing objects: 100% (188/188), 1.04 MiB, done.
-Total 188 (delta 33), reused 0 (delta 0)
-To git@github.com:MorehouseJ09/clothing_project.git
-   0df4e05..2e619f0  master -> master
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ck  [1m[36mapp[39;49m[0m           [1m[36mconfig[39;49m[0m        [1m[36mdb[39;49m[0m            [1m[36mlib[39;49m[0m           npm-debug.log readme.md     [1m[36mtest[39;49m[0m          typescript
-[1m[3m%[23m[1m[0m                                                                                                                                                            s[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Ksscript
-Script started, output file is typescript
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Ksscripts
-zsh: command not found: scripts
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Krreload
-Source Loaded.
-Gemfile       Rakefile      bower.json    config.ru     [1m[36mdoc[39;49m[0m           [1m[36mlog[39;49m[0m           [1m[36mpublic[39;49m[0m        [1m[36mscript[39;49m[0m        [1m[36mtmp[39;49m[0m           [1m[36mvendor[39;49m[0m
-Gemfile.lock  [1m[36mapp[39;49m[0m           [1m[36mconfig[39;49m[0m        [1m[36mdb[39;49m[0m            [1m[36mlib[39;49m[0m           npm-debug.log readme.md     [1m[36mtest[39;49m[0m          typescript
-Source Loaded.
-Gemfile       Rakefile      bower.json    config.ru     [1m[36mdoc[39;49m[0m           [1m[36mlog[39;49m[0m           [1m[36mpublic[39;49m[0m        [1m[36mscript[39;49m[0m        [1m[36mtmp[39;49m[0m           [1m[36mvendor[39;49m[0m
-Gemfile.lock  [1m[36mapp[39;49m[0m           [1m[36mconfig[39;49m[0m        [1m[36mdb[39;49m[0m            [1m[36mlib[39;49m[0m           npm-debug.log readme.md     [1m[36mtest[39;49m[0m          typescript
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Ksscripts
-application.js.coffee [1m[36mfoundation[39;49m[0m            [1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Kb l
-application.js.coffee
-[1m[36mfoundation[39;49m[0m
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Kl
-application.js.coffee
-[1m[36mfoundation[39;49m[0m
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Knnpm uninstall bower
-[37m[40mnpm[0m [0m[30m[41mWARN[0m [0m[35muninstall[0m not installed in /Users/MorehouseJ09/node_modules: "bower"
-[0m[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Kbbower install -g bower
-^C[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Knnpm install -g bower
-[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/bower
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/bower
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/bower/-/bower-0.8.6.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/bower/-/bower-0.8.6.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/glob
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/async
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/colors
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/rimraf
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/mkdirp
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/fstream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/nopt
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/hogan.js
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/lodash
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/unzip/0.1.4
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/promptly
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/semver
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/tmp
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/archy
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/stable
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/request
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/read-package-json
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/tar
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/rc
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/glob
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/async
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/async/-/async-0.2.6.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/rimraf
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/colors
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/fstream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/mkdirp
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/nopt
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/hogan.js
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/lodash
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/tmp
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/semver
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/unzip/0.1.4
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/archy
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/promptly
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/unzip/-/unzip-0.1.4.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/promptly/-/promptly-0.1.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/stable
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/read-package-json
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/rc
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/tar
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/unzip/-/unzip-0.1.4.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/async/-/async-0.2.6.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/promptly/-/promptly-0.1.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/request
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/optimist
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/config-chain
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/read
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/graceful-fs
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/abbrev
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/lru-cache
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/slide
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/graceful-fs
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/npmlog
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/optimist
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/config-chain
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/lru-cache
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/read
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/slide
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/read/-/read-1.0.4.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/npmlog
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/graceful-fs
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/graceful-fs
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/abbrev
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/minimatch
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/pullstream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/binary
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/inherits
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/inherits
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/readable-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/setimmediate
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/buffers
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/over/0.0.5
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/read/-/read-1.0.4.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/inherits
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/readable-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/pullstream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/minimatch
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/inherits
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/binary
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/pullstream/-/pullstream-0.1.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/readable-stream/-/readable-stream-0.2.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/buffers
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/setimmediate
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/ini
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/proto-list
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/over/0.0.5
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/ansi
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/block-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/pullstream/-/pullstream-0.1.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/readable-stream/-/readable-stream-0.2.0.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/wordwrap
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/block-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/proto-list
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/ini
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/sigmund
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/ansi
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/wordwrap
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/mute-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/sigmund
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/mute-stream
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.3.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.3.tgz
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/chainsaw
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/chainsaw
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35mGET[0m https://registry.npmjs.org/traverse
-[0m[37m[40mnpm[0m [0m[32m[40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/traverse
-[0m/usr/local/share/npm/bin/bower -> /usr/local/share/npm/lib/node_modules/bower/bin/bower
-bower@0.8.6 /usr/local/share/npm/lib/node_modules/bower
-├── stable@0.1.3
-├── archy@0.0.2
-├── colors@0.6.0-1
-├── semver@1.1.4
-├── tmp@0.0.16
-├── async@0.2.6
-├── mkdirp@0.3.5
-├── nopt@2.0.0 (abbrev@1.0.4)
-├── rimraf@2.0.3 (graceful-fs@1.1.14)
-├── fstream@0.1.22 (inherits@1.0.0, graceful-fs@1.2.0)
-├── read-package-json@0.1.13 (graceful-fs@1.2.0, lru-cache@2.0.4, slide@1.1.3, npmlog@0.0.2)
-├── tar@0.1.17 (inherits@1.0.0, block-stream@0.0.6)
-├── rc@0.0.8 (config-chain@0.3.3, optimist@0.3.5)
-├── glob@3.1.21 (inherits@1.0.0, graceful-fs@1.2.0, minimatch@0.2.11)
-├── request@2.11.4
-├── hogan.js@2.0.0
-├── promptly@0.1.0 (read@1.0.4)
-├── lodash@1.0.1
-└── unzip@0.1.4 (buffers@0.1.1, over@0.0.5, pullstream@0.1.0, setimmediate@1.0.1, readable-stream@0.2.0, binary@0.3.0)
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Kl
-application.js.coffee
-[1m[36mfoundation[39;49m[0m
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Knnpm   [H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [Kl
-application.js.coffee
-[1m[36mfoundation[39;49m[0m
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/javascripts (master*) $[00m [K.
-[1m[36mfonts[39;49m[0m       [1m[36mimages[39;49m[0m      [1m[36mjavascripts[39;49m[0m [1m[36msprites[39;49m[0m     [1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kl
-.DS_Store
-[1m[36mfonts[39;49m[0m
-[1m[36mimages[39;49m[0m
-[1m[36mjavascripts[39;49m[0m
-[1m[36msprites[39;49m[0m
-[1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kl
-.DS_Store
-[1m[36mfonts[39;49m[0m
-[1m[36mimages[39;49m[0m
-[1m[36mjavascripts[39;49m[0m
-[1m[36msprites[39;49m[0m
-[1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kb l
-.DS_Store
-[1m[36mfonts[39;49m[0m
-[1m[36mimages[39;49m[0m
-[1m[36mjavascripts[39;49m[0m
-[1m[36msprites[39;49m[0m
-[1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Krrm .DS_Store[1m [0m[0m 
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kl
-[1m[36mfonts[39;49m[0m
-[1m[36mimages[39;49m[0m
-[1m[36mjavascripts[39;49m[0m
-[1m[36msprites[39;49m[0m
-[1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kl
-[1m[36mfonts[39;49m[0m
-[1m[36mimages[39;49m[0m
-[1m[36mjavascripts[39;49m[0m
-[1m[36msprites[39;49m[0m
-[1m[36mstylesheets[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mclothing/app/assets (master*) $[00m [Kddocument[1m [0m[0m 
-[1m[36mcourses[39;49m[0m                [1m[36mmedia[39;49m[0m                  [1m[36mproduction_development[39;49m[0m [1m[36mresources[39;49m[0m              [1m[36mtemp[39;49m[0m
-[1m[36mgeneral_development[39;49m[0m    [1m[36mpersonal[39;49m[0m               [1m[36mprograms[39;49m[0m               [1m[36mstart_ups[39;49m[0m              [1m[36mwork[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [Kbbower install jquery
-bower [36mcloning[39m [90mgit://github.com/components/jquery.git[39m
-bower [36mcached[39m [90mgit://github.com/components/jquery.git[39m
-bower [36mfetching[39m [90mjquery[39m
-bower [36mchecking out[39m [90mjquery#1.9.1[39m
-bower [36mcopying[39m [90m/Users/MorehouseJ09/.bower/jquery/cf68c4c4e7507c8d20fee7b5f26709d9[39m
-bower [36minstalling[39m [90mjquery#1.9.1[39m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [Krrm -rf components[1m/[0m[0m 
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [Kl
-[1m[36mcourses[39;49m[0m
-[1m[36mgeneral_development[39;49m[0m
-[1m[36mmedia[39;49m[0m
-[1m[36mpersonal[39;49m[0m
-[1m[36mproduction_development[39;49m[0m
-[1m[36mprograms[39;49m[0m
-[1m[36mresources[39;49m[0m
-[1m[36mstart_ups[39;49m[0m
-[1m[36mtemp[39;49m[0m
-[1m[36mwork[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [Kl
-[1m[36mcourses[39;49m[0m
-[1m[36mgeneral_development[39;49m[0m
-[1m[36mmedia[39;49m[0m
-[1m[36mpersonal[39;49m[0m
-[1m[36mproduction_development[39;49m[0m
-[1m[36mprograms[39;49m[0m
-[1m[36mresources[39;49m[0m
-[1m[36mstart_ups[39;49m[0m
-[1m[36mtemp[39;49m[0m
-[1m[36mwork[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30m~/Documents $[00m [Kcclothing
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kcclothing
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            bo[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kbbower install
-bower [36mcloning[39m [90mgit://github.com/angular/bower-angular.git[39m
-bower [36mcloning[39m [90mgit://github.com/EightMedia/hammer.js.git[39m
-bower [36mcached[39m [90mgit://github.com/angular/bower-angular.git[39m
-bower [36mfetching[39m [90mangular[39m
-bower [36mcached[39m [90mgit://github.com/EightMedia/hammer.js.git[39m
-bower [36mfetching[39m [90mhammerjs[39m
-bower [36mcloning[39m [90mgit://github.com/documentcloud/backbone.git[39m
-bower [36mcached[39m [90mgit://github.com/documentcloud/backbone.git[39m
-bower [36mfetching[39m [90mbackbone[39m
-bower [36mchecking out[39m [90mhammerjs#v1.0.4[39m
-bower [36mcopying[39m [90m/Users/MorehouseJ09/.bower/hammerjs/680df2f2b66850a6a755fd676e618cf9[39m
-bower [36mchecking out[39m [90mangular#v1.0.5[39m
-bower [36mcopying[39m [90m/Users/MorehouseJ09/.bower/angular/683afc7e2aea6bbad5baa3ce1e59216d[39m
-bower [36mchecking out[39m [90mbackbone#1.0.0[39m
-bower [36mcopying[39m [90m/Users/MorehouseJ09/.bower/backbone/f184345e8f03dbe160c843ce1b7248eb[39m
-bower [36mcloning[39m [90mgit://github.com/documentcloud/underscore.git[39m
-bower [36mcached[39m [90mgit://github.com/documentcloud/underscore.git[39m
-bower [36mfetching[39m [90munderscore[39m
-bower [36mchecking out[39m [90munderscore#1.4.4[39m
-bower [36mcopying[39m [90m/Users/MorehouseJ09/.bower/underscore/9180b1f1c10d9b9f1d0c111b684df18e[39m
-bower [36minstalling[39m [90mangular#1.0.5[39m
-bower [36minstalling[39m [90mhammerjs#1.0.4[39m
-bower [36minstalling[39m [90mbackbone#1.0.0[39m
-bower [36minstalling[39m [90munderscore#1.4.4[39m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            gi[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kggit add .
-cim [1m[3m%[23m[1m[0m                                                                                                                                                            "U[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kccim "Update       Inlc    Include base  ic bower   r confgi  iguration / installation / paga  ckage list"
-p[master 2e619f0] Include basic bower configuration / installation / package list
- 160 files changed, 85687 insertions(+), 11507 deletions(-)
- create mode 100644 .bowerrc
- delete mode 100644 app/assets/javascripts/application.js
- create mode 100644 app/assets/javascripts/application.js.coffee
- create mode 100644 app/assets/javascripts/vendor/angular/angular.js
- create mode 100644 app/assets/javascripts/vendor/angular/angular.min.js
- create mode 100644 app/assets/javascripts/vendor/angular/component.json
- create mode 100644 app/assets/javascripts/vendor/backbone/.gitignore
- create mode 100644 app/assets/javascripts/vendor/backbone/.npmignore
- create mode 100644 app/assets/javascripts/vendor/backbone/.travis.yml
- create mode 100644 app/assets/javascripts/vendor/backbone/CNAME
- create mode 100644 app/assets/javascripts/vendor/backbone/CONTRIBUTING.md
- create mode 100644 app/assets/javascripts/vendor/backbone/LICENSE
- create mode 100644 app/assets/javascripts/vendor/backbone/README.md
- create mode 100644 app/assets/javascripts/vendor/backbone/Rakefile
- create mode 100644 app/assets/javascripts/vendor/backbone/backbone-min.js
- create mode 100644 app/assets/javascripts/vendor/backbone/backbone-min.map
- create mode 100644 app/assets/javascripts/vendor/backbone/backbone.js
- create mode 100644 app/assets/javascripts/vendor/backbone/component.json
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/backbone-localstorage.html
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/backbone.html
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/backbone.localstorage.html
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/docco.css
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/images/favicon.ico
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/js/jquery.lazyload.js
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/jsl.conf
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-bold.eot
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-bold.ttf
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-bold.woff
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-light.eot
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-light.ttf
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/aller-light.woff
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/fleurons.eot
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/fleurons.ttf
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/fleurons.woff
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/novecento-bold.eot
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/novecento-bold.ttf
- create mode 100755 app/assets/javascripts/vendor/backbone/docs/public/fonts/novecento-bold.woff
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/public/stylesheets/normalize.css
- create mode 100644 app/assets/javascripts/vendor/backbone/docs/todos.html
- create mode 100644 app/assets/javascripts/vendor/backbone/examples/backbone.localStorage.js
- create mode 100644 app/assets/javascripts/vendor/backbone/examples/todos/index.html
- create mode 100644 app/assets/javascripts/vendor/backbone/examples/todos/todos.css
- create mode 100644 app/assets/javascripts/vendor/backbone/examples/todos/todos.js
- create mode 100644 app/assets/javascripts/vendor/backbone/index.html
- create mode 100644 app/assets/javascripts/vendor/backbone/index.js
- create mode 100644 app/assets/javascripts/vendor/backbone/package.json
- create mode 100644 app/assets/javascripts/vendor/backbone/test/collection.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/environment.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/events.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/index.html
- create mode 100644 app/assets/javascripts/vendor/backbone/test/model.coffee
- create mode 100644 app/assets/javascripts/vendor/backbone/test/model.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/noconflict.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/router.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/sync.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/vendor/jquery.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/vendor/json2.js
- create mode 100755 app/assets/javascripts/vendor/backbone/test/vendor/qunit.css
- create mode 100755 app/assets/javascripts/vendor/backbone/test/vendor/qunit.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/vendor/runner.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/vendor/underscore.js
- create mode 100644 app/assets/javascripts/vendor/backbone/test/view.js
- delete mode 100644 app/assets/javascripts/vendor/custom.modernizr.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/.bowerrc
- create mode 100644 app/assets/javascripts/vendor/hammerjs/.gitignore
- create mode 100644 app/assets/javascripts/vendor/hammerjs/.travis.yml
- create mode 100644 app/assets/javascripts/vendor/hammerjs/Gruntfile.coffee
- create mode 100644 app/assets/javascripts/vendor/hammerjs/LICENSE
- create mode 100644 app/assets/javascripts/vendor/hammerjs/README.md
- create mode 100644 app/assets/javascripts/vendor/hammerjs/bower.json
- create mode 100644 app/assets/javascripts/vendor/hammerjs/component.json
- create mode 100644 app/assets/javascripts/vendor/hammerjs/dist/hammer.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/dist/hammer.min.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/dist/jquery.hammer.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/dist/jquery.hammer.min.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/README.md
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/assets/js/ga.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/assets/js/modernizr.js
- create mode 100755 app/assets/javascripts/vendor/hammerjs/examples/carousel.html
- create mode 100755 app/assets/javascripts/vendor/hammerjs/examples/drag.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/events.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/fastclick.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/jquery.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/no-jquery.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/nodejs.js
- create mode 100755 app/assets/javascripts/vendor/hammerjs/examples/pinchzoom.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/pull-to-refresh.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/examples/zepto.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/package.json
- create mode 100644 app/assets/javascripts/vendor/hammerjs/plugins/hammer.fakemultitouch.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/plugins/hammer.showtouches.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/plugins/jquery.hammer.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/core.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/detection.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/event.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/gestures.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/instance.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/intro.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/outro.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/pointerevent.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/setup.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/src/utils.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/gestures.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/libs/jquery.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/libs/qunit.css
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/libs/qunit.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/libs/underscore.js
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/mouseevents.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/mousetouchevents.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/pointerevents_mouse.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/pointerevents_touch.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/touchevents.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/utils.html
- create mode 100644 app/assets/javascripts/vendor/hammerjs/tests/utils.js
- delete mode 100644 app/assets/javascripts/vendor/jquery.js
- create mode 100644 app/assets/javascripts/vendor/jquery/bower.json
- create mode 100644 app/assets/javascripts/vendor/jquery/component.json
- create mode 100644 app/assets/javascripts/vendor/jquery/composer.json
- create mode 100644 app/assets/javascripts/vendor/jquery/jquery-migrate.js
- create mode 100644 app/assets/javascripts/vendor/jquery/jquery-migrate.min.js
- create mode 100644 app/assets/javascripts/vendor/jquery/jquery.js
- create mode 100644 app/assets/javascripts/vendor/jquery/jquery.min.js
- create mode 100644 app/assets/javascripts/vendor/underscore/.gitignore
- create mode 100644 app/assets/javascripts/vendor/underscore/.npmignore
- create mode 100644 app/assets/javascripts/vendor/underscore/.travis.yml
- create mode 100644 app/assets/javascripts/vendor/underscore/CNAME
- create mode 100644 app/assets/javascripts/vendor/underscore/CONTRIBUTING.md
- create mode 100644 app/assets/javascripts/vendor/underscore/LICENSE
- create mode 100644 app/assets/javascripts/vendor/underscore/README.md
- create mode 100644 app/assets/javascripts/vendor/underscore/Rakefile
- create mode 100644 app/assets/javascripts/vendor/underscore/component.json
- create mode 100644 app/assets/javascripts/vendor/underscore/docs/docco.css
- create mode 100644 app/assets/javascripts/vendor/underscore/docs/favicon.ico
- create mode 100644 app/assets/javascripts/vendor/underscore/docs/underscore.html
- create mode 100644 app/assets/javascripts/vendor/underscore/favicon.ico
- create mode 100644 app/assets/javascripts/vendor/underscore/index.html
- create mode 100644 app/assets/javascripts/vendor/underscore/index.js
- create mode 100644 app/assets/javascripts/vendor/underscore/package.json
- create mode 100644 app/assets/javascripts/vendor/underscore/test/arrays.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/chaining.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/collections.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/functions.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/index.html
- create mode 100644 app/assets/javascripts/vendor/underscore/test/objects.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/speed.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/utility.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/vendor/jquery.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/vendor/jslitmus.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/vendor/qunit.css
- create mode 100644 app/assets/javascripts/vendor/underscore/test/vendor/qunit.js
- create mode 100644 app/assets/javascripts/vendor/underscore/test/vendor/runner.js
- create mode 100644 app/assets/javascripts/vendor/underscore/underscore-min.js
- create mode 100644 app/assets/javascripts/vendor/underscore/underscore.js
- delete mode 100644 app/assets/javascripts/vendor/zepto.js
- create mode 100644 bower.json
- create mode 100644 component.json
- create mode 100644 typescript
-[1m[3m%[23m[1m[0m                                                                                                                                                            ush[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kppush
-Counting objects: 200, done.
-Delta compression using up to 2 threads.
-Compressing objects:   0% (1/173)   Compressing objects:   1% (2/173)   Compressing objects:   2% (4/173)   Compressing objects:   3% (6/173)   Compressing objects:   4% (7/173)   Compressing objects:   5% (9/173)   Compressing objects:   6% (11/173)   Compressing objects:   7% (13/173)   Compressing objects:   8% (14/173)   Compressing objects:   9% (16/173)   Compressing objects:  10% (18/173)   Compressing objects:  11% (20/173)   Compressing objects:  12% (21/173)   Compressing objects:  13% (23/173)   Compressing objects:  14% (25/173)   Compressing objects:  15% (26/173)   Compressing objects:  16% (28/173)   Compressing objects:  17% (30/173)   Compressing objects:  18% (32/173)   Compressing objects:  19% (33/173)   Compressing objects:  20% (35/173)   Compressing objects:  21% (37/173)   Compressing objects:  22% (39/173)   Compressing objects:  23% (40/173)   Compressing objects:  24% (42/173)   Compressing objects:  25% (44/173)   Compressing objects:  26% (45/173)   Compressing objects:  27% (47/173)   Compressing objects:  28% (49/173)   Compressing objects:  29% (51/173)   Compressing objects:  30% (52/173)   Compressing objects:  31% (54/173)   Compressing objects:  32% (56/173)   Compressing objects:  33% (58/173)   Compressing objects:  34% (59/173)   Compressing objects:  35% (61/173)   Compressing objects:  36% (63/173)   Compressing objects:  37% (65/173)   Compressing objects:  38% (66/173)   Compressing objects:  39% (68/173)   Compressing objects:  40% (70/173)   Compressing objects:  41% (71/173)   Compressing objects:  42% (73/173)   Compressing objects:  43% (75/173)   Compressing objects:  44% (77/173)   Compressing objects:  45% (78/173)   Compressing objects:  46% (80/173)   Compressing objects:  47% (82/173)   Compressing objects:  48% (84/173)   Compressing objects:  49% (85/173)   Compressing objects:  50% (87/173)   Compressing objects:  51% (89/173)   Compressing objects:  52% (90/173)   Compressing objects:  53% (92/173)   Compressing objects:  54% (94/173)   Compressing objects:  55% (96/173)   Compressing objects:  56% (97/173)   Compressing objects:  57% (99/173)   Compressing objects:  58% (101/173)   Compressing objects:  59% (103/173)   Compressing objects:  60% (104/173)   Compressing objects:  61% (106/173)   Compressing objects:  62% (108/173)   Compressing objects:  63% (109/173)   Compressing objects:  64% (111/173)   Compressing objects:  65% (113/173)   Compressing objects:  66% (115/173)   Compressing objects:  67% (116/173)   Compressing objects:  68% (118/173)   Compressing objects:  69% (120/173)   Compressing objects:  70% (122/173)   Compressing objects:  71% (123/173)   Compressing objects:  72% (125/173)   Compressing objects:  73% (127/173)   Compressing objects:  74% (129/173)   Compressing objects:  75% (130/173)   Compressing objects:  76% (132/173)   Compressing objects:  77% (134/173)   Compressing objects:  78% (135/173)   Compressing objects:  79% (137/173)   Compressing objects:  80% (139/173)   Compressing objects:  81% (141/173)   Compressing objects:  82% (142/173)   Compressing objects:  83% (144/173)   Compressing objects:  84% (146/173)   Compressing objects:  85% (148/173)   Compressing objects:  86% (149/173)   Compressing objects:  87% (151/173)   Compressing objects:  88% (153/173)   Compressing objects:  89% (154/173)   Compressing objects:  90% (156/173)   Compressing objects:  91% (158/173)   Compressing objects:  92% (160/173)   Compressing objects:  93% (161/173)   Compressing objects:  94% (163/173)   Compressing objects:  95% (165/173)   Compressing objects:  96% (167/173)   Compressing objects:  97% (168/173)   Compressing objects:  98% (170/173)   Compressing objects:  99% (172/173)   Compressing objects: 100% (173/173)   Compressing objects: 100% (173/173), done.
-Writing objects:   0% (1/188)   Writing objects:   1% (2/188)   Writing objects:   2% (4/188)   Writing objects:   3% (6/188)   Writing objects:   4% (8/188)   Writing objects:   5% (10/188)   Writing objects:   6% (12/188)   Writing objects:   7% (14/188)   Writing objects:   8% (16/188)   Writing objects:   9% (17/188)   Writing objects:  10% (19/188)   Writing objects:  11% (22/188)   Writing objects:  12% (23/188)   Writing objects:  13% (25/188)   Writing objects:  14% (27/188)   Writing objects:  15% (29/188)   Writing objects:  16% (31/188)   Writing objects:  17% (32/188)   Writing objects:  18% (34/188)   Writing objects:  19% (36/188)   Writing objects:  20% (38/188)   Writing objects:  21% (40/188)   Writing objects:  22% (42/188)   Writing objects:  23% (44/188)   Writing objects:  24% (46/188)   Writing objects:  25% (47/188)   Writing objects:  26% (49/188)   Writing objects:  27% (51/188)   Writing objects:  28% (53/188)   Writing objects:  29% (55/188)   Writing objects:  30% (57/188)   Writing objects:  31% (59/188)   Writing objects:  32% (61/188)   Writing objects:  33% (63/188)   Writing objects:  34% (64/188)   Writing objects:  35% (66/188)   Writing objects:  36% (68/188)   Writing objects:  37% (71/188)   Writing objects:  38% (72/188)   Writing objects:  39% (74/188)   Writing objects:  40% (76/188)   Writing objects:  42% (79/188)   Writing objects:  43% (81/188)   Writing objects:  44% (83/188)   Writing objects:  45% (85/188)   Writing objects:  46% (87/188)   Writing objects:  47% (89/188)   Writing objects:  48% (91/188)   Writing objects:  49% (93/188)   Writing objects:  50% (94/188)   Writing objects:  51% (96/188)   Writing objects:  52% (98/188)   Writing objects:  53% (100/188)   Writing objects:  54% (102/188)   Writing objects:  55% (104/188)   Writing objects:  56% (106/188)   Writing objects:  57% (108/188)   Writing objects:  58% (110/188)   Writing objects:  59% (111/188)   Writing objects:  60% (113/188)   Writing objects:  61% (115/188)   Writing objects:  62% (117/188)   Writing objects:  63% (119/188)   Writing objects:  64% (121/188)   Writing objects:  65% (123/188)   Writing objects:  66% (125/188)   Writing objects:  67% (126/188)   Writing objects:  68% (128/188)   Writing objects:  69% (130/188)   Writing objects:  70% (132/188)   Writing objects:  71% (134/188)   Writing objects:  72% (136/188)   Writing objects:  73% (138/188)   Writing objects:  74% (140/188)   Writing objects:  75% (141/188)   Writing objects:  76% (143/188)   Writing objects:  77% (145/188)   Writing objects:  78% (147/188)   Writing objects:  79% (149/188)   Writing objects:  80% (151/188)   Writing objects:  81% (153/188)   Writing objects:  82% (155/188)   Writing objects:  83% (157/188)   Writing objects:  84% (158/188)   Writing objects:  85% (160/188)   Writing objects:  86% (162/188)   Writing objects:  87% (164/188)   Writing objects:  88% (166/188)   Writing objects:  89% (168/188)   Writing objects:  90% (170/188)   Writing objects:  91% (172/188)   Writing objects:  92% (173/188)   Writing objects:  93% (175/188)   Writing objects:  94% (177/188)   Writing objects:  95% (179/188)   Writing objects:  96% (181/188)   Writing objects:  97% (183/188)   Writing objects:  98% (185/188)   Writing objects:  99% (187/188)   Writing objects: 100% (188/188)   Writing objects: 100% (188/188), 1.04 MiB, done.
-Total 188 (delta 33), reused 0 (delta 0)
-To git@github.com:MorehouseJ09/clothing_project.git
-   0df4e05..2e619f0  master -> master
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-component.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kl
-.bowerrc
-[1m[36m.git[39;49m[0m
-.gitignore
-.shell_config
-Gemfile
-Gemfile.lock
-Rakefile
-[1m[36mapp[39;49m[0m
-bower.json
-[1m[36mconfig[39;49m[0m
-config.ru
-[1m[36mdb[39;49m[0m
-[1m[36mdoc[39;49m[0m
-[1m[36mlib[39;49m[0m
-[1m[36mlog[39;49m[0m
-[1m[36mpublic[39;49m[0m
-readme.md
-[1m[36mscript[39;49m[0m
-[1m[36mtest[39;49m[0m
-[1m[36mtmp[39;49m[0m
-typescript
-[1m[36mvendor[39;49m[0m
-[1m[3m%[23m[1m[0m                                                                                                                                                            [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K

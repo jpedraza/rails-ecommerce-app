@@ -44,8 +44,6 @@ group :assets do
   gem 'susy'
   # include color-themes 
   gem 'compass-colors', :github => 'MorehouseJ09/compass-colors'
-  # include zurb foundation framework
-  gem 'zurb-foundation', '~> 4.0.0'
   # include sass button plugin for compass 
   # sassy-buttons is great but maybe not for this particular project?
   # gem 'sassy-buttons' 
