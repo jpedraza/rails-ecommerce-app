@@ -33,12 +33,9 @@ group :assets do
   # javascript gems 
   # gem 'requirejs-rails'
   gem 'coffee-rails', '~> 3.2.1'
-  # gem 'jquery-rails'
 
-  # compass gems etc
   # sass rails elements
   gem 'sass-rails', '~> 3.2.3'
-
   # install generic compasss gem
   gem 'compass' 
   # use compass with rails plugin for requiring
