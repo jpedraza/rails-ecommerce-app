@@ -31,7 +31,7 @@ end
 group :assets do
 
   # javascript gems 
-  # gem 'requirejs-rails'
+  gem 'requirejs-rails'
   gem 'coffee-rails', '~> 3.2.1'
 
   # sass rails elements
