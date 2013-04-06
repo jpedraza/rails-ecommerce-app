@@ -31,9 +31,9 @@ end
 group :assets do
 
   # javascript gems 
-  gem 'modernizr-rails'
-  gem 'requirejs-rails'
-  gem 'coffee-rails', '~> 3.2.1'
+  #gem 'modernizr-rails'
+  #gem 'requirejs-rails'
+  #gem 'coffee-rails', '~> 3.2.1'
 
   # sass rails elements
   # gem 'sass-rails', '~> 3.2.3'
