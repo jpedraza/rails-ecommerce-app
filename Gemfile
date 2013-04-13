@@ -31,11 +31,11 @@ end
 group :assets do
 
   # javascript gems 
+  gem 'coffee-script'
 
+  # include sass and compass dependencies into our gemfile etc
   gem 'sass'
   gem 'compass' 
-  # use compass with rails plugin for requiring
-  gem 'compass-rails'
   # susy grid system -- actually the greatest!!!
   gem 'susy'
   # include color-themes 
@@ -52,7 +52,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  gem 'therubyracer', :platforms => :ruby
   
 end
 
