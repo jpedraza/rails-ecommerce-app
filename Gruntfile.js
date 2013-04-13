@@ -32,10 +32,14 @@ module.exports = function( grunt ) {
       dist: {
         // http://compass-style.org/help/tutorials/configuration-reference/#configuration-properties
         options: {
-          css_dir: 'temp/styles',
-          sass_dir: 'app/styles',
+          // css directory output
+          css_dir: 'public/assets/stylesheets',
+          // sass directory for rails configuration
+          sass_dir: 'app/assets/stylesheets',
+          // images directory for compass configuration ...
           images_dir: 'app/images',
           javascripts_dir: 'temp/scripts',
+          
           force: true
         }
       }
@@ -51,24 +55,27 @@ module.exports = function( grunt ) {
       all: ['test/**/*.html']
     },
 
+
+
     // default watch configuration
     watch: {
       coffee: {
-        files: 'app/scripts/**/*.coffee',
+        files: 'app/assets/javascripts/**/**/*coffee',
         tasks: 'coffee reload'
       },
       compass: {
         files: [
-          'app/styles/**/*.{scss,sass}'
+          'app/assets/**/**/*.{scss,sass}'
         ],
         tasks: 'compass reload'
       },
+
+      // don't really need reload commands for the rails integration
       reload: {
         files: [
-          'app/*.html',
-          'app/styles/**/*.css',
-          'app/scripts/**/*.js',
-          'app/images/**/*'
+          // 'app/*.html',
+          'app/assets/javascripts/**/**/*coffee',
+          'app/assets/**/**/*.{scss,sass}'
         ],
         tasks: 'reload'
       }
