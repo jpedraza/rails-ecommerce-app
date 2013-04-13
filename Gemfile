@@ -50,7 +50,6 @@ group :assets do
   gem 'toolkit', :github => 'MorehouseJ09/toolkit'
   # uglifier for elements
   gem 'uglifier', '>= 1.0.3'
-
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
   

@@ -29,19 +29,12 @@ module.exports = function( grunt ) {
 
     // compile .scss/.sass to .css using Compass
     compass: {
+
       dist: {
-        // http://compass-style.org/help/tutorials/configuration-reference/#configuration-properties
         options: {
-          // css directory output
-          css_dir: 'public/assets/stylesheets',
-          // sass directory for rails configuration
-          sass_dir: 'app/assets/stylesheets',
-          // images directory for compass configuration ...
-          images_dir: 'app/images',
-          javascripts_dir: 'temp/scripts',
-          
-          force: true
-        }
+          // include compass ruby configuration file per the rails directory structure / scaffold
+          config: "config/compass.rb"
+        },
       }
     },
 
