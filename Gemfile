@@ -32,9 +32,9 @@ group :assets do
 
   # javascript gems 
   gem 'coffee-script'
-
   # include sass and compass dependencies into our gemfile etc
   gem 'sass'
+  # compass 
   gem 'compass' 
   # susy grid system -- actually the greatest!!!
   gem 'susy'
@@ -43,6 +43,7 @@ group :assets do
   # include sass button plugin for compass 
   # sassy-buttons is great but maybe not for this particular project?
   # gem 'sassy-buttons' 
+  # animation library that is from my own github account
   gem 'animate-sass', :github => 'MorehouseJ09/animate.sass'
   # use stitch framework for helpers throughout
   gem 'stitch'
@@ -59,22 +60,18 @@ group :development, :test do
 
   # To use ActiveModel has_secure_password
   gem 'bcrypt-ruby', '~> 3.0.0'
-
   # use a little tmux library to work with 
   gem 'tmux-ruby'  
   # Use unicorn as the app server
   # gem 'thin'
-
   # guard is useful for watching assets etc
   gem 'guard' 
-
   # Deploy with Capistrano
   gem 'capistrano'
-
   # To use debugger
   gem 'debugger'
+  #  
   gem 'better_errors', '>= 0.3.2'
-
 end
 
 

@@ -1,15 +1,14 @@
 module.exports = function( grunt ) {
+  
+  //  
   'use strict';
-  //
+
   // Grunt configuration:
-  //
   // https://github.com/cowboy/grunt/blob/master/docs/getting_started.md
-  //
   grunt.initConfig({
 
     // Project configuration
     // ---------------------
-
     // specify an alternate install location for Bower
     bower: {
       dir: 'vendor/assets/javascripts'
@@ -29,7 +28,6 @@ module.exports = function( grunt ) {
 
     // compile .scss/.sass to .css using Compass
     compass: {
-
       dist: {
         options: {
           // include compass ruby configuration file per the rails directory structure / scaffold
@@ -39,7 +37,7 @@ module.exports = function( grunt ) {
     },
 
     // generate application cache manifest
-    manifest:{
+    manifest: {
       dest: ''
     },
 
@@ -47,8 +45,6 @@ module.exports = function( grunt ) {
     mocha: {
       all: ['test/**/*.html']
     },
-
-
 
     // default watch configuration
     watch: {
