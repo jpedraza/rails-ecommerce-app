@@ -2,8 +2,9 @@
   define(["gallery"], function(gallery) {
     var galleryOptions;
 
-    alert("ELLO FROM GALLERY INIT!");
     galleryOptions = {
+      autoSlide: true,
+      autoSlideTimer: 2000,
       desktopClickDrag: true
     };
     return $('#gallery').iosSlider(galleryOptions);

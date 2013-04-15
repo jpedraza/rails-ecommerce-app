@@ -2245,6 +2245,8 @@ footer > p { width: 100%; display: block; text-align: center; vertical-align: mi
 
 /* line 18, ../../app/assets/styles/pages/_home.sass */
 #gallery { width: 600px; height: 200px; position: relative; top: 0; left: 0; overflow: hidden; }
+@media (min-width: 48em) { /* line 18, ../../app/assets/styles/pages/_home.sass */
+  #gallery { margin-left: 8.47458%; } }
 /* line 36, ../../app/assets/styles/pages/_home.sass */
 #gallery > div { width: 100%; height: 100%; }
 /* line 42, ../../app/assets/styles/pages/_home.sass */
