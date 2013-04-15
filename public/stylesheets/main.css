@@ -2285,16 +2285,22 @@ footer > p { width: 100%; display: block; text-align: center; vertical-align: mi
 #gallery > div:first-of-type { display: block; }
 
 /* line 75, ../../app/assets/styles/pages/_home.sass */
-#about { *zoom: 1; max-width: 100%; _width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; }
+#about { *zoom: 1; max-width: 100%; _width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; margin-bottom: 10em; }
 /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #about:after { content: ""; display: table; clear: both; }
-/* line 79, ../../app/assets/styles/pages/_home.sass */
-#about > div { width: 23.72881%; float: left; margin-right: 1.69492%; display: inline; }
-/* line 82, ../../app/assets/styles/pages/_home.sass */
+/* line 80, ../../app/assets/styles/pages/_home.sass */
+#about > div { height: 10em; width: 23.72881%; float: left; margin-right: 1.69492%; display: inline; }
+/* line 84, ../../app/assets/styles/pages/_home.sass */
 #about > div:first-of-type { margin-left: 13.55932%; }
-/* line 15, ../../app/assets/styles/mixins/_box.sass */
-#about > div:hover > div:first-of-type { display: none; }
-/* line 19, ../../app/assets/styles/mixins/_box.sass */
-#about > div:hover > div:last-of-type { display: block; }
-/* line 27, ../../app/assets/styles/mixins/_box.sass */
+/* line 11, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div { height: 100%; width: 100%; background-color: orange; }
+/* line 16, ../../app/assets/styles/mixins/_box.sass */
+#about > div:hover { cursor: pointer; }
+/* line 29, ../../app/assets/styles/mixins/_box.sass */
+#about > div:hover img { display: none; }
+/* line 33, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div:first-of-type { display: block; }
+/* line 38, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div:first-of-type > img { position: absolute; height: 100%; width: 100%; }
+/* line 45, ../../app/assets/styles/mixins/_box.sass */
 #about > div > div:last-of-type { display: none; }

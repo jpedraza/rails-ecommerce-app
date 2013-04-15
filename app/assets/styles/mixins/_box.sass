@@ -7,22 +7,40 @@
 // assume that this is called within the context of a normal div
 @mixin hover-box
 	
+	// initialize styles for both of the div children
+	> div
+		height: 100%
+		width: 100%
+		background-color: orange		
+
 	&:hover
 		
-		> div	
-			// put in some sort of transition here
+		// > div	
+		// 	// put in some sort of transition here
 
-		> div:first-of-type
+		// > div:first-of-type
+
+		// 	display: none
+
+		// > div:last-of-type
+
+		// 	display: block
+		cursor: pointer
+		img 
 
 			display: none
-
-		> div:last-of-type
-
-			display: block
 	
 	> div:first-of-type	
 
 		// this is the image and the corresponding small header etc
+		display: block
+
+		> img
+
+			position: absolute
+			height: 100%
+			width: 100%
+
 
 	> div:last-of-type
 
