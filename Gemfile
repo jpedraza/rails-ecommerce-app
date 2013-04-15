@@ -61,6 +61,10 @@ group :development, :test do
   # place holder images gem
   gem "placeholdit" 
 
+  # gorgery element for lorem ipsum throughout
+  gem "forgery"
+
+
   # To use ActiveModel has_secure_password
   gem 'bcrypt-ruby', '~> 3.0.0'
   # use a little tmux library to work with 

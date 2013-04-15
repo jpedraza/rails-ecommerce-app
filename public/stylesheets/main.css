@@ -1,27 +1,40 @@
 /*
-Syntax error: Invalid mixin include "@include".
-        on line 75 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/pages/_home.sass
+Syntax error: Undefined mixin 'span-column'.
+        on line 12 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/mixins/_box.sass, in `span-column'
+        from line 12 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/mixins/_box.sass, in `hover-box'
+        from line 75 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/pages/_home.sass
         from line 16 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/main.sass
 
 Backtrace:
+/Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/mixins/_box.sass:12:in `span-column'
+/Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/mixins/_box.sass:12:in `hover-box'
 /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/pages/_home.sass:75
 /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/main.sass:16
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:859:in `parse_mixin_include'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:667:in `parse_directive'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:566:in `parse_line'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:471:in `build_tree'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:490:in `block in append_children'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:489:in `each'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:489:in `append_children'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:480:in `block in build_tree'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:473:in `each'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:473:in `build_tree'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:490:in `block in append_children'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:489:in `each'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:489:in `append_children'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:345:in `_to_tree'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/engine.rb:274:in `to_tree'
-/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:268:in `block (3 levels) in visit_mixin'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:268:in `map'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:268:in `block (2 levels) in visit_mixin'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:268:in `block in visit_mixin'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:70:in `perform_arguments'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:263:in `visit_mixin'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:227:in `map'
+/Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
 /Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
 /Users/MorehouseJ09/.rvm/gems/ruby-1.9.3-p392@clothing/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -65,4 +78,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid mixin include \"@include\".\A         on line 75 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/pages/_home.sass\A         from line 16 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/main.sass"; }
+  content: "Syntax error: Undefined mixin 'span-column'.\A         on line 12 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/mixins/_box.sass, in `span-column'\A         from line 12 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/mixins/_box.sass, in `hover-box'\A         from line 75 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/pages/_home.sass\A         from line 16 of /Users/MorehouseJ09/Documents/production_development/clothing/app/assets/styles/main.sass"; }
