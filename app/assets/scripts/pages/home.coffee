@@ -2,14 +2,14 @@
 define ["gallery"], (gallery) ->
 	
 	# initialize gallery id to use the iosslider for now!
-	galleryOptions =
+	# galleryOptions =
 
-		# enable auto slideshow
-		autoSlide: true
-		# timer between slides
-		autoSlideTimer: 2000
-		# allow desktop dragging etc of slides
-		desktopClickDrag: true
+	# 	# enable auto slideshow
+	# 	autoSlide: true
+	# 	# timer between slides
+	# 	autoSlideTimer: 2000
+	# 	# allow desktop dragging etc of slides
+	# 	desktopClickDrag: true
 
 	# enable gallery for this particular gallery		
-	$('#gallery').iosSlider galleryOptions 	
+	# $('#gallery').iosSlider galleryOptions 	
