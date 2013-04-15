@@ -61,11 +61,15 @@ body
 			display: block
 			text-align: center
 			// include our base font!
-			@include anchor_font 
+			@include anchor_font(0.9em) 
 
 			> a		
-				@include anchor_font
+				@include anchor_font(0.9em)
 				text-decoration: none
+
+				> span
+
+					@include anchor_font(0.9em)
 
 
 

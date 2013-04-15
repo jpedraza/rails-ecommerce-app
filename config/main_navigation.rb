@@ -52,10 +52,10 @@ SimpleNavigation::Configuration.run do |navigation|
     primary.item :logo, 'Home', '/'
 
     # initialize men's / women's shopping etc
-    primary.item :store, 'Store', 'store_path' do |store|
+    primary.item :store, 'SHOP', 'store_path' do |store|
 
       # men subnavigation 
-      store.item :men, 'Men', '/men' do |men|
+      store.item :men, 'MEN', '/men' do |men|
 
         men.item :shirts, 'Shirts', '/men/shirts'
         men.item :shorts, 'Shorts', '/men/shorts'
@@ -64,7 +64,7 @@ SimpleNavigation::Configuration.run do |navigation|
       end
 
       # women sub navigation
-      store.item :women, 'Women', '/women' do |women|
+      store.item :women, 'WOMEN', '/women' do |women|
 
         women.item :tops, 'Tops', '/women/tops'
         women.item :bottoms, 'Bottoms', '/women/bottoms'
@@ -74,7 +74,7 @@ SimpleNavigation::Configuration.run do |navigation|
     end
 
     # angular js driven elements here!
-    primary.item :sports, 'Sports', '/sports' do |sports|
+    primary.item :sports, 'SPORTS', '/sports' do |sports|
 
       sports.item :football, 'Football', '#football'
       sports.item :football, 'Football', '#football'
@@ -84,7 +84,7 @@ SimpleNavigation::Configuration.run do |navigation|
     end
 
     # technology has its own route!
-    primary.item :technology, 'Tech', '/technology' do |technology|
+    primary.item :technology, 'TECH', '/technology' do |technology|
 
       technology.item :energy, 'EnergyDNA', 'http://energyDNA.com'
       technology.item :celliant, 'Celliant', 'http://celliant.com'
@@ -93,7 +93,7 @@ SimpleNavigation::Configuration.run do |navigation|
     end 
 
     # angular bumpbox here
-    primary.item :footwear, 'Footwear', '/footwear'
+    primary.item :footwear, 'FOOTWEAR', '/footwear'
 
     # # Add an item which has a sub navigation (same params, but with block)
     # primary.item :key_2, 'name', url, options do |sub_nav|

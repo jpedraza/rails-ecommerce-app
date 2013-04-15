@@ -59,17 +59,16 @@
 #gallery
 
 	margin-top: 5em
-	@include container
-	@include pre(1)
-	@include at-breakpoint($tablet $tablet-columns)
+	width: 100%
 
 	> div
+		width: 100%
 
-		display: none
-		&:first-of-type
+		@include clearfix
 
-			display: block
+		> img
 
+			width: 100%
 
 // include spacing that is specific for the elements	
 #about
@@ -78,6 +77,7 @@
 	margin-bottom: 10em
 
 	> div
+		position: relative
 		height: 10em
 		@include span-columns(3, 12)
 

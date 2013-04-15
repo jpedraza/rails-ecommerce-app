@@ -11,20 +11,29 @@
 	> div
 		height: 100%
 		width: 100%
+		position: absolute
+		top: 0
+		left: 0
 		background-color: orange		
+
+		> h1
+			position: absolute
+			top: 1em
+			@include center
 
 	&:hover
 		
-		// > div	
+		> div	
 		// 	// put in some sort of transition here
 
-		// > div:first-of-type
+		> div:first-of-type
 
-		// 	display: none
+			display: none
 
-		// > div:last-of-type
+		> div:last-of-type
 
-		// 	display: block
+			display: block
+
 		cursor: pointer
 		img 
 
@@ -42,11 +51,14 @@
 			width: 100%
 
 
+	// initialize styles for the content page that is shown when we hover!
 	> div:last-of-type
 
 		// this is the last image element etc
 		display: none
+		> h1
 
+			position: relative
 
-
-
+		> p
+			position: relative

@@ -57,6 +57,8 @@ Clothing::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
   root :to => 'home#home'
 
-  resources :store
+  match "men" => 'shop', :type => "MEN"
+
+  match "women" => 'shop#women'
 
 end

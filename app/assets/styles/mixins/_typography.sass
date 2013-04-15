@@ -7,6 +7,8 @@
 
 // load in google fonts
 @import url("http://fonts.googleapis.com/css?family=Noto+Sans") 
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,700")
+
 
 // similar to letter press
 @mixin letterpress($opacity, $color)
@@ -25,10 +27,10 @@
 	// include special text rendering -- experimentary 
 	@include improve-text-rendering
 	color: rgba(36,36,36,0.9)
-	font-size: 1.1em
+	font-size: $size
 	1
 	// @include arial()
-	font-family: 'Noto Sans', sans-serif
-
+	font-family: 'Oswald', 'Noto Sans', sans-serif
+	font-weight: 700
 	// include a sans-serif font by default
-	@include sans-serif('Noto Sans')
+	// @include sans-serif('Oswald Regular')

@@ -53,7 +53,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
-  
+
+  # install oily png to help us create sprite pngs quicker
+  gem 'oily_png'
+
 end
 
 group :development, :test do
