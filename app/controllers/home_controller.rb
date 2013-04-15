@@ -5,8 +5,8 @@ class HomeController < ApplicationController
 	def home 
 
 		# index home page			
-							
-
+		@tiles = ["HELLO", "HELLO", "HELLO"]							
+		
 	end
 
 

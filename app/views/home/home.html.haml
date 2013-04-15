@@ -14,19 +14,11 @@
 
 	%h1= "Our Story"
 
-	%div
-		/ front element etc
-		%div 
+	= @tiles.each do |tile|
 
-			= placeholdit "300x300"
+		%p= tile	
 
-		%div	
-					
-
-
-	%div
-
-	%div
+	end
 
 
 
