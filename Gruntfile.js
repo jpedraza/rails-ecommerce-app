@@ -17,8 +17,10 @@ module.exports = function (grunt) {
 
     // configurable paths
     var yeomanConfig = {
-        app: 'app',
-        dist: 'dist'
+        // where javascripts and coffeescripts etc go ...
+        app: 'app/assets',
+        dist: 'dist',
+        public: 'public/',
     };
 
     grunt.initConfig({
@@ -34,13 +36,13 @@ module.exports = function (grunt) {
             },
             compass: {
                 files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
-                tasks: ['compass:server']
+                tasks: ['compass:dist']
             },
             livereload: {
                 files: [
                     '<%= yeoman.app %>/*.html',
                     '{.tmp,<%= yeoman.app %>}/styles/{,*/}*.css',
-                    '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
+                    '{.tmp,<%= yeoman.app %>}/{,*/}*.js',
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
                 ],
                 tasks: ['livereload']
@@ -126,7 +128,7 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: '<%= yeoman.app %>/scripts',
                     src: '{,*/}*.coffee',
-                    dest: '.tmp/scripts',
+                    dest: 'public/javascripts',
                     ext: '.js'
                 }]
             },
@@ -140,16 +142,33 @@ module.exports = function (grunt) {
                 }]
             }
         },
+
+
+
         compass: {
+
+            // 
             options: {
-                 
+
+                    config: 'config/compass.rb',
+                    sassDir: '<%= yeoman.app %>/styles',
+                    cssDir: 'public/stylesheets',
+                    imagesDir: '<%= yeoman.app %>/images',
+                    javascriptsDir: '<%= yeoman.app %>/scripts',
+                    fontsDir: '<%= yeoman.app %>/styles/fonts',
+                    // importPath: 'app/components',
+                    relativeAssets: true
             },
+
+            // 
             dist: {},
+            
             server: {
                 options: {
                     debugInfo: true
                 }
             }
+
         },
         // not used since Uglify task does concat,
         // but still available if needed
@@ -161,7 +180,7 @@ module.exports = function (grunt) {
                 // Options: https://github.com/jrburke/r.js/blob/master/build/example.build.js
                 options: {
                     // `name` and `out` is set by grunt-usemin
-                    baseUrl: 'app/scripts',
+                    baseUrl: 'public/javascripts',
                     optimize: 'none',
                     // TODO: Figure out how to make sourcemaps work with grunt-usemin
                     // https://github.com/yeoman/grunt-usemin/issues/30
@@ -179,10 +198,10 @@ module.exports = function (grunt) {
             dist: {
                 files: {
                     src: [
-                        '<%= yeoman.dist %>/scripts/{,*/}*.js',
-                        '<%= yeoman.dist %>/styles/{,*/}*.css',
+                        '<%= yeoman.dist %>/javasacripts/{,*/}*.js',
+                        '<%= yeoman.dist %>/stylesheets/{,*/}*.css',
                         '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp}',
-                        '<%= yeoman.dist %>/styles/fonts/*'
+                        '<%= yeoman.dist %>/fonts/*'
                     ]
                 }
             }

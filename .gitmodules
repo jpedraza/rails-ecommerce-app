@@ -1,3 +1,0 @@
-[submodule "app/assets/javascripts/plugins"]
-	path = app/assets/javascripts/plugins
-	url = git://github.com/MorehouseJ09/jquery_plugins.git
