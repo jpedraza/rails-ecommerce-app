@@ -1,16 +1,16 @@
-@include at-breakpoint($phone $phone-columns)
+// @include at-breakpoint($phone $phone-columns)
 
-	// for our phone break point make sure that we are spanning the correct number of elements etc
-	#gallery, #about
+// 	// for our phone break point make sure that we are spanning the correct number of elements etc
+// 	#gallery, #about
 
-		@include span-columns(12, 12)
+// 		@include span-columns(12, 12)
 
-// include tablet-desktop specific styles so that our body is centered properly		
-@include at-breakpoint($tablet $tablet-columns)
+// // include tablet-desktop specific styles so that our body is centered properly		
+// @include at-breakpoint($tablet $tablet-columns)
 
-	#gallery, #about
+// 	#gallery, #about
 
-		@include span-columns(10, 12)
+// 		@include span-columns(10, 12)
 
 // global gallery / about styles etc
 // create a new container here?
@@ -18,15 +18,20 @@
 #gallery 
 
 	// make this its own grid etc to help with various pieces so that we can use the 12 column grid for children
-	@include container
+	// @include container
 
 	// only add the left element for the desktop size
-	@include at-breakpoint($tablet $tablet-columns)
+	// @include at-breakpoint($tablet $tablet-columns)
 
-		@include pre(1)
+		// @include pre(1)
+	width: 600px
+	height: 200px
 
-	height: 20em		
+	position: relative
+	top: 0
+	left: 0
 	overflow: hidden
+
 
 	> div
 
@@ -38,19 +43,17 @@
 
 			float: left
 			position: relative	
-			margin-top: 2em
-			@include span-columns(10, 12)
-			height: 100%
+			// margin-top: 2em
+			top: 0
+			left: 0
+			// @include span-columns(10, 12)
+			// height: 100%
+			height: 200px
+			width: 600px
 
-			> img
-
-				// width: 100%
-
-			&:first-of-type
-
-				display: block
-		
-			
+			img
+				height: 100%
+				width: 100%
 
 
 // include spacing that is specific for the elements	
