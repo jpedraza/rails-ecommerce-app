@@ -74,6 +74,18 @@
 // include spacing that is specific for the elements	
 #about
 
-	@include hover-box(3, 9, 10em)	
+	@include container
 
+	> div
+		@include span-columns(3, 12)
+
+		&:first-of-type
+			@include pre(1.5, 12)		
+
+		&:last-of-type	
+
+			// @include span-columns(3 omega, 12)
+
+		height: 2em				
+		background-color: orange
 

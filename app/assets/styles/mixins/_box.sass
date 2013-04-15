@@ -10,9 +10,31 @@
 	// this should go in a div element that has a hover showing and one not showing etc	
 	// on hover show second slide or something ....
 	@include span-columns($columns, $parent)
+	
+	height: $height
+	background-color: orange
 
 	> div
+
+		> img
+
+			display: none
+			// position: absolute
+			// top: 0	
+			// left: 0
+			// height: 100%
+			// width: 100%
+
+		> h1	
+
+			position: relative
+			color: black
+
 		// do something here
+		&:last-of-type
+
+			display: none
+
 
 
 
