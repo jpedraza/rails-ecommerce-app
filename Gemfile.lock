@@ -133,6 +133,7 @@ GEM
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
     origin (1.0.11)
+    placeholdit (0.0.3)
     polyglot (0.3.3)
     pry (0.9.12)
       coderay (~> 1.0.5)
@@ -222,6 +223,7 @@ DEPENDENCIES
   haml (= 4.0.0)
   jbuilder
   mongoid
+  placeholdit
   rails (= 3.2.13)
   sass
   simple-navigation (~> 3.10.0)

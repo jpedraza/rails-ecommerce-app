@@ -2254,4 +2254,4 @@ footer > p { width: 100%; display: block; text-align: center; vertical-align: mi
 @media (min-width: 48em) { /* line 20, ../../app/assets/styles/pages/_home.sass */
   #gallery { margin-left: 8.47458%; } }
 /* line 30, ../../app/assets/styles/pages/_home.sass */
-#gallery > div { margin-top: 2em; background-color: gray; width: 100%; float: left; margin-right: 1.69492%; display: inline; height: 5em; }
+#gallery > div { margin-top: 2em; width: 100%; float: left; margin-right: 1.69492%; display: inline; }
