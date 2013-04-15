@@ -1,9 +1,18 @@
 // import all base settings etc
 @import "config/base"
 
-// include our main off_canvas setup 
+// go ahead and include all mixins that we need to prevent the need for multiple inclusions throughout etc
+@import "mixins/box"
+@import "mixins/general"
+@import "mixins/icons"
+@import "mixins/navigation"
+@import "mixins/typography"
 
+// idea is that all partials have the proper mixins loaded in before hand so that we don't need to multiple include dependencies etc 
 @import "partials/header"
+@import "partials/footer"
+
+// 
 @import "pages/home"
 
 // include other elements here....

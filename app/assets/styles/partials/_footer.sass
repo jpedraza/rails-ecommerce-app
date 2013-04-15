@@ -1,0 +1,15 @@
+@include sticky-footer(5em, "#content", "#content", "footer")	
+	
+footer
+	
+	// @include span-columns(12)	
+	background-color: gray
+
+	// temporary p span tags etc!
+	> p	
+		@include center		
+		@include push(3, 12)
+		@include span-columns(6, 12)
+		background-color: blue
+
+		// color: orange
