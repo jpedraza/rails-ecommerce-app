@@ -2289,6 +2289,12 @@ footer > p { width: 100%; display: block; text-align: center; vertical-align: mi
 /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #about:after { content: ""; display: table; clear: both; }
 /* line 79, ../../app/assets/styles/pages/_home.sass */
-#about > div { width: 23.72881%; float: left; margin-right: 1.69492%; display: inline; height: 2em; background-color: orange; }
+#about > div { width: 23.72881%; float: left; margin-right: 1.69492%; display: inline; }
 /* line 82, ../../app/assets/styles/pages/_home.sass */
 #about > div:first-of-type { margin-left: 13.55932%; }
+/* line 15, ../../app/assets/styles/mixins/_box.sass */
+#about > div:hover > div:first-of-type { display: none; }
+/* line 19, ../../app/assets/styles/mixins/_box.sass */
+#about > div:hover > div:last-of-type { display: block; }
+/* line 27, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div:last-of-type { display: none; }

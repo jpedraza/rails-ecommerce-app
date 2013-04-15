@@ -4,36 +4,30 @@
 
 	box-shadow: white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0
 
-
-@mixin hover-box($columns, $parent, $height:10em)
-
-	// this should go in a div element that has a hover showing and one not showing etc	
-	// on hover show second slide or something ....
-	@include span-columns($columns, $parent)
+// assume that this is called within the context of a normal div
+@mixin hover-box
 	
-	height: $height
-	background-color: orange
+	&:hover
+		
+		> div	
+			// put in some sort of transition here
 
-	> div
-
-		> img
-
-			display: none
-			// position: absolute
-			// top: 0	
-			// left: 0
-			// height: 100%
-			// width: 100%
-
-		> h1	
-
-			position: relative
-			color: black
-
-		// do something here
-		&:last-of-type
+		> div:first-of-type
 
 			display: none
+
+		> div:last-of-type
+
+			display: block
+	
+	> div:first-of-type	
+
+		// this is the image and the corresponding small header etc
+
+	> div:last-of-type
+
+		// this is the last image element etc
+		display: none
 
 
 
