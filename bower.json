@@ -7,7 +7,9 @@
 		"jquery": "latest",
 		"jquery_plugins": "MorehouseJ09/jquery_plugins",
 		"angular": "latest",
-		"hammerjs": "latest"	
+		"hammerjs": "latest",
+		"iosslider": "latest",
+
 	},
 
 	"shorthand_resolver": "git://github.com/{{{ organization }}}/{{{ package }}}.git"

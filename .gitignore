@@ -16,3 +16,4 @@
 /.tmp
 dist/
 node_modules/
+public/components/

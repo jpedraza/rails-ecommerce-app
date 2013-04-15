@@ -1,0 +1,24 @@
+{
+  "name": "jquery_plugins",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "requirejs": "latest",
+    "jquery": "latest",
+    "hammerjs": "latest"
+  },
+  "gitHead": "8c2ae6d582ab90df1638c20dc0349f240bf0b4fd",
+  "readme": "Jon Morehouse's Jquery Plugin Library\n=\n\nThis repository is going to hold all of my jquery plugins and libraries.\nI'm planning to modularize all of my code that I use in projects into one easily installable bower package (this) that can be dropped into any existing project etc...\n\nSome Dependencies / Usage Cases\n=\n\nWe will assume that we are using coffeescript underneath require.js. These libraries will be using both the hammer.js javascript libraries and jquery etc.  \n",
+  "readmeFilename": "readme.md",
+  "_id": "plugins@0.0.0",
+  "description": "Jon Morehouse's Jquery Plugin Library =",
+  "commit": "8c2ae6d582ab90df1638c20dc0349f240bf0b4fd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MorehouseJ09/jquery_plugins.git"
+  }
+}

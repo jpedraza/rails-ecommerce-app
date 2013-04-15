@@ -1,0 +1,42 @@
+Script started on Mon Apr 15 02:28:21 2013
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Kr ccat .shell_config[1m [0m[0m 
+alias controller='cd app/controllers'
+alias view='cd app/views'
+alias model='cd app/models'
+alias scripts='cd app/assets/scripts'
+alias styles='cd app/assets/styles'
+alias plugins=''
+
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Ksscripts
+zsh: command not found: scripts
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Krreload
+Source Loaded.
+Gemfile        Rakefile       component.json [1m[36mdb[39;49m[0m             [1m[36mlog[39;49m[0m            [1m[36mpublic[39;49m[0m         [1m[36mtest[39;49m[0m           [1m[36mvendor[39;49m[0m
+Gemfile.lock   [1m[36mapp[39;49m[0m            [1m[36mconfig[39;49m[0m         [1m[36mdoc[39;49m[0m            [1m[36mnode_modules[39;49m[0m   readme.md      [1m[36mtmp[39;49m[0m
+Gruntfile.js   bower.json     config.ru      [1m[36mlib[39;49m[0m            package.json   [1m[36mscript[39;49m[0m         typescript
+Source Loaded.
+Gemfile        Rakefile       component.json [1m[36mdb[39;49m[0m             [1m[36mlog[39;49m[0m            [1m[36mpublic[39;49m[0m         [1m[36mtest[39;49m[0m           [1m[36mvendor[39;49m[0m
+Gemfile.lock   [1m[36mapp[39;49m[0m            [1m[36mconfig[39;49m[0m         [1m[36mdoc[39;49m[0m            [1m[36mnode_modules[39;49m[0m   readme.md      [1m[36mtmp[39;49m[0m
+Gruntfile.js   bower.json     config.ru      [1m[36mlib[39;49m[0m            package.json   [1m[36mscript[39;49m[0m         typescript
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mDocuments/production_development/clothing (master*) $[00m [Ksscripts
+application.coffee [1m[36mplugins[39;49m[0m            test.coffee        [1m[36mvendor[39;49m[0m
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [Kl
+application.coffee
+[1m[36mplugins[39;49m[0m
+test.coffee
+[1m[36mvendor[39;49m[0m
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [Kl
+application.coffee
+[1m[36mplugins[39;49m[0m
+test.coffee
+[1m[36mvendor[39;49m[0m
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [Kl
+application.coffee
+[1m[36mplugins[39;49m[0m
+test.coffee
+[1m[36mvendor[39;49m[0m
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [Kppbpst  aste > config.coffe     js
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [Klls
+application.coffee config.js          [1m[36mplugins[39;49m[0m            test.coffee        [1m[36mvendor[39;49m[0m
+[1m[3m%[23m[1m[0m                                                                                                                                                              [0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [K[H[J[0m[23m[24m[J[01;30mMorehouseJ09 [01;30mapp/assets/scripts (master*) $[00m [K
