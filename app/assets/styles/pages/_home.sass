@@ -14,8 +14,6 @@
 
 // global gallery / about styles etc
 // create a new container here?
-
-
 // this gallery is the parent element which spans 5/6 of screen width for desktop and 100% for mobile
 #gallery 
 
@@ -32,6 +30,7 @@
 
 	> div
 
+		width: 100%
 		// @include span-columns(12, 12)
 		height: 100%
 
@@ -40,7 +39,7 @@
 			float: left
 			position: relative	
 			margin-top: 2em
-			// width: 100%
+			@include span-columns(10, 12)
 			height: 100%
 
 			> img

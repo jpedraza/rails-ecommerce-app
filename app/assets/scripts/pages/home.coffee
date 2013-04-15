@@ -2,7 +2,7 @@
 define ["gallery"], (gallery) ->
 	
 	# initialize gallery id to use the iosslider for now!
-	# $('#gallery').iosSlider() 	
+	$('#gallery').iosSlider() 	
 		
 
 
