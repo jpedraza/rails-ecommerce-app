@@ -15,7 +15,7 @@
 // global gallery / about styles etc
 // create a new container here?
 // this gallery is the parent element which spans 5/6 of screen width for desktop and 100% for mobile
-#gallery 
+#old_gallery 
 
 	// make this its own grid etc to help with various pieces so that we can use the 12 column grid for children
 	// @include container
@@ -56,10 +56,22 @@
 				width: 100%
 
 
+#gallery
+
+	@include container
+	@include at-breakpoint($tablet $tablet-columns)
+
+	> div
+
+		display: none
+		&:first-of-type
+
+			display: block
+
+
 // include spacing that is specific for the elements	
 #about
 
-	display: none	
-	
+	@include 	
 
 
