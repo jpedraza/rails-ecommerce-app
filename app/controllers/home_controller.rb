@@ -5,13 +5,10 @@ class HomeController < ApplicationController
 	def home 
 
 		# index home page			
-					
+		@tiles = HomeTile			
+
+				
 
 
 	end
-
-
-
-	
-
 end

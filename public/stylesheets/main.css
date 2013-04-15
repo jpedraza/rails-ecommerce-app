@@ -2255,13 +2255,13 @@ footer > p { width: 100%; display: block; text-align: center; vertical-align: mi
 #old_gallery > div > div img { height: 100%; width: 100%; }
 
 /* line 59, ../../app/assets/styles/pages/_home.sass */
-#gallery { *zoom: 1; max-width: 100%; _width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; }
+#gallery { margin-top: 5em; *zoom: 1; max-width: 100%; _width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; margin-left: 12.82051%; }
 /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #gallery:after { content: ""; display: table; clear: both; }
-/* line 64, ../../app/assets/styles/pages/_home.sass */
+/* line 66, ../../app/assets/styles/pages/_home.sass */
 #gallery > div { display: none; }
-/* line 67, ../../app/assets/styles/pages/_home.sass */
+/* line 69, ../../app/assets/styles/pages/_home.sass */
 #gallery > div:first-of-type { display: block; }
 
-/* line 73, ../../app/assets/styles/pages/_home.sass */
+/* line 75, ../../app/assets/styles/pages/_home.sass */
 #about { width: 31.81818%; float: left; margin-right: 2.27273%; display: inline; }
