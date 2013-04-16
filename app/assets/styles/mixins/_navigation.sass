@@ -1,3 +1,10 @@
+// OVERVIEW
+
+// horizontal-dropdown is responsible for creating the flow out element that is responsible for dropping down the page and placing it at 100% width etc
+// horizontal-dropdown-structure is responsible for creating the spacing of elements for each element -- ie it will create a dropdown for 3 li elements spaced when passed 3
+// horizontal-ul-structure is responsible for spacing out the horizontal ul element by having a list for each element instead of just a single element
+
+
 // this is our generic vertical navigation bar as used throughout the site
 // single li element
 @mixin base_element
@@ -18,7 +25,6 @@
 		// include our base font as stylized before!
 		padding: 1em 0 1em 0	
 		@include center
-		// background-color: orange
 		border-right: 1px solid black
 		+background-image(linear-gradient(rgba(#fff, $background-opacity), rgba(#ccc,  $background-opacity), rgba(#aaa, $background-opacity*1.1)))
 		// background-opacity 
@@ -41,10 +47,6 @@
 	> li
 		@include box-emboss(0.8, 0.05)
 		@include base_element
-
-		> a
-			// color: orange
-				
 
 // vertical nav is called in the context of an li element with a ul inside!
 @mixin vertical_nav
@@ -78,10 +80,13 @@
 // decided that this isn't the best way to implement the grid system due to percentages
 // decimals mess up the proportions etc of the grid
 // thus, when parent!==elements we had all kind of issues
-@mixin horizontal_ul_structure($parent, $elements)
+@mixin horizontal_ul_structure($parent, $elements, $size: false)
 	
-	// best if this works as no decimal otherwise screws up everything!
 	$element_size: $parent / $elements
+	@if $size
+
+		$element_size: $size
+
 	// assumes that it will be called in the context of a ul
 	// span the parent # number of elements across
 	@include span-columns($parent)
@@ -145,9 +150,12 @@
 			// by default span the element by a fraction of 12 columns
 			@include span-columns($element_size, $parent_columns)
 
+			// hover element
 			&:hover	
 
-				background-color: orange
+				// PUT IN SOME SORT OF NAVIGATION GRADIENT HERE
+
+
 
 			// first li element needs to be pushed to the left!
 			&:first-of-type

@@ -54,6 +54,7 @@ header
 					@include horizontal_ul_structure(4,5)
 					$size: 4/5 
 					@include horizontal_nav
+
 					// approximate the size of the li element
 					// 
 					> li
@@ -67,8 +68,8 @@ header
 							// (parent_column, shift)
 							@include horizontal_dropdown($size, 1)
 							// initialize the structure of these dropdowns so that all spacing is set up for me already!
-							@include horizontal_dropdown_structure(4, 0)
-
+							// I'm struggling with this -- hacked it for now -- look later
+							@include horizontal_dropdown_structure(6, 0)
 
 							// now include the individual vertical lists for each piece
 							> ul > li
@@ -76,14 +77,13 @@ header
 								// call vertical navigation mixin for each sub menu we have!
 								@include vertical_nav
 
-
 						// sports
 						&:nth-of-type(3)
 
 							// base dropdown element
 							@include horizontal_dropdown($size, 2)
 							// now space out each of our elements properly so that we have the correct elements
-							@include horizontal_dropdown_structure(4)	
+							@include horizontal_dropdown_structure(4,2)	
 
 							// grab each individual element and place an image in there! -- assuming background image!
 							> ul > li
@@ -105,7 +105,7 @@ header
 							// create our generic horizontal dropdown element
 							@include horizontal_dropdown($size, 3)
 							// include the horizontal dropdown structure for each element
-							@include horizontal_dropdown_structure(3)
+							@include horizontal_dropdown_structure(3,3)
 
 							// now include the image_element piece for each individual li element
 							> ul > li	
