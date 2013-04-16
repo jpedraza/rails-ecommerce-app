@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("http://fonts.googleapis.com/css?family=Noto+Sans")  ;
-@import url("http://fonts.googleapis.com/css?family=Oswald:400, 700");
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,700");
 @import url("http://fonts.googleapis.com/css?family=Noto+Sans")  ;
 @import url("http://fonts.googleapis.com/css?family=Oswald:400,700");
 /* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
@@ -2238,7 +2238,7 @@ header { background: url('../images/medium_background.png?1319981578'); box-shad
   /* line 144, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:first-of-type { margin-left: 16.66667%; }
   /* line 118, ../../app/assets/styles/partials/_header.sass */
-  header #social > ul { margin-left: 12.5%; width: 16.66667%; float: left; margin-right: 0%; }
+  header #social > ul { margin-left: 29.16667%; width: 16.66667%; float: left; margin-right: 0%; }
   /* line 81, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li { width: 33.33333%; float: left; margin-right: 0%; }
   /* line 83, ../../app/assets/styles/mixins/_navigation.sass */
@@ -2249,10 +2249,8 @@ header { background: url('../images/medium_background.png?1319981578'); box-shad
   header #social > ul > li:hover > a { box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0; background: transparent; border-bottom: 0px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); }
   /* line 16, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li > a { padding: 1em 0 1em 0; width: 100%; display: block; text-align: center; vertical-align: middle; border-right: 1px solid black; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); border-bottom: 1px solid black; }
-  /* line 125, ../../app/assets/styles/partials/_header.sass */
-  header #social > ul > li { text-indent: -119988px; overflow: hidden; text-align: left; }
   /* line 133, ../../app/assets/styles/partials/_header.sass */
-  header #interaction > ul { margin-left: 16.66667%; width: 20.83333%; float: left; margin-right: 0%; }
+  header #interaction > ul { width: 20.83333%; float: left; margin-right: 0%; }
   /* line 81, ../../app/assets/styles/mixins/_navigation.sass */
   header #interaction > ul > li { width: 33.33333%; float: left; margin-right: 0%; }
   /* line 83, ../../app/assets/styles/mixins/_navigation.sass */
@@ -2280,7 +2278,7 @@ footer > p { width: 100%; display: block; text-align: center; vertical-align: mi
 #old_gallery > div > div img { height: 100%; width: 100%; }
 
 /* line 59, ../../app/assets/styles/pages/_home.sass */
-#gallery { margin-top: 5em; width: 100%; }
+#gallery { width: 100%; }
 /* line 64, ../../app/assets/styles/pages/_home.sass */
 #gallery > div { width: 100%; overflow: hidden; *zoom: 1; }
 /* line 69, ../../app/assets/styles/pages/_home.sass */
@@ -2291,8 +2289,10 @@ footer > p { width: 100%; display: block; text-align: center; vertical-align: mi
 /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #about:after { content: ""; display: table; clear: both; }
 /* line 79, ../../app/assets/styles/pages/_home.sass */
+#about > h1 { width: 151.28205%; float: left; margin-right: 2.5641%; display: inline; margin: 2em 0 2em 0; width: 100%; display: block; text-align: center; vertical-align: middle; color: white; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(255, 255, 255, 0.9); font-size: 2.1em; font-family: "Oswald", sans-serif; font-weight: 700; }
+/* line 87, ../../app/assets/styles/pages/_home.sass */
 #about > div { position: relative; height: 10em; width: 23.72881%; float: left; margin-right: 1.69492%; display: inline; }
-/* line 84, ../../app/assets/styles/pages/_home.sass */
+/* line 92, ../../app/assets/styles/pages/_home.sass */
 #about > div:first-of-type { margin-left: 13.55932%; }
 /* line 11, ../../app/assets/styles/mixins/_box.sass */
 #about > div > div { height: 100%; width: 100%; position: absolute; top: 0; left: 0; background-color: orange; }

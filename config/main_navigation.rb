@@ -54,12 +54,16 @@ SimpleNavigation::Configuration.run do |navigation|
     # initialize men's / women's shopping etc
     primary.item :store, 'SHOP', 'store_path' do |store|
 
+      # 
+      store.item :all, 'ALL', '/all'
+
       # men subnavigation 
       store.item :men, 'MEN', '/men' do |men|
 
         men.item :shirts, 'Shirts', '/men/shirts'
         men.item :shorts, 'Shorts', '/men/shorts'
         men.item :pants, 'Pants', '/men/pants'
+        men.item :gear, 'Gear', '/men/gear'
 
       end
 
@@ -69,8 +73,19 @@ SimpleNavigation::Configuration.run do |navigation|
         women.item :tops, 'Tops', '/women/tops'
         women.item :bottoms, 'Bottoms', '/women/bottoms'
         women.item :pants, 'Pants', '/women/pants'
+        women.item :gear, 'Gear', '/kids/gear'
 
       end 
+
+      store.item :kids, 'KIDS', '/kids' do |kids|
+
+        kids.item :tops, 'Tops', '/kids/tops'
+        kids.item :bottoms, 'Bottoms', '/kids/bottoms'
+        kids.item :pants, 'Pants', '/kids/pants'
+        kids.item :gear, 'Gear', '/kids/gear'
+
+      end
+
     end
 
     # angular js driven elements here!
