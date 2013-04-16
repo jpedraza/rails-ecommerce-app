@@ -53,25 +53,24 @@
 	position: relative
 
 	> a 
+		padding-top: 1.5em
 		display: block	
-		color: black
 		width: 100%
 		text-align: center
 
 		// this direct span represents the top navigation piece for the vertical dropdown etc
 		> span
 
-			margin-top: 0
-			@include header_font
-			font-size: 1.8em
-			color: rgba(36,36,36,0.9)
-
-
-
+			@include anchor_font
+			padding-top: 2em
+			font-size: 2em
+			margin-top: 1em 
 	> ul
-		color: red
 
-		
+		> li > a > span
+
+			@include anchor_font		
+			font-size: 1.2em
 
 
 

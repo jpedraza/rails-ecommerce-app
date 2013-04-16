@@ -26,6 +26,7 @@
 	color: rgba(255,255,255,0.9)
 	font-size: $size
 	font-family: 'Oswald', sans-serif	
+	@include sans-serif('Oswald')
 	font-weight: 700
 	
 @mixin header_font($size: 2.9em)
@@ -36,7 +37,8 @@
 	letter-spacing: 0em
 	color: rgba(255,255,255,0.9)
 	font-size: $size
-	font-family: 'Titillium Web', sans-serif	
+	// font-family: 'Titillium Web', sans-serif	
+	@include sans-serif('Titillium Web')
 	text-transform: uppercase
 	font-weight: 900
 	color: white
@@ -50,7 +52,7 @@
 	color: rgba(36,36,36,0.9)
 	font-size: $size
 	// @include arial()
-	font-family: 'Oswald', 'Noto Sans', sans-serif
+	// font-family: 'Oswald', 'Noto Sans', sans-serif
 	font-weight: 700
 	// include a sans-serif font by default
-	// @include sans-serif('Oswald Regular')
+	@include sans-serif('Oswald')

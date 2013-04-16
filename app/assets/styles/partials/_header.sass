@@ -88,6 +88,7 @@ header
 							// grab each individual element and place an image in there! -- assuming background image!
 							> ul > li
 
+								@include vertical_nav
 								// no need for an image element etc here so lets just call the background !
 								&:nth-of-type(1)	
 									@include image_element("football")
@@ -108,7 +109,8 @@ header
 
 							// now include the image_element piece for each individual li element
 							> ul > li	
-
+							
+								@include vertical_nav
 								// include the proper images etc for each piece! 
 								@include image_element("energy_dna")
 								@include image_element("celliant")

@@ -2173,11 +2173,11 @@ body { background: url('../images/global_background.png?1309383556'); }
 /* line 57, ../../app/assets/styles/partials/_body.sass */
 body ul { list-style-type: none; }
 /* line 60, ../../app/assets/styles/partials/_body.sass */
-body ul > li { display: block; text-align: center; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; font-family: "Oswald", "Noto Sans", sans-serif; font-weight: 700; }
+body ul > li { display: block; text-align: center; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 /* line 66, ../../app/assets/styles/partials/_body.sass */
-body ul > li > a { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; font-family: "Oswald", "Noto Sans", sans-serif; font-weight: 700; text-decoration: none; }
+body ul > li > a { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; text-decoration: none; }
 /* line 70, ../../app/assets/styles/partials/_body.sass */
-body ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; font-family: "Oswald", "Noto Sans", sans-serif; font-weight: 700; }
+body ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 /* line 2, ../../app/assets/styles/partials/_header.sass */
 header { background: url('../images/medium_background.png?1319981578'); box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0; }
@@ -2193,9 +2193,9 @@ header { background: url('../images/medium_background.png?1319981578'); box-shad
   header:after { content: ""; display: table; clear: both; }
   /* line 52, ../../app/assets/styles/partials/_header.sass */
   header #main > ul { width: 33.33333%; float: left; margin-right: 0%; }
-  /* line 91, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 90, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li { width: 20%; float: left; margin-right: 0%; }
-  /* line 93, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 92, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:last-of-type { width: 20%; float: right; margin-right: 0; }
   /* line 41, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li { box-shadow: white(0.8) 0 1px 0, inset black(0.05) 0 1px 0; border-right: 0px solid black; }
@@ -2203,49 +2203,65 @@ header { background: url('../images/medium_background.png?1319981578'); box-shad
   header #main > ul > li:hover > a { box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0; background: transparent; border-bottom: 0px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); }
   /* line 16, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li > a { padding: 1em 0 1em 0; width: 100%; display: block; text-align: center; vertical-align: middle; border-right: 1px solid black; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); border-bottom: 1px solid black; }
-  /* line 114, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2):hover > ul { display: block; }
-  /* line 116, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 115, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul { display: none; width: 1500%; float: left; margin-right: 0%; margin-left: -100%; position: relative; }
-  /* line 144, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 143, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li { width: 25%; float: left; margin-right: 0%; }
-  /* line 149, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 148, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li:hover { background-color: orange; }
-  /* line 154, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 153, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li:first-of-type { margin-left: 0%; }
   /* line 74, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(2) > ul > li { position: relative; }
   /* line 55, ../../app/assets/styles/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(2) > ul > li > a { display: block; color: black; width: 100%; text-align: center; }
+  header #main > ul > li:nth-of-type(2) > ul > li > a { padding-top: 1.5em; display: block; width: 100%; text-align: center; }
   /* line 62, ../../app/assets/styles/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(2) > ul > li > a > span { margin-top: 0; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(255, 255, 255, 0.9); font-size: 2.9em; font-family: "Oswald", sans-serif; font-weight: 700; letter-spacing: 0em; color: rgba(255, 255, 255, 0.9); font-size: 2.9em; font-family: "Titillium Web", sans-serif; text-transform: uppercase; font-weight: 900; color: white; font-size: 1.8em; color: rgba(36, 36, 36, 0.9); }
-  /* line 71, ../../app/assets/styles/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(2) > ul > li > ul { color: red; }
-  /* line 114, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; padding-top: 2em; font-size: 2em; margin-top: 1em; }
+  /* line 70, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.2em; }
+  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3):hover > ul { display: block; }
-  /* line 116, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 115, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul { display: none; width: 1500%; float: left; margin-right: 0%; margin-left: -200%; position: relative; }
-  /* line 144, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 143, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 149, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 148, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:hover { background-color: orange; }
-  /* line 154, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 153, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:first-of-type { margin-left: 16.66667%; }
-  /* line 114, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 89, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li { position: relative; }
+  /* line 55, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li > a { padding-top: 1.5em; display: block; width: 100%; text-align: center; }
+  /* line 62, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; padding-top: 2em; font-size: 2em; margin-top: 1em; }
+  /* line 70, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.2em; }
+  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4):hover > ul { display: block; }
-  /* line 116, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 115, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul { display: none; width: 1500%; float: left; margin-right: 0%; margin-left: -300.0%; position: relative; }
-  /* line 144, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 143, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li { width: 22.22222%; float: left; margin-right: 0%; }
-  /* line 149, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 148, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:hover { background-color: orange; }
-  /* line 154, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 153, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:first-of-type { margin-left: 16.66667%; }
-  /* line 120, ../../app/assets/styles/partials/_header.sass */
+  /* line 111, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li { position: relative; }
+  /* line 55, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li > a { padding-top: 1.5em; display: block; width: 100%; text-align: center; }
+  /* line 62, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; padding-top: 2em; font-size: 2em; margin-top: 1em; }
+  /* line 70, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.2em; }
+  /* line 122, ../../app/assets/styles/partials/_header.sass */
   header #social > ul { margin-left: 29.16667%; width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 91, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 90, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li { width: 33.33333%; float: left; margin-right: 0%; }
-  /* line 93, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 92, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:last-of-type { width: 33.33333%; float: right; margin-right: 0; }
   /* line 41, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li { box-shadow: white(0.8) 0 1px 0, inset black(0.05) 0 1px 0; border-right: 0px solid black; }
@@ -2253,11 +2269,11 @@ header { background: url('../images/medium_background.png?1319981578'); box-shad
   header #social > ul > li:hover > a { box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0; background: transparent; border-bottom: 0px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); }
   /* line 16, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li > a { padding: 1em 0 1em 0; width: 100%; display: block; text-align: center; vertical-align: middle; border-right: 1px solid black; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); border-bottom: 1px solid black; }
-  /* line 135, ../../app/assets/styles/partials/_header.sass */
+  /* line 137, ../../app/assets/styles/partials/_header.sass */
   header #interaction > ul { width: 20.83333%; float: left; margin-right: 0%; }
-  /* line 91, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 90, ../../app/assets/styles/mixins/_navigation.sass */
   header #interaction > ul > li { width: 33.33333%; float: left; margin-right: 0%; }
-  /* line 93, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 92, ../../app/assets/styles/mixins/_navigation.sass */
   header #interaction > ul > li:last-of-type { width: 33.33333%; float: right; margin-right: 0; }
   /* line 41, ../../app/assets/styles/mixins/_navigation.sass */
   header #interaction > ul > li { box-shadow: white(0.8) 0 1px 0, inset black(0.05) 0 1px 0; border-right: 0px solid black; }
@@ -2293,7 +2309,7 @@ footer > p { width: 100%; display: block; text-align: center; vertical-align: mi
 /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #about:after { content: ""; display: table; clear: both; }
 /* line 79, ../../app/assets/styles/pages/_home.sass */
-#about > h1 { width: 151.28205%; float: left; margin-right: 2.5641%; display: inline; margin: 1em 0 1em 0; width: 100%; display: block; text-align: center; vertical-align: middle; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(255, 255, 255, 0.9); font-size: 2.9em; font-family: "Oswald", sans-serif; font-weight: 700; letter-spacing: 0em; color: rgba(255, 255, 255, 0.9); font-size: 2.9em; font-family: "Titillium Web", sans-serif; text-transform: uppercase; font-weight: 900; color: white; }
+#about > h1 { width: 151.28205%; float: left; margin-right: 2.5641%; display: inline; margin: 1em 0 1em 0; width: 100%; display: block; text-align: center; vertical-align: middle; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(255, 255, 255, 0.9); font-size: 2.9em; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; letter-spacing: 0em; color: rgba(255, 255, 255, 0.9); font-size: 2.9em; font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform: uppercase; font-weight: 900; color: white; }
 /* line 86, ../../app/assets/styles/pages/_home.sass */
 #about > div { position: relative; height: 10em; width: 23.72881%; float: left; margin-right: 1.69492%; display: inline; }
 /* line 91, ../../app/assets/styles/pages/_home.sass */
