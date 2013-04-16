@@ -67,13 +67,15 @@ header
 							// (parent_column, shift)
 							@include horizontal_dropdown($size, 1)
 							// initialize the structure of these dropdowns so that all spacing is set up for me already!
-							@include horizontal_dropdown_structure(2, 3)
+							@include horizontal_dropdown_structure(4, 0)
+
 
 							// now include the individual vertical lists for each piece
 							> ul > li
 
 								// call vertical navigation mixin for each sub menu we have!
 								@include vertical_nav
+
 
 						// sports
 						&:nth-of-type(3)
