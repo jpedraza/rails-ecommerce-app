@@ -151,13 +151,13 @@ module.exports = function (grunt) {
             options: {
 
                     config: 'config/compass.rb',
-                    sassDir: '<%= yeoman.app %>/styles',
-                    cssDir: 'public/stylesheets',
+                    // sassDir: '<%= yeoman.app %>/styles',
+                    // cssDir: 'public/stylesheets',
                     // imagesDir: '<%= yeoman.app %>/images',
                     // javascriptsDir: '<%= yeoman.app %>/scripts',
                     // fontsDir: '<%= yeoman.app %>/styles/fonts',
                     // importPath: 'app/components',
-                    relativeAssets: true
+                    // relativeAssets: true
             },
 
             // 
