@@ -59,6 +59,16 @@ header
 					// 
 					> li
 
+						&:nth-of-type(1)
+
+							> a > span
+								color: orange
+								// @include hide-text
+								// background: image-url("logos/black.png")	
+								@include replace-text("logos/black.png")
+
+
+
 						// now add our navigation mixin for a basic horizontal navigation bar
 						// this is an li element for the store
 						// we want to call the horizontal dropdown for 
