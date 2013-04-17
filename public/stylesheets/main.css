@@ -2,9 +2,6 @@
 @import url("http://fonts.googleapis.com/css?family=Noto+Sans")  ;
 @import url("http://fonts.googleapis.com/css?family=Oswald:400,700");
 @import url("http://fonts.googleapis.com/css?family=Titillium+Web:900");
-@import url("http://fonts.googleapis.com/css?family=Noto+Sans")  ;
-@import url("http://fonts.googleapis.com/css?family=Oswald:400,700");
-@import url("http://fonts.googleapis.com/css?family=Titillium+Web:900");
 /* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
 
@@ -2140,8 +2137,6 @@ html { font-size: 16px; line-height: 1.5em; }
 
 /* line 29, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/bundler/gems/animate.sass-a6e41ed48d3d/stylesheets/animate/animations/flippers/_flipOutY.scss */
 .flipOutY { -webkit-animation-name: flipOutY; -moz-animation-name: flipOutY; -ms-animation-name: flipOutY; -o-animation-name: flipOutY; animation-name: flipOutY; -webkit-backface-visibility: visible !important; -moz-backface-visibility: visible !important; -ms-backface-visibility: visible !important; -o-backface-visibility: visible !important; backface-visibility: visible !important; }
-
-@font-face { font-family: "Icons"; src: url('/public/stylesheets/fonts/icons.eot') format('embedded-opentype'), url('/public/stylesheets/fonts/icons.svg') format('svg'), url('/public/stylesheets/fonts/icons.ttf') format('truetype'), url('/public/stylesheets/fonts/icons.woff') format('woff'); }
 
 @font-face { font-family: "Icons"; src: url('/public/stylesheets/fonts/icons.eot') format('embedded-opentype'), url('/public/stylesheets/fonts/icons.svg') format('svg'), url('/public/stylesheets/fonts/icons.ttf') format('truetype'), url('/public/stylesheets/fonts/icons.woff') format('woff'); }
 
