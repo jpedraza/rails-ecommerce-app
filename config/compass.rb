@@ -20,4 +20,4 @@ project_style = :stand_alone
 # output style
 output_style = :compact
 # initialize images directory
-images_dir = "public/images"
+images_dir = "images"
