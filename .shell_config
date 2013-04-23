@@ -3,5 +3,4 @@ alias view='cd app/views'
 alias model='cd app/models'
 alias scripts='cd app/assets/scripts'
 alias styles='cd app/assets/styles'
-alias plugins=''
-
+alias logos='cd public/images/logos'
