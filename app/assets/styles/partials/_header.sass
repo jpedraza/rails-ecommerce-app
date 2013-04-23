@@ -1,7 +1,9 @@
 // stylistic pieces at top here
 header
 	
-	// background: image-url("medium_background.png")
+	position: absolute	
+	z-index: 1000
+	
 	background: image-url("medium_background.png")
 	@include box-emboss(0.8, 0.5)
 	
@@ -69,7 +71,6 @@ header
 								height: 100%
 								@include replace-text("logos/black.png", 0, 22.5px)
 								background-size: 100%
-								background
 								> span
 
 									display: none
@@ -150,16 +151,60 @@ header
 								&:nth-of-type(2)
 
 									@include image_element("logos/celliant.png")
-
-									> a
-
-										background-size: auto 60%
-										background-position: center 15%
+									@include center_image_element
 
 								//
 								&:nth-of-type(3)
 
 									@include image_element("logos/trimera.png")
+
+						// this is the footwear navigation section
+						&:nth-of-type(5)
+
+							// initialize our initial dropdown element
+							@include horizontal_dropdown($size, 4)
+							// now include our structure for each of the different thumbnails in the element
+							@include horizontal_dropdown_structure(5, 1)
+
+							// li element 
+							> ul > li
+
+								// 
+								@include vertical_nav
+
+								// basketball
+								&:nth-of-type(1)
+
+									// shoe goes here
+									@include image_element("logos/footwear/basketball.png")
+									@include center_image_element
+
+								// football
+								&:nth-of-type(2)
+
+									@include image_element("logos/footwear/football.png")
+									@include center_image_element
+
+								// soccer
+								&:nth-of-type(3)
+
+									@include image_element("logos/footwear/soccer.png")
+									@include center_image_element
+
+
+								// training
+								&:nth-of-type(4)
+									
+									@include image_element("logos/footwear/training.png")
+									@include center_image_element
+
+								// casual
+								&:nth-of-type(5)
+
+									// include basic casual image etc
+									@include image_element("logos/footwear/casual.png")
+									@include center_image_element
+
 
 			// initialize the social element
 			#social						

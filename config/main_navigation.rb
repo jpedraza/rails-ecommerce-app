@@ -108,7 +108,18 @@ SimpleNavigation::Configuration.run do |navigation|
     end 
 
     # angular bumpbox here
-    primary.item :footwear, 'FOOTWEAR', '/footwear'
+    primary.item :footwear, 'FOOTWEAR', '/footwear' do |footwear|
+
+      footwear.item :basketball, 'Basketball', '#'
+      footwear.item :football, 'Football', '#'
+      footwear.item :soccer, 'Soccer', '#'
+      footwear.item :training, 'Training', '#' 
+      footwear.item :casual, 'Casual', '#'
+
+    end
+
+
+
 
     # # Add an item which has a sub navigation (same params, but with block)
     # primary.item :key_2, 'name', url, options do |sub_nav|

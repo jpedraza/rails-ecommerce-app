@@ -61,9 +61,14 @@
 
 			// height: 100px
 			display: block
-			// background-color: gray
 
 
+// 
+@mixin center_image_element
+	
+	> a
+		background-size: auto 60%
+		background-position: center 15%
 
 		
 @mixin horizontal_nav
@@ -115,6 +120,8 @@
 	// assumes that it will be called in the context of a ul
 	// span the parent # number of elements across
 	@include span-columns($parent)
+	// position: absolute
+	// top: 100%
 
 	// now make sure that the child spans the proper amount of elements with no overflow
 	> li
@@ -154,7 +161,7 @@
 		// pull the entire list left according to the passed in parameter
 		@include pull($shift, $parent_column)
 		position: relative
-
+		
 
 // a list of vertical elements!
 // the vertical nav is responsible for displaying $elements(li) elements 
