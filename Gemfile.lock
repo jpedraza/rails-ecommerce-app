@@ -91,6 +91,9 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    figaro (0.6.3)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     filesize (0.0.2)
     forgery (0.5.0)
     formatador (0.2.4)
@@ -222,6 +225,7 @@ DEPENDENCIES
   compass
   compass-colors!
   debugger
+  figaro
   forgery
   guard
   haml (= 4.0.0)

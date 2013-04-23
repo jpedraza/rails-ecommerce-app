@@ -22,6 +22,9 @@ group :development, :test, :production do
   gem "simple_form"
   # To use Jbuilder templates for JSON
   gem 'jbuilder'
+
+  # figaro gem for grabbing / storing all the keys etc for different twitter / networks
+  gem 'figaro'
   
 end
 
