@@ -55,7 +55,7 @@
 		
 // assumes that we will be putting an image as the background color
 // assumes that our sprite is the class provided
-@mixin image_element($image, $right_border: true)	
+@mixin image_element($image, $right_border: true, $left_border: false)	
 	
 	// assume that this element is called within an li element	
 	@include clearfix
@@ -82,6 +82,9 @@
 		@if $right_border
 			border-right: 1px solid black
 
+		@if $left_border
+
+			border-left: 1px solid black
 
 		// 
 		> span
@@ -167,6 +170,9 @@
 			@include anchor_font		
 			font-size: 1.2em
 
+			&:hover
+
+				text-decoration: underline
 
 
 
