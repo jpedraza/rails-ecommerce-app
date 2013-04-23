@@ -83,9 +83,17 @@
 @mixin logo($image, $width: 90%)
 	
 	> a	
-
-				
-
+		height: 100%
+		width: 100%
+		// include compass hide-text to hide all span elements etc
+		@include hide-text
+		// include the passed in image for now
+		
+		// this will all be optimized later into single sprite etc ...
+		background: image-url($image)
+		background-position: center center
+		background-size: $width auto
+		background-repeat: no-repeat
 
 // this is helpful for centering an image vertically based on our album elements that are present in the various album dropdowns etc
 @mixin center_image_element

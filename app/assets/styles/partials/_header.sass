@@ -64,29 +64,7 @@ header
 						&:nth-of-type(1)
 
 							display: block
-
-							> a 
-								display: inline-block
-								width: 100%
-								height: 100%
-								@include replace-text("logos/black.png", 0, 22.5px)
-								background-size: 100%
-								> span
-
-									display: none
-
-
-								@include hide-text("logos/black.png")
-
-								> span
-									// @include hide-text
-									// background: image-url("logos/black.png")	
-									height: 100%
-									width: 100%
-									display: block
-									@include replace-text("logos/black.png", 0, 0)
-									background: image-url("logos/black.png")
-
+							@include logo("logos/black.png")	
 
 
 						// now add our navigation mixin for a basic horizontal navigation bar
@@ -158,7 +136,7 @@ header
 
 								&:nth-of-type(1)
 
-									@include image_element("logos/energy_dna.png")	
+									@include image_element("logos/tech/energy_dna.png")	
 									
 									> a
 										background-size: 70% auto
@@ -166,13 +144,13 @@ header
 
 								&:nth-of-type(2)
 
-									@include image_element("logos/celliant.png")
+									@include image_element("logos/tech/celliant.png")
 									@include center_image_element
 
 								//
 								&:nth-of-type(3)
 
-									@include image_element("logos/trimera.png", false)
+									@include image_element("logos/tech/trimera.png", false)
 
 						// this is the footwear navigation section
 						&:nth-of-type(5)
@@ -234,7 +212,20 @@ header
 
 					> li
 
-						// @include hide-text
+						// facebook logo
+						&:nth-of-type(1)
+
+							@include logo("logos/social/facebook.png")
+
+						// twitter logo
+						&:nth-of-type(2)
+
+							@include logo("logos/social/twitter.png")
+
+						// instagram logo
+						&:nth-of-type(3)
+
+							@include logo("logos/social/instagram.png")
 
 
 			// initialize the interaction menu here
