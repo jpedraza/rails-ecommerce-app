@@ -2194,11 +2194,11 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header:after { content: ""; display: table; clear: both; }
   /* line 54, ../../app/assets/styles/partials/_header.sass */
   header #main > ul { width: 33.33333%; float: left; margin-right: 0%; }
-  /* line 171, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 185, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li { width: 20%; float: left; margin-right: 0%; }
-  /* line 173, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 187, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:last-of-type { width: 20%; float: right; margin-right: 0; }
-  /* line 121, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 135, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li { box-shadow: white(0.8) 0 1px 0, inset black(0.05) 0 1px 0; border-right: 0px solid black; }
   /* line 21, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:hover > a { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0; background: transparent; border-bottom: 0px; }
@@ -2212,43 +2212,43 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li > ul { display: none; }
   /* line 64, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(1) { display: block; }
-  /* line 93, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 94, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(1) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
-  /* line 100, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 101, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(1) > a > span { height: 100%; width: 100%; background: url('/images/logos/black.png'); background-position: center center; background-size: 90% auto; background-repeat: no-repeat; }
-  /* line 192, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 206, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -100%; position: relative; }
-  /* line 218, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 232, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 224, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 238, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li:first-of-type { margin-left: 0%; }
   /* line 83, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(2) > ul > li { position: relative; }
-  /* line 131, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 145, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li > a { padding-top: 1.5em; display: block; width: 100%; text-align: center; }
-  /* line 138, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 152, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; padding-top: 2em; font-size: 2em; margin-top: 1em; }
   /* line 61, ../../app/assets/styles/mixins/_typography.sass */
   header #main > ul > li:nth-of-type(2) > ul > li > a > span:hover { color: black; }
-  /* line 146, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 160, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.2em; }
   /* line 61, ../../app/assets/styles/mixins/_typography.sass */
   header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a > span:hover { color: black; }
-  /* line 192, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 206, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -200%; position: relative; }
-  /* line 218, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 232, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 224, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 238, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:first-of-type { margin-left: 16.66667%; }
   /* line 97, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(3) > ul > li { position: relative; }
-  /* line 131, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 145, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li > a { padding-top: 1.5em; display: block; width: 100%; text-align: center; }
-  /* line 138, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 152, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; padding-top: 2em; font-size: 2em; margin-top: 1em; }
   /* line 61, ../../app/assets/styles/mixins/_typography.sass */
   header #main > ul > li:nth-of-type(3) > ul > li > a > span:hover { color: black; }
-  /* line 146, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 160, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.2em; }
   /* line 61, ../../app/assets/styles/mixins/_typography.sass */
   header #main > ul > li:nth-of-type(3) > ul > li > ul > li > a > span:hover { color: black; }
@@ -2258,7 +2258,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/nike/football.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; border-right: 1px solid black; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a > span { display: block; }
-  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 127, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a { background-size: auto 60%; background-position: center 15%; }
   /* line 108, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(2) { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; padding-bottom: 1em; padding-top: 1em; }
@@ -2266,7 +2266,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(2) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/nike/soccer.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; border-right: 1px solid black; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(2) > a > span { display: block; }
-  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 127, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(2) > a { background-size: auto 60%; background-position: center 15%; }
   /* line 113, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; padding-bottom: 1em; padding-top: 1em; }
@@ -2274,7 +2274,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/nike/basketball.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; border-right: 1px solid black; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a > span { display: block; }
-  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 127, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a { background-size: auto 60%; background-position: center 15%; }
   /* line 118, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; padding-bottom: 1em; padding-top: 1em; }
@@ -2282,23 +2282,23 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/nike/running.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) > a > span { display: block; }
-  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 127, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) > a { background-size: auto 60%; background-position: center 15%; }
-  /* line 192, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 206, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -300.0%; position: relative; }
-  /* line 218, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 232, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 224, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 238, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:first-of-type { margin-left: 25%; }
   /* line 132, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(4) > ul > li { position: relative; }
-  /* line 131, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 145, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li > a { padding-top: 1.5em; display: block; width: 100%; text-align: center; }
-  /* line 138, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 152, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; padding-top: 2em; font-size: 2em; margin-top: 1em; }
   /* line 61, ../../app/assets/styles/mixins/_typography.sass */
   header #main > ul > li:nth-of-type(4) > ul > li > a > span:hover { color: black; }
-  /* line 146, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 160, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.2em; }
   /* line 61, ../../app/assets/styles/mixins/_typography.sass */
   header #main > ul > li:nth-of-type(4) > ul > li > ul > li > a > span:hover { color: black; }
@@ -2316,7 +2316,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/tech/celliant.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; border-right: 1px solid black; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a > span { display: block; }
-  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 127, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a { background-size: auto 60%; background-position: center 15%; }
   /* line 151, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(3) { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; padding-bottom: 1em; padding-top: 1em; }
@@ -2324,21 +2324,21 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(3) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/tech/trimera.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(3) > a > span { display: block; }
-  /* line 192, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 206, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -400%; position: relative; }
-  /* line 218, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 232, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 224, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 238, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:first-of-type { margin-left: 8.33333%; }
   /* line 164, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(5) > ul > li { position: relative; }
-  /* line 131, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 145, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li > a { padding-top: 1.5em; display: block; width: 100%; text-align: center; }
-  /* line 138, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 152, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; padding-top: 2em; font-size: 2em; margin-top: 1em; }
   /* line 61, ../../app/assets/styles/mixins/_typography.sass */
   header #main > ul > li:nth-of-type(5) > ul > li > a > span:hover { color: black; }
-  /* line 146, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 160, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-weight: 700; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.2em; }
   /* line 61, ../../app/assets/styles/mixins/_typography.sass */
   header #main > ul > li:nth-of-type(5) > ul > li > ul > li > a > span:hover { color: black; }
@@ -2348,7 +2348,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(1) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/footwear/basketball.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; border-right: 1px solid black; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(1) > a > span { display: block; }
-  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 127, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(1) > a { background-size: auto 60%; background-position: center 15%; }
   /* line 177, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; padding-bottom: 1em; padding-top: 1em; }
@@ -2356,7 +2356,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/footwear/football.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; border-right: 1px solid black; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) > a > span { display: block; }
-  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 127, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) > a { background-size: auto 60%; background-position: center 15%; }
   /* line 183, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(3) { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; padding-bottom: 1em; padding-top: 1em; }
@@ -2364,7 +2364,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(3) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/footwear/soccer.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; border-right: 1px solid black; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(3) > a > span { display: block; }
-  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 127, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(3) > a { background-size: auto 60%; background-position: center 15%; }
   /* line 190, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(4) { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; padding-bottom: 1em; padding-top: 1em; }
@@ -2372,7 +2372,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(4) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/footwear/training.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; border-right: 1px solid black; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(4) > a > span { display: block; }
-  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 127, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(4) > a { background-size: auto 60%; background-position: center 15%; }
   /* line 196, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(5) { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; padding-bottom: 1em; padding-top: 1em; }
@@ -2380,15 +2380,15 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(5) > a { height: 100px; width: 95%; display: block; margin: 0 auto; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; background: url('/images/logos/footwear/casual.png'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
   /* line 85, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(5) > a > span { display: block; }
-  /* line 113, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 127, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(5) > a { background-size: auto 60%; background-position: center 15%; }
   /* line 205, ../../app/assets/styles/partials/_header.sass */
   header #social > ul { margin-left: 29.16667%; width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 171, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 185, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li { width: 33.33333%; float: left; margin-right: 0%; }
-  /* line 173, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 187, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:last-of-type { width: 33.33333%; float: right; margin-right: 0; }
-  /* line 121, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 135, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li { box-shadow: white(0.8) 0 1px 0, inset black(0.05) 0 1px 0; border-right: 0px solid black; }
   /* line 21, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:hover > a { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0; background: transparent; border-bottom: 0px; }
@@ -2400,25 +2400,37 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #social > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
   /* line 49, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li > ul { display: none; }
-  /* line 93, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 94, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(1):hover > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 101, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(1):hover > a > span { height: 100%; width: 100%; background: url('/images/logos/social/facebook_hover.png'); background-position: center center; background-size: 60% auto; background-repeat: no-repeat; }
+  /* line 94, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:nth-of-type(1) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
-  /* line 100, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 101, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:nth-of-type(1) > a > span { height: 100%; width: 100%; background: url('/images/logos/social/facebook.png'); background-position: center center; background-size: 60% auto; background-repeat: no-repeat; }
-  /* line 93, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 94, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(2):hover > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 101, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(2):hover > a > span { height: 100%; width: 100%; background: url('/images/logos/social/twitter_hover.png'); background-position: center center; background-size: 60% auto; background-repeat: no-repeat; }
+  /* line 94, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:nth-of-type(2) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
-  /* line 100, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 101, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:nth-of-type(2) > a > span { height: 100%; width: 100%; background: url('/images/logos/social/twitter.png'); background-position: center center; background-size: 60% auto; background-repeat: no-repeat; }
-  /* line 93, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 94, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(3):hover > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 101, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(3):hover > a > span { height: 100%; width: 100%; background: url('/images/logos/social/instagram_hover.png'); background-position: center center; background-size: 60% auto; background-repeat: no-repeat; }
+  /* line 94, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:nth-of-type(3) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
-  /* line 100, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 101, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:nth-of-type(3) > a > span { height: 100%; width: 100%; background: url('/images/logos/social/instagram.png'); background-position: center center; background-size: 60% auto; background-repeat: no-repeat; }
   /* line 237, ../../app/assets/styles/partials/_header.sass */
   header #interaction > ul { width: 20.83333%; float: left; margin-right: 0%; }
-  /* line 171, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 185, ../../app/assets/styles/mixins/_navigation.sass */
   header #interaction > ul > li { width: 33.33333%; float: left; margin-right: 0%; }
-  /* line 173, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 187, ../../app/assets/styles/mixins/_navigation.sass */
   header #interaction > ul > li:last-of-type { width: 33.33333%; float: right; margin-right: 0; }
-  /* line 121, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 135, ../../app/assets/styles/mixins/_navigation.sass */
   header #interaction > ul > li { box-shadow: white(0.8) 0 1px 0, inset black(0.05) 0 1px 0; border-right: 0px solid black; }
   /* line 21, ../../app/assets/styles/mixins/_navigation.sass */
   header #interaction > ul > li:hover > a { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); box-shadow: white(0.8) 0 1px 0, inset black(0.5) 0 1px 0; background: transparent; border-bottom: 0px; }

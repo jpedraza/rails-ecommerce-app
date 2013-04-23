@@ -88,6 +88,7 @@
 			display: block
 
 // include the image attached as a background image and replace all images etc 
+// should be called within the confines an li element
 @mixin logo($image, $width: 90%)
 	
 	> a	
@@ -106,6 +107,19 @@
 			background-position: center center
 			background-size: $width auto
 			background-repeat: no-repeat
+
+// this is a specific logo for our current site structure / design
+// should be called within an li element
+// assumes that the image is in logos/social and will have a hover as well!
+@mixin social_logo($image, $logo_size)
+	
+	&:hover	
+
+		@include logo("#{$image}_hover.png", $logo_size)
+
+	// general logo element
+	@include logo("#{$image}.png", $logo_size)		
+
 
 // this is helpful for centering an image vertically based on our album elements that are present in the various album dropdowns etc
 @mixin center_image_element
