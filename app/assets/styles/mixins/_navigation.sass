@@ -37,30 +37,41 @@
 	
 // assumes that we will be putting an image as the background color
 // assumes that our sprite is the class provided
-@mixin image_element($image)	
+@mixin image_element($image, $right_border: true)	
 	
 	// assume that this element is called within an li element	
 	@include clearfix
 	@include inline-block
 
+	padding-bottom: 1em
+	padding-top: 1em
+
 	> a	
 
 		height: 100px
-		background-color: orange
-		width: 100%
+		width: 95%
 		display: block
+		margin: 0 auto
 		@include clearfix
 		@include inline-block
 
 		background: image-url($image)
 		background-repeat: no-repeat
-		background-size: 100% auto
+		background-size: 95% auto
 		background-position: center center
 
+		// only include the right hand border for the elements that we have not banned it from
+		@if $right_border
+			border-right: 1px solid black
+
+
+		// 
 		> span
 
 			// height: 100px
 			display: block
+
+
 
 
 // 

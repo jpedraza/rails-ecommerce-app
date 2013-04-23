@@ -92,9 +92,9 @@ SimpleNavigation::Configuration.run do |navigation|
     primary.item :sports, 'SPORTS', '/sports' do |sports|
 
       sports.item :football, 'Football', '#football'
-      sports.item :football, 'Football', '#football'
-      sports.item :football, 'Football', '#football'
-      sports.item :football, 'Football', '#football'
+      sports.item :soccer, 'Soccer', '#soccer'
+      sports.item :basketball, 'Basketball', '#basketball'
+      sports.item :running, 'Running', '#running'
 
     end
 

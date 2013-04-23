@@ -118,17 +118,29 @@ header
 							// grab each individual element and place an image in there! -- assuming background image!
 							> ul > li
 
+								// include basic vertical navigation structure -- reference navigation.sass for this code
 								@include vertical_nav
+
 								// no need for an image element etc here so lets just call the background !
 								&:nth-of-type(1)	
-									@include image_element("football")
-									// background: image-url("logos/football.png")
+
+									@include image_element("logos/nike/football.png")
+									@include center_image_element
 
 								&:nth-of-type(2)		
-									// @include image_element("soccer")
+
+									@include image_element("logos/nike/soccer.png")
+									@include center_image_element
 
 								&:nth-of-type(3)
-									// @include image_element("basketball")
+								
+									@include image_element("logos/nike/basketball.png")
+									@include center_image_element
+
+								&:nth-of-type(4)
+
+									@include image_element("logos/nike/running.png", false)
+									@include center_image_element
 
 						// set up our tech element
 						&:nth-of-type(4)
@@ -156,7 +168,7 @@ header
 								//
 								&:nth-of-type(3)
 
-									@include image_element("logos/trimera.png")
+									@include image_element("logos/trimera.png", false)
 
 						// this is the footwear navigation section
 						&:nth-of-type(5)
@@ -202,7 +214,7 @@ header
 								&:nth-of-type(5)
 
 									// include basic casual image etc
-									@include image_element("logos/footwear/casual.png")
+									@include image_element("logos/footwear/casual.png", false)
 									@include center_image_element
 
 
