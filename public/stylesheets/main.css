@@ -2255,7 +2255,7 @@ header { background: url('/images/medium_background.png'); box-shadow: white(0.8
   /* line 122, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) { overflow: hidden; }
   /* line 44, ../../app/assets/styles/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a { height: 100px; width: 100%; overflow: hidden; background-color: orange; }
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a { height: 100px; width: 100%; display: block; overflow: hidden; background-size: 5%; background: url('/images/football'); background-repeat: none; background-position: center; }
   /* line 55, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a > span { display: block; }
   /* line 138, ../../app/assets/styles/mixins/_navigation.sass */
@@ -2281,7 +2281,7 @@ header { background: url('/images/medium_background.png'); box-shadow: white(0.8
   /* line 146, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) { overflow: hidden; }
   /* line 44, ../../app/assets/styles/mixins/_navigation.sass */
-  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) > a { height: 100px; width: 100%; overflow: hidden; background-color: orange; }
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) > a { height: 100px; width: 100%; display: block; overflow: hidden; background-size: 5%; background: url('/images/logos/energy_dna.png'); background-repeat: none; background-position: center; }
   /* line 55, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) > a > span { display: block; }
   /* line 163, ../../app/assets/styles/partials/_header.sass */
