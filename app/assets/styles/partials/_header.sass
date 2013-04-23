@@ -121,12 +121,13 @@ header
 								// no need for an image element etc here so lets just call the background !
 								&:nth-of-type(1)	
 									@include image_element("football")
+									// background: image-url("logos/football.png")
 
 								&:nth-of-type(2)		
-									@include image_element("soccer")
+									// @include image_element("soccer")
 
 								&:nth-of-type(3)
-									@include image_element("basketball")
+									// @include image_element("basketball")
 
 						// set up our tech element
 						&:nth-of-type(4)
@@ -141,9 +142,20 @@ header
 							
 								@include vertical_nav
 								// include the proper images etc for each piece! 
-								@include image_element("energy_dna")
-								@include image_element("celliant")
-								@include image_element("trimera")
+
+								&:nth-of-type(1)
+
+									@include image_element("logos/energy_dna.png")	
+
+								&:nth-of-type(2)
+
+									// @include image_element("logos/celliant.png")
+
+
+								//
+								&:nth-of-type(3)
+
+									// @include image_element("logos/trimera.png")
 
 			// initialize the social element
 			#social						

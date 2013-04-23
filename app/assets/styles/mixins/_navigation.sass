@@ -37,9 +37,29 @@
 	
 // assumes that we will be putting an image as the background color
 // assumes that our sprite is the class provided
-@mixin image_element($class)	
+@mixin image_element($image)	
 	
-	
+	// assume that this element is called within an li element	
+	@include clearfix
+	> a	
+
+		height: 100px
+		width: 100%
+		@include clearfix
+		background-color: orange
+		// background-size: 100%
+		// background: image-url($image)
+		// background-repeat: none
+		// background-position: center
+
+		> span
+
+			// height: 100px
+			display: block
+			// background-color: gray
+
+
+
 		
 @mixin horizontal_nav
 

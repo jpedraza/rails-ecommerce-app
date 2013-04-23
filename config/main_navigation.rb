@@ -101,9 +101,9 @@ SimpleNavigation::Configuration.run do |navigation|
     # technology has its own route!
     primary.item :technology, 'TECH', '/technology' do |technology|
 
-      technology.item :energy, 'EnergyDNA', 'http://energyDNA.com'
-      technology.item :celliant, 'Celliant', 'http://celliant.com'
-      technology.item :trimera, 'Trimera', 'http://www.trimeragroup.com'
+      technology.item :energy, 'EnergyDNA', '/technology/energy_dna'
+      technology.item :celliant, 'Celliant', '/technology/celliant'
+      technology.item :trimera, 'Trimera', '/technology/trimera'
 
     end 
 
