@@ -199,7 +199,6 @@ header
 									@include image_element("logos/footwear/casual.png", false)
 									@include center_image_element
 
-
 			// initialize the social element
 			#social						
 
@@ -209,23 +208,27 @@ header
 					// parent width / elements
 					@include horizontal_ul_structure(2, 3)	
 					@include horizontal_nav
-
+					
 					> li
+
+						$logo_size: 60%
 
 						// facebook logo
 						&:nth-of-type(1)
 
-							@include logo("logos/social/facebook.png")
+							@include logo("logos/social/facebook.png", $logo_size)
+
 
 						// twitter logo
 						&:nth-of-type(2)
 
-							@include logo("logos/social/twitter.png")
+							@include logo("logos/social/twitter.png", $logo_size)
 
 						// instagram logo
 						&:nth-of-type(3)
 
-							@include logo("logos/social/instagram.png")
+							@include logo("logos/social/instagram.png", $logo_size)
+
 
 
 			// initialize the interaction menu here
