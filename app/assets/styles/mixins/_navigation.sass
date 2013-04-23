@@ -14,12 +14,13 @@
 
 
 	// hover elements to change the background and various elements!
-	&:hover 
+	&:hover
 
 
 		// a element is what we see!
 		> a
 
+			transition: all 2s
 			// change background gradient etc
 			+background-image(linear-gradient(rgba(#fff, $background-opacity), rgba(#655f5f,  $background-opacity*0.5), rgba(#aaa, $background-opacity*1.1)))
 			@include box-emboss(0.8, 0.5)
@@ -30,6 +31,8 @@
 		> ul
 
 			display: block
+			transition: all 2s
+			opacity: 1
 	> a
 
 		// include our base font as stylized before!
@@ -49,8 +52,7 @@
 	> ul 
 
 		display: none
-
-	
+		
 // assumes that we will be putting an image as the background color
 // assumes that our sprite is the class provided
 @mixin image_element($image, $right_border: true)	
@@ -100,6 +102,8 @@
 		
 		> span	
 
+			cursor: pointer
+			transition: all 2s
 			height: 100%
 			width: 100%
 			// this will all be optimized later into single sprite etc ...
@@ -116,6 +120,7 @@
 	&:hover	
 
 		@include logo("#{$image}_hover.png", $logo_size)
+
 
 	// general logo element
 	@include logo("#{$image}.png", $logo_size)		
