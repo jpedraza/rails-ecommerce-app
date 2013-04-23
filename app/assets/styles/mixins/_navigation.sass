@@ -12,7 +12,7 @@
 	border-right: 0px solid black
 	$background-opacity: 0.6
 
-	&:hover
+	&:hover 
 
 		> a
 
@@ -20,6 +20,9 @@
 			background: transparent
 			border-bottom: 0px
 			+background-image(linear-gradient(rgba(#fff, $background-opacity), rgba(#655f5f,  $background-opacity*0.5), rgba(#aaa, $background-opacity*1.1)))
+		> ul
+
+			display: block
 	> a
 
 		// include our base font as stylized before!
@@ -33,6 +36,9 @@
 		span 
 
 			// font-family: "Icons"		
+	> ul 
+
+		display: none
 
 	
 // assumes that we will be putting an image as the background color
@@ -73,8 +79,15 @@
 
 
 
+// include the image attached as a background image and replace all images etc 
+@mixin logo($image, $width: 90%)
+	
+	> a	
 
-// 
+				
+
+
+// this is helpful for centering an image vertically based on our album elements that are present in the various album dropdowns etc
 @mixin center_image_element
 	
 	> a
@@ -156,16 +169,10 @@
 	$max_columns: $total-columns/$parent_column * $parent_column
 	$shift: $shift_columns*$parent_column
 
-	&:hover	
-
-		> ul 
-			display: block
 	> ul
 
 		// lets make this a new grid
 		// that way we can properly space everything below!
-		display: none
-
 		// 12 columns of 1 column (parent width)
 		@include span-columns($max_columns, $parent_column)
 
@@ -192,13 +199,6 @@
 
 			// by default span the element by a fraction of 12 columns
 			@include span-columns($element_size, $parent_columns)
-
-			// hover element
-			&:hover	
-
-				// PUT IN SOME SORT OF NAVIGATION GRADIENT HERE
-
-
 
 			// first li element needs to be pushed to the left!
 			&:first-of-type
