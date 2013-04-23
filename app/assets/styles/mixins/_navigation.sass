@@ -41,16 +41,21 @@
 	
 	// assume that this element is called within an li element	
 	@include clearfix
+	@include inline-block
+
 	> a	
 
 		height: 100px
+		background-color: orange
 		width: 100%
 		display: block
 		@include clearfix
-		background-size: 5%
+		@include inline-block
+
 		background: image-url($image)
-		background-repeat: none
-		background-position: center
+		background-repeat: no-repeat
+		background-size: 100% auto
+		background-position: center center
 
 		> span
 
