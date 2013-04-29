@@ -41,7 +41,7 @@ require ['jquery', 'angular', 'underscore'], ($, angular, _) ->
 			# initialize our application so now when we call application.app we have a valid, bootstrapped angular object
 			do application.init
 
-
+		
 
 
 
