@@ -7,5 +7,7 @@ class HomeController < ApplicationController
 		# index home page			
 		@tiles = HomeTile			
 
+		
+
 	end
 end

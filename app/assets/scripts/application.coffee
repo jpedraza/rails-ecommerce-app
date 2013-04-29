@@ -35,10 +35,14 @@ require ['jquery'], ($) ->
 	$(document).ready () ->
 
 		# include angular libraries and initialize some things!
-		require ['angular'], (angular) ->
+		require ['angular', 'controllers/home_controller'], (angular) ->
 
-			console.log angular
-
+			# now initialize our home controller here
+			angular.element(document).ready () ->
+				
+				# 
+				angular.bootstrap document
+				
 		# lets require our home page animation modules etc
 		require ['pages/home'], () ->
 

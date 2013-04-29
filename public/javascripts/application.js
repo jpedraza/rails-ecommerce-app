@@ -20,8 +20,8 @@
 
   require(['jquery'], function($) {
     return $(document).ready(function() {
-      require(['angular'], function(angular) {
-        return console.log(angular);
+      require(['angular', 'controllers/home_controller'], function(angular) {
+        return angular.element;
       });
       return require(['pages/home'], function() {});
     });
