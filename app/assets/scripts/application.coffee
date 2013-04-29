@@ -1,53 +1,23 @@
-# declare our require js config json object
-config = 
+define ['jquery', 'angular', 'angularResource', 'underscore', 'controllers/controllers'], ($, angular, angularResource, _, controllers) ->
 
-	# declare paths -- this will need to be uploaded later on!
-	paths: 
-		jquery: "/components/jquery/jquery"
-		angular: "/components/angular/angular"
-		# resource: "/components/angular/angular-resource"
-		# states: "/components/angular-ui/angular-ui-states"
-		gallery: "/components/iosslider/_src/jquery.iosslider"
+	# we need to create an angular module here so that we can actually use the application etc
+	# theoretically we could create multiple of these here and modularize this easily etc...
+	# now any modules that we want to inject into the angular scope we can do so here!
+	app = angular.module 'app', ['ngResource']
 
-	# initialize some shims to help us load our different modules
-	shim:
-		# initialize angular shim
-		angular: 
-			exports: "angular"
+	# initialization function
+	init = () =>
+		
+		# bootstrap angular onto the document window!
+		angular.bootstrap document, ['app']
 
-		# states: 
-			# deps: ["angular"]
-			# exports: "states"
-
-		priority: ["angular"]	
-		urlArgs: 'v=0.1'
-
-# pass the config json object to the require config function
-require.config config
-
-# when we are requiring the various jquery elements into our namespace, we can simply just pull the code in etc. It will then be passed to the jquery element
-# simply extend the jquery element
-# lets go ahead and require jquery before anything else
-# we don't want to require it seperately in our different modules because we only want 1 instance of the jquery object!
-require ['jquery'], ($) ->
-
-	# document ready function for our code to execute on
-	$(document).ready () ->
-
-		# include angular libraries and initialize some things!
-		require ['angular', 'controllers/home_controller'], (angular) ->
-
-			# now initialize our home controller here
-			angular.element(document).ready () ->
-				
-				# 
-				angular.bootstrap document
-				
-		# lets require our home page animation modules etc
-		require ['pages/home'], () ->
+		# 
 
 
-
-
-
+	# return init element
+	init: init	
+	# return our main module as app etc...
+	# we actually want to return this object each time so that when we require elements we can inject things into the scope as needed
+	# this is where our angular module lives and we inject shit into the scope there!
+	app: app
 

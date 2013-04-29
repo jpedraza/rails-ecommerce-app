@@ -1,30 +1,16 @@
 (function() {
-  var config;
+  define(['jquery', 'angular', 'angularResource', 'underscore', 'controllers/controllers'], function($, angular, angularResource, _, controllers) {
+    var app, init,
+      _this = this;
 
-  config = {
-    paths: {
-      jquery: "/components/jquery/jquery",
-      angular: "/components/angular/angular",
-      gallery: "/components/iosslider/_src/jquery.iosslider"
-    },
-    shim: {
-      angular: {
-        exports: "angular"
-      },
-      priority: ["angular"],
-      urlArgs: 'v=0.1'
-    }
-  };
-
-  require.config(config);
-
-  require(['jquery'], function($) {
-    return $(document).ready(function() {
-      require(['angular', 'controllers/home_controller'], function(angular) {
-        return angular.element;
-      });
-      return require(['pages/home'], function() {});
-    });
+    app = angular.module('app', ['ngResource']);
+    init = function() {
+      return angular.bootstrap(document, ['app']);
+    };
+    return {
+      init: init,
+      app: app
+    };
   });
 
 }).call(this);
