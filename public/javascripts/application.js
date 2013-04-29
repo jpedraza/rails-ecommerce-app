@@ -1,5 +1,5 @@
 (function() {
-  define(['jquery', 'angular', 'angularResource', 'underscore', 'controllers/controllers'], function($, angular, angularResource, _, controllers) {
+  define(['jquery', 'angular', 'angularResource', 'underscore'], function($, angular, angularResource, _) {
     var app, init,
       _this = this;
 

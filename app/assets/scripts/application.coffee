@@ -1,4 +1,4 @@
-define ['jquery', 'angular', 'angularResource', 'underscore', 'controllers/controllers'], ($, angular, angularResource, _, controllers) ->
+define ['jquery', 'angular', 'angularResource', 'underscore'], ($, angular, angularResource, _) ->
 
 	# we need to create an angular module here so that we can actually use the application etc
 	# theoretically we could create multiple of these here and modularize this easily etc...
@@ -11,7 +11,10 @@ define ['jquery', 'angular', 'angularResource', 'underscore', 'controllers/contr
 		# bootstrap angular onto the document window!
 		angular.bootstrap document, ['app']
 
-		# 
+		# now load in a few different modules etc
+		# require ['modules/social'], (social) ->
+
+			# do social.init
 
 
 	# return init element
