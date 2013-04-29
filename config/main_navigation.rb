@@ -110,11 +110,10 @@ SimpleNavigation::Configuration.run do |navigation|
     # angular bumpbox here
     primary.item :footwear, 'FOOTWEAR', '/footwear' do |footwear|
 
+      footwear.item :running, 'Running', '#' 
       footwear.item :basketball, 'Basketball', '#'
       footwear.item :football, 'Football', '#'
       footwear.item :soccer, 'Soccer', '#'
-      footwear.item :training, 'Training', '#' 
-      footwear.item :casual, 'Casual', '#'
 
     end
 

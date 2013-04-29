@@ -10,8 +10,9 @@ config =
 		gallery: "/components/iosslider/_src/jquery.iosslider"
 
 		# load in facebook sdk etc
-		# facebook: "//connect.facebook.net/en_US/all.js#xfbml=1"
-		facebook: "/components/facebook/all"
+		facebook: "//connect.facebook.net/en_US/all.js#xfbml=1"
+		# facebook: "/components/facebook/all"
+		twitter: "http://platform.twitter.com/widgets"
 
 	# initialize some shims to help us load our different modules
 	shim:
@@ -24,6 +25,9 @@ config =
 		facebook:
 
 			exports: "FB"	
+
+		twitter:
+			exports: "twttr"
 
 		# angularResource element for grabbing data from the server etc
 		angularResource:
@@ -40,7 +44,7 @@ require.config config
 # simply extend the jquery element
 # lets go ahead and require jquery before anything else
 # we don't want to require it seperately in our different modules because we only want 1 instance of the jquery object!
-require ['jquery', 'angular', 'underscore', 'facebook'], ($, angular, _) ->
+require ['jquery', 'angular', 'underscore', 'facebook', 'twitter'], ($, angular, _) ->
 
 	$(document).ready () ->
 		# require our main application etc etc

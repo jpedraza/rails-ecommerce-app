@@ -19,17 +19,22 @@
 
 	// text-shadow: white($opacity) 0 1px 0
 
+@mixin dark_letter($size: 1.0em)
+	
+	font-family: 'Oswald', sans-serif	
+	@include sans-serif('Oswald')
+	font-weight: 700
+	color: rgba(36,36,36,0.9)
+
 
 // control the size using the compass vertical rhythym
 @mixin base_font($size: 1.0em)
 	
 	@include improve-text-rendering	
+	@include dark_letter($size)
 	color: rgba(255,255,255,0.9)
 	font-size: $size
-	font-family: 'Oswald', sans-serif	
-	@include sans-serif('Oswald')
-	font-weight: 700
-	
+
 @mixin header_font($size: 2.9em)
 	
 	@include improve-text-rendering	
@@ -49,13 +54,8 @@
 	
 	// include special text rendering -- experimentary 
 	@include improve-text-rendering
-	color: rgba(36,36,36,0.9)
 	font-size: $size
-	// @include arial()
-	// font-family: 'Oswald', 'Noto Sans', sans-serif
-	font-weight: 700
-	// include a sans-serif font by default
-	@include sans-serif('Oswald')
+	@include dark_letter($size)
 	transition: all 2s
 
 	// put in text - shadow here!

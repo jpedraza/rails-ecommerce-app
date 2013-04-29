@@ -1,18 +1,20 @@
-/ #gallery
+#gallery
 	
-/ 	%div	
-/ 		= image_tag "header.png"
+	%div	
+		= image_tag "header.png"
 
-/ #about
+	
+	= render :partial => "partials/social_widget"
+
+#about
 
 
-/ 	%h1= "SPEED. STRENGTH. POWER. ENDURANCE."
+	%h1= "speed. strength. power. endurance."
 
-/ 	/ for each of the tiles passed in render the home tile view
-/ 	- @tiles.each do |tile|
+	/ for each of the tiles passed in render the home tile view
+	- @tiles.each do |tile|
 
-/ 		= render :partial => "partials/home_tile", :locals => {:tile => tile}
+		= render :partial => "partials/home_tile", :locals => {:tile => tile}
 
 / temporarily render our bumpboxes section here
 / # = render :partial => "partials/social_bumpboxes"
-= render :partial => "partials/social_widget"

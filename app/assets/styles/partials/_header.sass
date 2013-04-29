@@ -158,7 +158,7 @@ header
 							// initialize our initial dropdown element
 							@include horizontal_dropdown($size, 4)
 							// now include our structure for each of the different thumbnails in the element
-							@include horizontal_dropdown_structure(5, 1)
+							@include horizontal_dropdown_structure(4, 2)
 
 							// li element 
 							> ul > li
@@ -170,33 +170,26 @@ header
 								&:nth-of-type(1)
 
 									// shoe goes here
-									@include image_element("logos/footwear/basketball.png")
+									@include image_element("logos/footwear/running.png")
 									@include center_image_element
 
 								// football
 								&:nth-of-type(2)
 
-									@include image_element("logos/footwear/football.png")
+									@include image_element("logos/footwear/basketball.png")
 									@include center_image_element
 
 								// soccer
 								&:nth-of-type(3)
 
-									@include image_element("logos/footwear/soccer.png")
+									@include image_element("logos/footwear/football.png")
 									@include center_image_element
 
 
 								// training
 								&:nth-of-type(4)
 									
-									@include image_element("logos/footwear/training.png")
-									@include center_image_element
-
-								// casual
-								&:nth-of-type(5)
-
-									// include basic casual image etc
-									@include image_element("logos/footwear/casual.png", false)
+									@include image_element("logos/footwear/soccer.png", false)
 									@include center_image_element
 
 			// initialize the social element

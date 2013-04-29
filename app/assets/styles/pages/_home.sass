@@ -1,60 +1,3 @@
-// @include at-breakpoint($phone $phone-columns)
-
-// 	// for our phone break point make sure that we are spanning the correct number of elements etc
-// 	#gallery, #about
-
-// 		@include span-columns(12, 12)
-
-// // include tablet-desktop specific styles so that our body is centered properly		
-// @include at-breakpoint($tablet $tablet-columns)
-
-// 	#gallery, #about
-
-// 		@include span-columns(10, 12)
-
-// global gallery / about styles etc
-// create a new container here?
-// this gallery is the parent element which spans 5/6 of screen width for desktop and 100% for mobile
-#old_gallery 
-
-	// make this its own grid etc to help with various pieces so that we can use the 12 column grid for children
-	// @include container
-
-	// only add the left element for the desktop size
-	@include at-breakpoint($tablet $tablet-columns)
-
-		@include pre(1)
-	width: 600px
-	height: 200px
-
-	position: fixed
-	top: 0
-	left: 0
-	overflow: hidden
-
-
-	> div
-
-		width: 100%
-		// @include span-columns(12, 12)
-		height: 100%
-
-		> div		
-
-			float: left
-			position: relative	
-			// margin-top: 2em
-			top: 0
-			left: 0
-			// @include span-columns(10, 12)
-			// height: 100%
-			height: 200px
-			width: 600px
-
-			img
-				height: 100%
-				width: 100%
-
 #gallery
 
 	margin-top: 2.6em
@@ -94,10 +37,36 @@
 
 		@include hover-box
 
-#follow
+#follow, #gallery > #follow
 
-	position: relative
-	top: 20em
+	position: absolute
+	width: 15em
+	z-index: 20000
+	@include clearfix
+	bottom: 2em
+	right: 4em
+	background: image-url("medium_background.png")
+	display: block
 
+	// follow first round element etc
+	> h1
+
+		@include base_font
+		@include dark_letter
+		display: block
+		// width: 100%
+		text-align: center
+		margin-bottom: 0.5em
+
+	// 
+	> div
+
+		position: relative
+		width: 40%
+		float: left
+
+		&:first-of-type
+
+			margin-left: 10%
 
 
