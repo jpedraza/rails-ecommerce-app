@@ -19,3 +19,4 @@ node_modules/
 public/components/
 # Ignore application configuration
 /config/application.yml
+media.pdf
