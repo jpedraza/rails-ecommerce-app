@@ -5,6 +5,38 @@
 	box-shadow: white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0
 
 
+// this is the main border etc for site usage etc
+@mixin border-emboss($top: false, $right: false, $bottom:false, $left:false)
+
+	// include right 
+	@if $right
+
+		border-right: 1px solid rgba(0,0,0,0.2)
+		border-right-width: 1px
+		border-right-style: solid
+		border-right-color: rgba(0,0,0,0.2)
+	@if $left	
+
+		border-left: 1px solid rgba(0,0,0,0.2)
+		border-left-width: 1px
+		border-left-style: solid
+		border-left-color: rgba(0,0,0,0.2)
+
+	@if $top	
+
+		border-top: 1px solid rgba(0,0,0,0.2)
+		border-top-width: 1px
+		border-top-style: solid
+		border-top-color: rgba(0,0,0,0.2)
+
+	@if $bottom
+
+		border-bottom: 1px solid rgba(0,0,0,0.2)
+		border-bottom-width: 1px
+		border-bottom-style: solid
+		border-bottom-color: rgba(0,0,0,0.2)
+
+
 
 // assume that this is called within the context of a normal div
 @mixin hover-box

@@ -20,7 +20,7 @@
 		// a element is what we see!
 		> a
 
-			transition: all 2s
+			// transition: all 2s
 			// change background gradient etc
 			+background-image(linear-gradient(rgba(#fff, $background-opacity), rgba(#655f5f,  $background-opacity*0.5), rgba(#aaa, $background-opacity*1.1)))
 			@include box-emboss(0.8, 0.5)
@@ -80,13 +80,16 @@
 
 		// only include the right hand border for the elements that we have not banned it from
 		@if $right_border
-			border-right: 1px solid black
 
-		@if $left_border
-
-			border-left: 1px solid black
+			@include border_emboss(false, true, false, false)
 
 		// 
+		@if $left_border
+
+			@include border_emboss(false, false, false, true)
+
+
+		// include span element
 		> span
 
 			padding-top: 2.5em
