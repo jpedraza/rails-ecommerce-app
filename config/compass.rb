@@ -8,22 +8,24 @@ require 'susy'
 require 'animate-sass'
 require 'stitch'
 
+http_path = "/"
+project_path = File.expand_path(File.join(File.dirname(__FILE__), '..'))
+sass_dir = "app/assets/styles"
+css_dir = "public/stylesheets"
+images_dir = "public/images"
+fonts_dir = "public/fonts"
+http_stylesheets_dir = "stylesheets"
+http_images_dir = "images"
+http_fonts_dir = "fonts"
+
 # require 'compass-buttons'
 # Compass.add_configuration({:sprite_load_path => Compass.configuration.sprite_load_path + [Rails.root.join('app', 'assets', 'sprites')]}, 'sprites')
-css_dir = "public/stylesheets"
-# sass directory
-sass_dir = "app/assets/styles"
-
 relative_assets = false
-# http_path = "/"
 project_style = :stand_alone
+
 # output style
 output_style = :compact
 # initialize images directory
-http_images_dir = "images"
-
-# disable asset cache buster
-# asset_cache_buster = :none
 
 # disable warnings during production etc
 disable_warnings = true
