@@ -13,9 +13,6 @@
 // secondary / header font etc ...
 @import url("http://fonts.googleapis.com/css?family=Titillium+Web:900")
 
-// include dark letter color
-$dark_letter_color: rgba(36, 36, 36, 0.9)
-
 
 // similar to letter press
 @mixin letterpress($opacity, $color)
@@ -27,7 +24,7 @@ $dark_letter_color: rgba(36, 36, 36, 0.9)
 	font-family: 'Oswald', sans-serif	
 	@include sans-serif('Oswald')
 	font-weight: 700
-	color: rgba(36,36,36,0.9)
+	color: $dark_gray
 
 
 // control the size using the compass vertical rhythym
@@ -35,20 +32,16 @@ $dark_letter_color: rgba(36, 36, 36, 0.9)
 	
 	@include improve-text-rendering	
 	@include dark_letter($size)
-	color: rgba(255,255,255,0.9)
 	font-size: $size
 
 @mixin header_font($size: 2.9em)
 	
 	@include improve-text-rendering	
 	@include base_font($size)
-	// letter-spacing: 0.2em
-	letter-spacing: 0em
-	color: rgba(255,255,255,0.9)
-	font-size: $size
-	// font-family: 'Titillium Web', sans-serif	
 	@include sans-serif('Titillium Web')
+	letter-spacing: 0em
 	text-transform: uppercase
+	padding: 0
 	font-weight: 900
 	color: white
 
@@ -57,8 +50,8 @@ $dark_letter_color: rgba(36, 36, 36, 0.9)
 	
 	// include special text rendering -- experimentary 
 	@include improve-text-rendering
-	font-size: $size
-	@include dark_letter($size)
+	@include base_font($size)
+
 
 	// put in text - shadow here!
 	&:hover

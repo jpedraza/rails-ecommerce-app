@@ -1,48 +1,38 @@
-// generic box-emboss
-// example usage -- @include box-emboss(0.8, 0.05);
-@mixin box-emboss($opacity, $opacity2)
-
-	box-shadow: white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0
-
-@mixin spread-border-shadow($top: false, $right: false, $bottom: false, $left: false)
+// create a spread shadow on the bottom of an element
+@mixin spread-border-shadow($side: "none")
 	
-	@include border-emboss(false, false, true, false)
-	box-shadow: 0 1em 2em $dark_letter_color
+	// box shadow looks like 
+	// x offset y offset blur spread
+	box-shadow: 0 1em 2em -1em $dark_gray
+
+
+
 
 @mixin tight-border-shadow($top: false, $right: false, $bottom: false, $left: false)
 	
-	box-shadow: 0 0.2em 0.1em $dark_letter_color
+	box-shadow: 0 0.2em 0.1em $dark_gray
+
 
 // this is the main border etc for site usage etc
-@mixin border-emboss($top: false, $right: false, $bottom:false, $left:false)
+@mixin border-emboss($side: "top")
+	
+	// check if border == none
+	@if $side == "none"
 
-	// include right 
-	@if $right
+		border: 0px transparent
+		
+	@else
 
-		border-right: 1px solid rgba(0,0,0,0.2)
-		border-right-width: 1px
-		border-right-style: solid
-		border-right-color: rgba(0,0,0,0.2)
-	@if $left	
+		// initialize the proper border etc
+		border-#{$side}: 1px solid $light_gray
+		border-#{$side}-width: 1px
+		border-#{$side}-style: solid
+		border-#{$side}-color: $light_gray
 
-		border-left: 1px solid rgba(0,0,0,0.2)
-		border-left-width: 1px
-		border-left-style: solid
-		border-left-color: rgba(0,0,0,0.2)
 
-	@if $top	
 
-		border-top: 1px solid rgba(0,0,0,0.2)
-		border-top-width: 1px
-		border-top-style: solid
-		border-top-color: rgba(0,0,0,0.2)
 
-	@if $bottom
 
-		border-bottom: 1px solid rgba(0,0,0,0.2)
-		border-bottom-width: 1px
-		border-bottom-style: solid
-		border-bottom-color: rgba(0,0,0,0.2)
 
 
 
