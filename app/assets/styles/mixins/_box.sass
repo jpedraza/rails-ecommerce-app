@@ -3,7 +3,9 @@
 	
 	// box shadow looks like 
 	// x offset y offset blur spread
-	box-shadow: 0 1em 2em -1em $dark_gray
+	box-shadow: 0 1.5em 2.5em 0.5em $dark_gray
+	@include border-emboss("top")
+	@include border-emboss("bottom")
 
 @mixin tight-border-shadow($top: false, $right: false, $bottom: false, $left: false)
 	
