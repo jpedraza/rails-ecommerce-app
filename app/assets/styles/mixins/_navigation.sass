@@ -16,7 +16,6 @@
 	// hover elements to change the background and various elements!
 	&:hover
 
-
 		// a element is what we see!
 		> a
 
@@ -53,13 +52,13 @@
 		display: none
 		
 // assumes that we will be putting an image as the background color
-// assumes that our sprite is the class provided
-@mixin image_element($image, $right_border: true, $left_border: false)	
-	
+@mixin horizontal_block_element($right_border: true, $left_border: false)
+
 	// assume that this element is called within an li element	
 	@include clearfix
 	@include inline-block
 
+	// 
 	padding-bottom: 1.5em
 	padding-top: 1.5em
 
@@ -72,10 +71,6 @@
 		@include clearfix
 		@include inline-block
 
-		background: image-url($image)
-		background-repeat: no-repeat
-		background-size: 95% auto
-		background-position: center center
 
 		// only include the right hand border for the elements that we have not banned it from
 		@if $right_border
@@ -95,6 +90,19 @@
 			font-size: 1.5em
 			display: block
 			text-transform: uppercase
+
+
+
+
+// assumes that our sprite is the class provided
+@mixin image_element($image, $right_border: true, $left_border: false)	
+	
+	> a
+
+		background: image-url($image)
+		background-repeat: no-repeat
+		background-size: 95% auto
+		background-position: center center
 
 
 // include the image attached as a background image and replace all images etc 
@@ -260,6 +268,23 @@
 
 				// push it 2 columns relative of 12 by default!
 				@include push($padding_columns, $parent_columns)
+
+
+// horizontal_dropdown_styles etc
+@mixin horizontal_dropdown_style
+
+	> ul
+
+		@include spread-border-shadow("bottom")
+					
+
+
+
+
+
+
+
+
 
 
 

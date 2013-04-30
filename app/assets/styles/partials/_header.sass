@@ -61,12 +61,27 @@ header
 					// 
 					> li
 
+						// set global element pieces etc
+						&:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5)
+
+							@include horizontal_dropdown_style
+
+							// now call the unordered lists which live inside the li elements
+							> ul > li
+
+								@include vertical_nav
+								// include horizontal block element etc
+								@include horizontal_block_element(true)
+
+							> ul > li:last-of-type > a
+
+								// @include horizontal_block_element(false)
+								border-right: 0px transparent
+
 						// 
 						&:nth-of-type(1)
 
-							display: block
 							@include logo("logos/black.png")	
-
 
 						// now add our navigation mixin for a basic horizontal navigation bar
 						// this is an li element for the store
@@ -80,24 +95,6 @@ header
 							// I'm struggling with this -- hacked it for now -- look later
 							@include horizontal_dropdown_structure(6, 0)
 
-							// now include the individual vertical lists for each piece
-							> ul 
-
-								display: block
-								@include spread-border-shadow(false, false, true, false)
-									
-								> li
-
-									// call vertical navigation mixin for each sub menu we have!
-									@include vertical_nav
-
-									// center the all element here
-									&:first-of-type
-
-										// include padding top to center etc ... 
-										padding-top: 2.6em
-
-
 						// sports
 						&:nth-of-type(3)
 
@@ -108,10 +105,6 @@ header
 
 							// grab each individual element and place an image in there! -- assuming background image!
 							> ul > li
-
-								// include basic vertical navigation structure -- reference navigation.sass for this code
-								@include vertical_nav
-								// border-shadow etc
 
 								// no need for an image element etc here so lets just call the background !
 								&:nth-of-type(1)	
@@ -145,7 +138,6 @@ header
 							// now include the image_element piece for each individual li element
 							> ul > li	
 							
-								@include vertical_nav
 								// include the proper images etc for each piece! 
 
 								&:nth-of-type(1)
@@ -177,9 +169,6 @@ header
 							// li element 
 							> ul > li
 
-								// 
-								@include vertical_nav
-
 								// basketball
 								&:nth-of-type(1)
 
@@ -206,6 +195,9 @@ header
 									@include image_element("logos/footwear/soccer.png", false)
 									@include center_image_element
 
+
+
+									
 			// initialize the social element
 			#social						
 
