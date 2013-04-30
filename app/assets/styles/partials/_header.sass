@@ -68,14 +68,12 @@ header
 							// now call the unordered lists which live inside the li elements
 							> ul > li
 
-								@include vertical_nav
 								// include horizontal block element etc
 								@include horizontal_block_element(true)
 
 							> ul > li:last-of-type > a
 
-								// @include horizontal_block_element(false)
-								border-right: 0px transparent
+								@include border-emboss("none")
 
 						// 
 						&:nth-of-type(1)
@@ -93,6 +91,12 @@ header
 							// initialize the structure of these dropdowns so that all spacing is set up for me already!
 							// I'm struggling with this -- hacked it for now -- look later
 							@include horizontal_dropdown_structure(6, 0)
+
+							// now include the vertical navigation element for each individual piece
+							> ul > li
+								@include vertical_nav
+
+
 
 						// sports
 						&:nth-of-type(3)
