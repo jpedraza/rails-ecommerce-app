@@ -61,10 +61,7 @@ header
 					// 
 					> li
 
-						> a:hover > span
-
-							color: $dark_letter_color
-
+						// 
 						&:nth-of-type(1)
 
 							display: block
@@ -86,12 +83,20 @@ header
 							// now include the individual vertical lists for each piece
 							> ul 
 
-								@include border-shadow(false, false, true, false)
-								
+								display: block
+								@include spread-border-shadow(false, false, true, false)
+									
 								> li
 
 									// call vertical navigation mixin for each sub menu we have!
 									@include vertical_nav
+
+									// center the all element here
+									&:first-of-type
+
+										// include padding top to center etc ... 
+										padding-top: 2.6em
+
 
 						// sports
 						&:nth-of-type(3)

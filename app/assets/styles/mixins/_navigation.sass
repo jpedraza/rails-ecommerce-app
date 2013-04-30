@@ -175,17 +175,15 @@
 		> li > a > span
 
 			@include anchor_font		
-			font-size: 1.2em
+			font-size: 1.0em
+			text-transform: uppercase		
 
 			&:hover
 
 				text-decoration: underline
 
 
-
-// decided that this isn't the best way to implement the grid system due to percentages
-// decimals mess up the proportions etc of the grid
-// thus, when parent!==elements we had all kind of issues
+// this is the dropdown ul base structure -- responsible for controlling the position of the element and how wide it is on the screen
 @mixin horizontal_ul_structure($parent, $elements, $size: false)
 	
 	$element_size: $parent / $elements
