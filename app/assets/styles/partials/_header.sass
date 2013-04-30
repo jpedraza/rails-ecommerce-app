@@ -66,12 +66,17 @@ header
 							@include horizontal_dropdown_style
 
 							// now call the unordered lists which live inside the li elements
-							> ul > li
+							> ul 
+								overflow-y: auto
+								padding: 1.5em 0 1.5em 0
 
-								// include horizontal block element etc
-								@include horizontal_block_element(true)
+								> li
 
-							> ul > li:last-of-type > a
+									// include horizontal block element etc
+									@include horizontal_block_element(true)
+
+							// make sure that the last element of each row doesn't have a right side border
+							> ul > li:last-of-type
 
 								@include border-emboss("none")
 
@@ -92,10 +97,18 @@ header
 							// I'm struggling with this -- hacked it for now -- look later
 							@include horizontal_dropdown_structure(6, 0)
 
+							> ul
+
+								display: block
 							// now include the vertical navigation element for each individual piece
 							> ul > li
+
+								// include basic vertical navigation elements for each of the individual submenus etc
 								@include vertical_nav
 
+								&:first-of-type	
+
+									@include center_text_element
 
 
 						// sports

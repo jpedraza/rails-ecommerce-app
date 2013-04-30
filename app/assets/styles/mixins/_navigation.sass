@@ -56,10 +56,18 @@
 	// assume that this element is called within an li element	
 	@include clearfix
 	@include inline-block
+	height: auto	
+	display: block	
+
+	// only include the right hand border for the elements that we have not banned it from
+	@if $right_border
+
+		@include border-emboss("right")
 
 	// 
-	padding-bottom: 1.5em
-	padding-top: 1.5em
+	@if $left_border
+
+		@include border-emboss("left")
 
 	> a	
 
@@ -67,23 +75,16 @@
 		width: 95%
 		display: block
 		margin: 0 auto
+		text-align: center
 		@include clearfix
 		@include inline-block
 
 
-		// only include the right hand border for the elements that we have not banned it from
-		@if $right_border
-
-			@include border-emboss("right")
-
-		// 
-		@if $left_border
-
-			@include border-emboss("left")
-
 		// include span element
 		> span
 
+			@include anchor_font
+			margin-top: 1em	
 			font-size: 1.5em
 			display: block
 			text-transform: uppercase
@@ -149,6 +150,22 @@
 		background-size: auto $size
 		background-position: center 15%
 
+// this is useful for centering a span inside of an a tag assuming that li has full height
+@mixin center_text_element
+	
+	// for the first element the "all" link we want to center it vertically
+	> a
+
+		display: table
+		height: 100%
+						
+		> span
+
+			display: table-cell
+			vertical-align: middle
+
+
+
 		
 @mixin horizontal_nav
 
@@ -158,34 +175,39 @@
 
 
 // vertical nav is called in the context of an li element with a ul inside!
+// this is called within the reference pane of an element that is below
 @mixin vertical_nav
 
 	// this is responsible for the store etc pieces
 	position: relative
+	overflow-y: auto
+	height: 10em
+	@include clearfix
 
+	// this is the top element!
 	> a 
-		display: block	
 		width: 100%
 		text-align: center
-		@include clearfix
+		height: auto
 
-		// this direct span represents the top navigation piece for the vertical dropdown etc
-		> span
+	// this is the actual dropdown element
+	// style the actual span elements
+	> ul > li
 
-			@include anchor_font
-			font-size: 2em
-			margin-top: 1em 
-	> ul
+		height: 1.5em
 
-		> li > a > span
+		> a 
+			height: 100%
 
-			@include anchor_font		
-			font-size: 1.0em
-			text-transform: uppercase		
+			> span
 
-			&:hover
+				@include anchor_font		
+				font-size: 1.0em
+				text-transform: uppercase		
 
-				text-decoration: underline
+				&:hover
+
+					text-decoration: underline
 
 
 // this is responsible for our basic horizontal structure
