@@ -117,11 +117,7 @@ module.exports = (grunt) ->
       # 
       options:
         config: "config/compass.rb"
-      # 
       dist: {}
-      server:
-        options:
-          debugInfo: true
 
     
     # not used since Uglify task does concat,

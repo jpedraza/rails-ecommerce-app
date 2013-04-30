@@ -20,4 +20,17 @@ project_style = :stand_alone
 # output style
 output_style = :compact
 # initialize images directory
-images_dir = "images"
+http_images_dir = "images"
+
+# disable asset cache buster
+# asset_cache_buster = :none
+
+# disable warnings during production etc
+disable_warnings = true
+
+# stop debug information for sass output etc
+sass_options = {:debug_info => false}
+
+
+
+
