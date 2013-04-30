@@ -4,8 +4,7 @@
 	// box shadow looks like 
 	// x offset y offset blur spread
 	box-shadow: 0 1.5em 2.5em 0.5em $dark_gray
-	@include border-emboss("top")
-	@include border-emboss("bottom")
+	@include border-emboss($side)
 
 @mixin tight-border-shadow($top: false, $right: false, $bottom: false, $left: false)
 	
@@ -28,9 +27,20 @@
 		border-#{$side}-style: solid
 		border-#{$side}-color: $light_gray
 
+@mixin dark-border-emboss($side: "top")
 
+	// check if border == none
+	@if $side == "none"
 
+		border: 0px transparent
+		
+	@else
 
+		// initialize the proper border etc
+		border-#{$side}: 1px solid $dark_gray
+		border-#{$side}-width: 1px
+		border-#{$side}-style: solid
+		border-#{$side}-color: $dark_gray
 
 
 // assume that this is called within the context of a normal div

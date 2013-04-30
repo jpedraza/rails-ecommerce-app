@@ -1,31 +1,20 @@
-// OVERVIEW
-
-// horizontal-dropdown is responsible for creating the flow out element that is responsible for dropping down the page and placing it at 100% width etc
-// horizontal-dropdown-structure is responsible for creating the spacing of elements for each element -- ie it will create a dropdown for 3 li elements spaced when passed 3
-// horizontal-ul-structure is responsible for spacing out the horizontal ul element by having a list for each element instead of just a single element
-
-
-// this is our generic vertical navigation bar as used throughout the site
 // single li element
 @mixin base_element
 	
-	border-right: 0px solid black
 	$background-opacity: 0.6
-
 
 	// hover elements to change the background and various elements!
 	&:hover
 
 		// a element is what we see!
 		> a
-
 			// transition: all 2s
 			// change background gradient etc
 			+background-image(linear-gradient(rgba(#fff, $background-opacity), rgba(#655f5f,  $background-opacity*0.5), rgba(#aaa, $background-opacity*1.1)))
 			background: transparent
 			border-bottom: 0px
 
-		// ul element which is responsil
+		// ul element which is responsible
 		> ul
 
 			display: block
@@ -36,9 +25,10 @@
 		// include our base font as stylized before!
 		@include center
 		@include clearfix
-		border-right: 1px solid black
+
+		@include dark-border-emboss("right")
+		// border-right: 1px solid black
 		+background-image(linear-gradient(rgba(#fff, $background-opacity), rgba(#ccc,  $background-opacity), rgba(#aaa, $background-opacity*1.1)))
-		border-bottom: 1px solid black
 
 		// take away all span padding so that we can easily modularize and structure our code!
 		> span
@@ -158,12 +148,11 @@
 
 		display: table
 		height: 100%
-						
+
 		> span
 
 			display: table-cell
 			vertical-align: middle
-
 
 
 
@@ -261,10 +250,6 @@
 	// we will assume that ul element is being called from a full width screen -- can fix this later
 	> ul
 
-		position: fixed
-		left: 0
-		width: 100%
-		@include container
 		@include clearfix
 		background: image-url("medium_background.png")
 		overflow-y: auto

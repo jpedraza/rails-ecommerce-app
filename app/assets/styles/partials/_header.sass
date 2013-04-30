@@ -69,6 +69,7 @@ header
 							// now call the unordered lists which live inside the li elements
 							> ul 
 								@include spread-border-shadow("bottom")
+								@include spread-border-shadow("top")
 								overflow-y: auto
 								padding: 1.5em 0 1.5em 0
 
@@ -92,8 +93,6 @@ header
 							// include the horizontal dropdown base element
 							// (parent_column, shift)
 							@include horizontal_dropdown($size, 1)
-							// initialize the structure of these dropdowns so that all spacing is set up for me already!
-							// I'm struggling with this -- hacked it for now -- look later
 							@include horizontal_dropdown_structure(6, 0)
 
 							// now include the vertical navigation element for each individual piece
@@ -230,8 +229,7 @@ header
 
 							@include social_logo("logos/social/facebook", $logo_size)
 							> a
-
-								border-left: 1px solid black
+								@include dark-border-emboss("left")
 
 						// twitter logo
 						&:nth-of-type(2)
