@@ -84,10 +84,14 @@ header
 							@include horizontal_dropdown_structure(6, 0)
 
 							// now include the individual vertical lists for each piece
-							> ul > li
+							> ul 
 
-								// call vertical navigation mixin for each sub menu we have!
-								@include vertical_nav
+								@include border-shadow(false, false, true, false)
+								
+								> li
+
+									// call vertical navigation mixin for each sub menu we have!
+									@include vertical_nav
 
 						// sports
 						&:nth-of-type(3)
@@ -102,6 +106,8 @@ header
 
 								// include basic vertical navigation structure -- reference navigation.sass for this code
 								@include vertical_nav
+								// border-shadow etc
+								@include border-emboss(false, false, true, false)
 
 								// no need for an image element etc here so lets just call the background !
 								&:nth-of-type(1)	
@@ -136,6 +142,7 @@ header
 							> ul > li	
 							
 								@include vertical_nav
+								@include border-emboss(false, false, true, false)
 								// include the proper images etc for each piece! 
 
 								&:nth-of-type(1)
@@ -169,6 +176,9 @@ header
 
 								// 
 								@include vertical_nav
+
+								// border shadow
+								@include border-emboss(false, false, true, false)
 
 								// basketball
 								&:nth-of-type(1)
@@ -208,7 +218,8 @@ header
 					
 					> li
 
-						$logo_size: 60%
+						// social logo size to be centered
+						$logo_size: 40%
 
 						// facebook logo
 						&:nth-of-type(1)

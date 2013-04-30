@@ -4,6 +4,11 @@
 
 	box-shadow: white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0
 
+@mixin border-shadow($top: false, $right: false, $bottom: false, $left: false)
+	
+	@include border-emboss(false, false, true, false)
+	box-shadow: 0 1em 2em $dark_letter_color
+	
 
 // this is the main border etc for site usage etc
 @mixin border-emboss($top: false, $right: false, $bottom:false, $left:false)
