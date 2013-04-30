@@ -2203,15 +2203,15 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   /* line 18, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:hover > ul { display: block; transition: all 2s; opacity: 1; }
   /* line 23, ../../app/assets/styles/mixins/_navigation.sass */
-  header #main > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); border-right-width: 1px; border-right-style: solid; border-right-color: rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
+  header #main > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
   /* line 34, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
   /* line 40, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li > ul { display: none; }
   /* line 70, ../../app/assets/styles/partials/_header.sass */
-  header #main > ul > li:nth-of-type(2) > ul, header #main > ul > li:nth-of-type(3) > ul, header #main > ul > li:nth-of-type(4) > ul, header #main > ul > li:nth-of-type(5) > ul { box-shadow: 0 1.5em 2.5em 0.5em rgba(36, 36, 36, 0.9); border-bottom: 1px solid rgba(0, 0, 0, 0.2); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgba(0, 0, 0, 0.2); box-shadow: 0 1.5em 2.5em 0.5em rgba(36, 36, 36, 0.9); border-top: 1px solid rgba(0, 0, 0, 0.2); border-top-width: 1px; border-top-style: solid; border-top-color: rgba(0, 0, 0, 0.2); overflow-y: auto; padding: 1.5em 0 1.5em 0; }
+  header #main > ul > li:nth-of-type(2) > ul, header #main > ul > li:nth-of-type(3) > ul, header #main > ul > li:nth-of-type(4) > ul, header #main > ul > li:nth-of-type(5) > ul { box-shadow: 0 1.5em 2.5em 0.5em rgba(36, 36, 36, 0.9); border-bottom: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 1.5em 2.5em 0.5em rgba(36, 36, 36, 0.9); border-top: 1px solid rgba(0, 0, 0, 0.2); overflow-y: auto; padding: 1.5em 0 1.5em 0; }
   /* line 76, ../../app/assets/styles/partials/_header.sass */
-  header #main > ul > li:nth-of-type(2) > ul > li, header #main > ul > li:nth-of-type(3) > ul > li, header #main > ul > li:nth-of-type(4) > ul > li, header #main > ul > li:nth-of-type(5) > ul > li { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; height: auto; display: block; border-right: 1px solid rgba(0, 0, 0, 0.2); border-right-width: 1px; border-right-style: solid; border-right-color: rgba(0, 0, 0, 0.2); }
+  header #main > ul > li:nth-of-type(2) > ul > li, header #main > ul > li:nth-of-type(3) > ul > li, header #main > ul > li:nth-of-type(4) > ul > li, header #main > ul > li:nth-of-type(5) > ul > li { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; height: auto; display: block; border-right: 1px solid rgba(0, 0, 0, 0.2); }
   /* line 62, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li > a, header #main > ul > li:nth-of-type(3) > ul > li > a, header #main > ul > li:nth-of-type(4) > ul > li > a, header #main > ul > li:nth-of-type(5) > ul > li > a { height: 100px; width: 95%; display: block; margin: 0 auto; text-align: center; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
   /* line 74, ../../app/assets/styles/mixins/_navigation.sass */
@@ -2349,7 +2349,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   /* line 18, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:hover > ul { display: block; transition: all 2s; opacity: 1; }
   /* line 23, ../../app/assets/styles/mixins/_navigation.sass */
-  header #social > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); border-right-width: 1px; border-right-style: solid; border-right-color: rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
+  header #social > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
   /* line 34, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
   /* line 40, ../../app/assets/styles/mixins/_navigation.sass */
@@ -2363,7 +2363,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:nth-of-type(1) > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/facebook.png'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
   /* line 231, ../../app/assets/styles/partials/_header.sass */
-  header #social > ul > li:nth-of-type(1) > a { border-left: 1px solid rgba(36, 36, 36, 0.9); border-left-width: 1px; border-left-style: solid; border-left-color: rgba(36, 36, 36, 0.9); }
+  header #social > ul > li:nth-of-type(1) > a { border-left: 1px solid rgba(36, 36, 36, 0.9); }
   /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
   header #social > ul > li:nth-of-type(2):hover > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
   /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
@@ -2391,7 +2391,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   /* line 18, ../../app/assets/styles/mixins/_navigation.sass */
   header #interaction > ul > li:hover > ul { display: block; transition: all 2s; opacity: 1; }
   /* line 23, ../../app/assets/styles/mixins/_navigation.sass */
-  header #interaction > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); border-right-width: 1px; border-right-style: solid; border-right-color: rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
+  header #interaction > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
   /* line 34, ../../app/assets/styles/mixins/_navigation.sass */
   header #interaction > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
   /* line 40, ../../app/assets/styles/mixins/_navigation.sass */
@@ -2418,27 +2418,27 @@ footer > p { width: 100%; display: block; text-align: center; vertical-align: mi
 #about > div { position: relative; height: 10em; width: 23.72881%; float: left; margin-right: 1.69492%; display: inline; }
 /* line 35, ../../app/assets/styles/pages/_home.sass */
 #about > div:first-of-type { margin-left: 13.55932%; }
-/* line 50, ../../app/assets/styles/mixins/_box.sass */
+/* line 5, ../../app/assets/styles/mixins/_box.sass */
 #about > div > div { height: 100%; width: 100%; position: absolute; top: 0; left: 0; background-color: orange; }
-/* line 58, ../../app/assets/styles/mixins/_box.sass */
+/* line 13, ../../app/assets/styles/mixins/_box.sass */
 #about > div > div > h1 { position: absolute; top: 1em; width: 100%; display: block; text-align: center; vertical-align: middle; }
-/* line 63, ../../app/assets/styles/mixins/_box.sass */
+/* line 18, ../../app/assets/styles/mixins/_box.sass */
 #about > div:hover { cursor: pointer; }
-/* line 68, ../../app/assets/styles/mixins/_box.sass */
+/* line 23, ../../app/assets/styles/mixins/_box.sass */
 #about > div:hover > div:first-of-type { display: none; }
-/* line 72, ../../app/assets/styles/mixins/_box.sass */
+/* line 27, ../../app/assets/styles/mixins/_box.sass */
 #about > div:hover > div:last-of-type { display: block; }
-/* line 77, ../../app/assets/styles/mixins/_box.sass */
+/* line 32, ../../app/assets/styles/mixins/_box.sass */
 #about > div:hover img { display: none; }
-/* line 81, ../../app/assets/styles/mixins/_box.sass */
+/* line 36, ../../app/assets/styles/mixins/_box.sass */
 #about > div > div:first-of-type { display: block; }
-/* line 86, ../../app/assets/styles/mixins/_box.sass */
+/* line 41, ../../app/assets/styles/mixins/_box.sass */
 #about > div > div:first-of-type > img { position: absolute; height: 100%; width: 100%; }
-/* line 94, ../../app/assets/styles/mixins/_box.sass */
+/* line 49, ../../app/assets/styles/mixins/_box.sass */
 #about > div > div:last-of-type { display: none; }
-/* line 98, ../../app/assets/styles/mixins/_box.sass */
+/* line 53, ../../app/assets/styles/mixins/_box.sass */
 #about > div > div:last-of-type > h1 { position: relative; }
-/* line 102, ../../app/assets/styles/mixins/_box.sass */
+/* line 57, ../../app/assets/styles/mixins/_box.sass */
 #about > div > div:last-of-type > p { position: relative; }
 
 /* line 40, ../../app/assets/styles/pages/_home.sass */

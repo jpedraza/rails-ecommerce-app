@@ -1,0 +1,54 @@
+// create a spread shadow on the bottom of an element
+@mixin spread-border-shadow($side: "none")
+	
+	// box shadow looks like 
+	// x offset y offset blur spread
+	box-shadow: 0 1.5em 2.5em 0.5em $dark_gray
+	@include border-emboss($side)
+
+// tight 
+@mixin tight-border-shadow($top: false, $right: false, $bottom: false, $left: false)
+	
+	box-shadow: 0 0.2em 0.1em $dark_gray
+
+// this is the main border etc for site usage etc
+@mixin border-emboss($side: "top")
+	
+	@include border($side, $light_gray, 1px, solid)	
+	
+// 
+@mixin dark-border-emboss($side: "top")
+
+	@include border($side, $dark_gray, 1px, solid)
+
+
+// private function
+// lets initialize what we consider to be private mixins etc in this element
+@mixin border($side, $color, $size: 1px, $style:solid)
+	
+	// initialize different edge cases
+	@if $side == "none"
+
+		border: 0px transparent
+
+	@else if $side == "horizontal"	
+
+		@each $_side in top, bottom
+			border-#{$side}: $size $style $color
+
+	@else if $side == "vertical"	
+
+		@each $_side in right, left
+
+			border-#{$_side}: $size $style $color 
+
+	@else if $side == "all"
+
+		// initialize each empty element for each side
+		@each $_side in top, right, bottom, left
+
+			border-#{$_side}: $size $style $color 
+
+	@else	
+
+		border-#{$side}: $size $style $color 
