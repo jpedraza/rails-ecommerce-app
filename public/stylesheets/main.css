@@ -2218,9 +2218,13 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(1) > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/black.png'); background-position: center center; background-size: 90% auto; background-repeat: no-repeat; }
   /* line 219, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -100%; position: relative; }
-  /* line 246, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 242, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul { position: fixed; left: 0; width: 100%; max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; overflow: hidden; background: url('/images/medium_background.png'); overflow-y: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  header #main > ul > li:nth-of-type(2) > ul:after { content: ""; display: table; clear: both; }
+  /* line 253, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 252, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 259, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li:first-of-type { margin-left: 0%; }
   /* line 84, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(2) > ul { display: block; border-bottom: 1px solid rgba(0, 0, 0, 0.2); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgba(0, 0, 0, 0.2); box-shadow: 0 1em 2em rgba(36, 36, 36, 0.9); }
@@ -2242,9 +2246,13 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(2) > ul > li:first-of-type { padding-top: 2.6em; }
   /* line 219, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -200%; position: relative; }
-  /* line 246, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 242, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul { position: fixed; left: 0; width: 100%; max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; overflow: hidden; background: url('/images/medium_background.png'); overflow-y: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  header #main > ul > li:nth-of-type(3) > ul:after { content: ""; display: table; clear: both; }
+  /* line 253, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 252, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 259, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(3) > ul > li:first-of-type { margin-left: 16.66667%; }
   /* line 110, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(3) > ul > li { position: relative; }
@@ -2294,9 +2302,13 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) > a { background-size: auto 50%; background-position: center 15%; }
   /* line 219, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -300.0%; position: relative; }
-  /* line 246, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 242, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul { position: fixed; left: 0; width: 100%; max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; overflow: hidden; background: url('/images/medium_background.png'); overflow-y: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  header #main > ul > li:nth-of-type(4) > ul:after { content: ""; display: table; clear: both; }
+  /* line 253, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 252, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 259, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(4) > ul > li:first-of-type { margin-left: 25%; }
   /* line 146, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(4) > ul > li { position: relative; }
@@ -2336,9 +2348,13 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(3) > a > span { padding-top: 2.5em; font-size: 1.5em; display: block; text-transform: uppercase; }
   /* line 219, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -400%; position: relative; }
-  /* line 246, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 242, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul { position: fixed; left: 0; width: 100%; max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; overflow: hidden; background: url('/images/medium_background.png'); overflow-y: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p392@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  header #main > ul > li:nth-of-type(5) > ul:after { content: ""; display: table; clear: both; }
+  /* line 253, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
-  /* line 252, ../../app/assets/styles/mixins/_navigation.sass */
+  /* line 259, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(5) > ul > li:first-of-type { margin-left: 16.66667%; }
   /* line 178, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(5) > ul > li { position: relative; }

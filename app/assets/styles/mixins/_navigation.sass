@@ -240,7 +240,14 @@
 
 	// we will assume that ul element is being called from a full width screen -- can fix this later
 	> ul
-			
+
+		position: fixed
+		left: 0
+		width: 100%
+		@include container
+		@include clearfix
+		background: image-url("medium_background.png")
+		overflow-y: auto
 
 		// include individual li elements!!! 
 		> li
