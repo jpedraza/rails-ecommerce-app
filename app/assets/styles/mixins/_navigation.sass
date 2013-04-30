@@ -183,7 +183,8 @@
 				text-decoration: underline
 
 
-// this is the dropdown ul base structure -- responsible for controlling the position of the element and how wide it is on the screen
+// this is responsible for our basic horizontal structure
+// this should be called on the top level ul elements
 @mixin horizontal_ul_structure($parent, $elements, $size: false)
 	
 	$element_size: $parent / $elements
@@ -205,12 +206,8 @@
 			@include span-columns($element_size omega, $parent)
 
 
-// HORIZONTAL STRUCTURAL ELEMENTS
-
-// horizontal dropdown as built out in main element
-// this assumes that the element being attached is a
-// pass in how far left to shift this element relative to the parent
-// we will assume that the element is smaller
+// intiialize the horizontal dropdown structure
+// this is responsible for implementing and rendering the entire spacing of the ul as it drops down
 @mixin horizontal_dropdown($parent_column, $shift_columns:1) 
 	
 	// first determine how many columns constitute a parent column
@@ -231,8 +228,8 @@
 		position: relative
 		
 
-// a list of vertical elements!
-// the vertical nav is responsible for displaying $elements(li) elements 
+
+// this is responsible for centering out the elements and drawing them properly
 @mixin horizontal_dropdown_structure($elements, $padding_columns: 2, $parent_columns: 12)
 
 	// initialize a new grid here?
@@ -243,6 +240,7 @@
 
 	// we will assume that ul element is being called from a full width screen -- can fix this later
 	> ul
+			
 
 		// include individual li elements!!! 
 		> li
