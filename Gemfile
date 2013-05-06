@@ -25,6 +25,10 @@ group :development, :test, :production do
 
   # figaro gem for grabbing / storing all the keys etc for different twitter / networks
   gem 'figaro'
+
+  # other rails functionality
+  gem 'routing_concerns'
+
   
 end
 
