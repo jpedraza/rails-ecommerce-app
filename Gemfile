@@ -87,6 +87,9 @@ group :development, :test do
   gem 'better_errors', '>= 0.3.2'
   # initialize rspec for application testing!
   gem 'rspec-rails'
+
+  gem 'factory_girl'
+
   # initialize factory girl factories for application code testing
   gem 'factory_girl_rails'
   
