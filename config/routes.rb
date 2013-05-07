@@ -8,16 +8,21 @@ Clothing::Application.routes.draw do
 
 	root :to => 'home#home'
 
-	# initialize shop namespace!
-	namespace :shop do
+	# temporary fix for basic routing around application
+	resources :shop	
 
-		# initialize men types etc
-		match "men/:item_type" => "shop#show", :type => "men"
-		match "women/:item_type" => "shop#show", :type => "women"
-		match "kids/:item_type" => "shop#show", :type => "kids"
-		match "all/:item_type" => "shop#show", :type => "all"
+	# # initialize shop namespace!
+	# namespace :shop do
 
-		# individual item id etc!
-		resources :item
-	end
+	# 	# initialize men types etc
+	# 	match "/" => "shop#index" 
+
+	# 	match "/men/:item_type" => "shop#index", :type => "men"
+	# 	match "women/:item_type" => "shop#index", :type => "women"
+	# 	match "kids/:item_type" => "shop#index", :type => "kids"
+	# 	match "all/:item_type" => "shop#index", :type => "all"
+
+	# 	# individual item id etc!
+	# 	resources :item
+	# end
 end

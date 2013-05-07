@@ -87,9 +87,9 @@ group :development, :test do
   gem 'capistrano'
   # To use debugger
   gem 'debugger'
-  #  
+  # include better errors etc  
   gem 'better_errors', '>= 0.3.2'
-end
 
+end
 
 # rails plugin install git@github.com:get/Rename.git

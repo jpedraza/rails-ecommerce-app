@@ -55,34 +55,34 @@ SimpleNavigation::Configuration.run do |navigation|
     primary.item :store, 'SHOP', 'store_path' do |store|
 
       # 
-      store.item :all, 'ALL', '/all'
+      store.item :all, 'ALL', '/shop/all'
 
       # men subnavigation 
-      store.item :men, 'MEN', '/men' do |men|
+      store.item :men, 'MEN', '/shop/men' do |men|
 
-        men.item :shirts, 'Shirts', '/men/shirts'
-        men.item :shorts, 'Shorts', '/men/shorts'
-        men.item :pants, 'Pants', '/men/pants'
-        men.item :gear, 'Gear', '/men/gear'
+        men.item :shirts, 'Shirts', '/shop/men/shirts'
+        men.item :shorts, 'Shorts', '/shop/men/shorts'
+        men.item :pants, 'Pants', '/shop/men/pants'
+        men.item :gear, 'Gear', '/shop/men/gear'
 
       end
 
       # women sub navigation
-      store.item :women, 'WOMEN', '/women' do |women|
+      store.item :women, 'WOMEN', '/shop/women' do |women|
 
-        women.item :tops, 'Tops', '/women/tops'
-        women.item :bottoms, 'Bottoms', '/women/bottoms'
-        women.item :pants, 'Pants', '/women/pants'
-        women.item :gear, 'Gear', '/kids/gear'
+        women.item :tops, 'Tops', '/shop/women/tops'
+        women.item :bottoms, 'Bottoms', '/shop/women/bottoms'
+        women.item :pants, 'Pants', '/shop/women/pants'
+        women.item :gear, 'Gear', '/shop/kids/gear'
 
       end 
 
-      store.item :kids, 'KIDS', '/kids' do |kids|
+      store.item :kids, 'KIDS', '/shop/kids' do |kids|
 
-        kids.item :tops, 'Tops', '/kids/tops'
-        kids.item :bottoms, 'Bottoms', '/kids/bottoms'
-        kids.item :pants, 'Pants', '/kids/pants'
-        kids.item :gear, 'Gear', '/kids/gear'
+        kids.item :tops, 'Tops', '/shop/kids/tops'
+        kids.item :bottoms, 'Bottoms', '/shop/kids/bottoms'
+        kids.item :pants, 'Pants', '/shop/kids/pants'
+        kids.item :gear, 'Gear', '/shop/kids/gear'
 
       end
 

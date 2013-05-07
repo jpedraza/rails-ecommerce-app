@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+	
   protect_from_forgery
 
   # future logic can go here to help set up various page ids etc
