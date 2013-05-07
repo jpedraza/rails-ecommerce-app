@@ -11,18 +11,28 @@ Clothing::Application.routes.draw do
 	# temporary fix for basic routing around application
 	# resources :shop	
 
-	match 'shop' => "shop#index", :params => {:type => "all", :item_type => "all"}
-	match 'shop/:type/:item_type' => 'shop#index', :defaults => {:type => "all", :item_type => "all 
+	# match basic namespaces etc
+	match 'shop' => "shop#index"
 
-	# 	# initialize men types etc
-	# 	match "/" => "shop#index" 
+	# match basic shop element etc	
+	match 'shop/:type' => "shop#index"
 
-	# 	match "/men/:item_type" => "shop#index", :type => "men"
-	# 	match "women/:item_type" => "shop#index", :type => "women"
-	# 	match "kids/:item_type" => "shop#index", :type => "kids"
-	# 	match "all/:item_type" => "shop#index", :type => "all"
+	# match shop item type filter etc to the next level
+	match 'shop/:type/:item_type' => 'shop#index'
 
-	# 	# individual item id etc!
-	# 	resources :item
-	# end
+	# now do mens / womens etc filtering	
+	match 'mens' => "shop#index", :params => {:type => "mens"}
+	match 'mens/:item_type' => 'shop#index', :params => {:type => "mens"}
+
+	# now create basic womens etc
+	match 'womens' => "shop#index", :params => {:type => "womens"}
+	match 'womens/:item_type' => "shop#index", :params => {:type => "womens"}
+
+	# initialize kids routing -- this should all be dryer in the future
+	match 'kids' => "shop#index", :params => {:type => "kids"}
+	match 'kids/:item_type' => "shop#index", :params => {:type => "kids"}
+
+	# initialize our item element -- this is a single piece of the application etc
+	resources :item
+
 end
