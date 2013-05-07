@@ -83,6 +83,9 @@ module Clothing
     # include the assets paths for the rails application so that our original bower install works well with this
     config.assets.paths << "#{Rails.root}/app/assets/javascripts/vendor"
 
+    # initialize our rails concerns to be loaded in automatically!
+    config.load_paths << "#{RAILS_ROOT}/app/models/concerns"
+
 
   end
 end
