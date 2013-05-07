@@ -70,11 +70,8 @@ group :development, :test do
 
   # place holder images gem
   gem "placeholdit" 
-
   # gorgery element for lorem ipsum throughout
   gem "forgery"
-
-
   # To use ActiveModel has_secure_password
   gem 'bcrypt-ruby', '~> 3.0.0'
   # use a little tmux library to work with 
@@ -89,7 +86,11 @@ group :development, :test do
   gem 'debugger'
   # include better errors etc  
   gem 'better_errors', '>= 0.3.2'
-
+  # initialize rspec for application testing!
+  gem 'rspec-rails'
+  # initialize factory girl factories for application code testing
+  gem 'factory_girl_rails'
+  
 end
 
 # rails plugin install git@github.com:get/Rename.git

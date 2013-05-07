@@ -1,12 +1,14 @@
 class ShopController < ApplicationController
 
 	# initialize our basic configuration for this particular application
-	before_filter {|c| c.setup "main"}
+	before_filter {|c| c.setup "shop"}
 
 	# this is the main getter function etc for this particular application
 	def index 
 
-		render :json => params
+		
+
+
 
 	end
 end
