@@ -9,10 +9,10 @@ Clothing::Application.routes.draw do
 	root :to => 'home#home'
 
 	# temporary fix for basic routing around application
-	resources :shop	
+	# resources :shop	
 
-	# # initialize shop namespace!
-	# namespace :shop do
+	match 'shop' => "shop#index", :params => {:type => "all", :item_type => "all"}
+	match 'shop/:type/:item_type' => 'shop#index', :defaults => {:type => "all", :item_type => "all 
 
 	# 	# initialize men types etc
 	# 	match "/" => "shop#index" 
