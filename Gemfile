@@ -28,7 +28,6 @@ group :development, :test, :production do
 
   # other rails functionality
   gem 'routing_concerns'
-
   
 end
 
