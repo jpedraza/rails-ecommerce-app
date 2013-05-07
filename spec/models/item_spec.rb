@@ -1,5 +1,14 @@
 require 'spec_helper'
 
 describe Item do
-  pending "add some examples to (or delete) #{__FILE__}"
+
+	describe "When you save an item locally, it should update the Shopify API" do
+
+		pending "This should save with the shopify api etc..."
+
+
+	end
+
+	
+
 end
