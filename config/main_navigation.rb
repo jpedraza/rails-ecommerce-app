@@ -52,9 +52,9 @@ SimpleNavigation::Configuration.run do |navigation|
     primary.item :logo, 'Home', '/'
 
     # initialize men's / women's shopping etc
-    primary.item :store, 'SHOP', 'store_path' do |store|
+    primary.item :store, 'SHOP', '/shop/' do |store|
 
-      # 
+      # initialize teh store element 
       store.item :all, 'ALL', '/shop/all'
 
       # men subnavigation 
