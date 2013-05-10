@@ -1,4 +1,5 @@
 class Item
+	
   include Mongoid::Document
 
   	# include basic structure elements

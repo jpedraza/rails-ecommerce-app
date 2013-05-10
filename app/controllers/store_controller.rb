@@ -4,7 +4,8 @@ class StoreController < ApplicationController
 	# index 
 	def index	
 
-		render :json => {:type}
+
+		# render :json  => {:message => "HELLO WORLD"}
 
 	end
 end

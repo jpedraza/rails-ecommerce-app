@@ -88,10 +88,14 @@ group :development, :test do
   # initialize rspec for application testing!
   gem 'rspec-rails'
 
-  gem 'factory_girl'
+  # initialize guard for basic watching and automated tasks
+  gem 'guard'
+
+  # initialize guard for rspec tests etc
+  gem 'guard-rspec'  # gem 'factory_girl'
 
   # initialize factory girl factories for application code testing
-  gem 'factory_girl_rails'
+  # gem 'factory_girl_rails'
   
 end
 

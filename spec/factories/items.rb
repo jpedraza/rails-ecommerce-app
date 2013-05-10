@@ -6,7 +6,7 @@ FactoryGirl.define do
 
 		id "top"
 		title "Men's Top"
-		images = ["items/top/1.png", "items/top/2.png"]
+		images ["items/top/1.png", "items/top/2.png"]
 
 	end
 end
