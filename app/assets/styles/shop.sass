@@ -1,18 +1,6 @@
 @import "config/base"
-@import "config/colors"
-
-@import "mixins/box"
-@import "mixins/box_styles"
-@import "mixins/general"
-@import "mixins/icons"
-@import "mixins/navigation"
-@import "mixins/typography"
 
 // idea is that all partials have the proper mixins loaded in before hand so that we don't need to multiple include dependencies etc 
-@import "partials/body"
-@import "partials/header"
-@import "partials/footer"
-
 // include other elements here....
 #header
 	
@@ -20,8 +8,7 @@
 	position: relative
 	@include header_font
 	overflow-y: auto
-	padding: 1.5em 0 1.5em 0
-	top: 2em
+	padding: 1em 0 1em 0
 
 	> h1
 
@@ -30,37 +17,37 @@
 		text-align: center
 		display: block
 
+#sidebar
+
+	@include pre(0.5)
+	@include span-columns(2,12)
+	background-color: orange
+	height: 10em
+
 #shop
+	
+	display: none
+	@include span-columns(8, 12)
+	@include clearfix
+	@include container
 
-	@include span-columns(8)
-	@include push(1)
-	margin-top: 9em
-	margin-bottom: 20em
+	> div
 
-	#items				
+		@include span-columns(2.8, 12)
+		height: 9em
+		background-color: gray
+		margin-bottom: 1em
 
-		> div
+		> a 
 
-			@include span-columns(1, 8)	
-			height: 10em
-			margin-right: 5em
+			position: relative
+			width: 100%
+			height: 100%
 
-			> a	
+			> img
 
-				position: relative
-				height: 90%
-				width: 90%
-				top: 5%
-				left: 5%
-				display: block
-				background-color: orange
-				cursor: pointer
-
-				> img
-
-					// display: none
-					height: 100%
-					width: 100%
+				height: 100%
+				width: 100%
 
 
 
