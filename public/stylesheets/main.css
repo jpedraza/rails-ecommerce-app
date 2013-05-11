@@ -79,16 +79,16 @@ body ul > li > a > span:hover { color: #ef0a08; }
 /* line 2, ../../app/assets/styles/partials/_header.sass */
 header { position: absolute; z-index: 1000; background: url('/images/medium_background.png?1319981578'); }
 
-@media (min-width: 0em) { /* line 12, ../../app/assets/styles/partials/_header.sass */
+@media (min-width: 0em) { /* line 13, ../../app/assets/styles/partials/_header.sass */
   header { width: 82.05128%; float: left; margin-right: 2.5641%; margin-left: -71.79487%; } }
-@media (min-width: 48em) { /* line 12, ../../app/assets/styles/partials/_header.sass */
+@media (min-width: 48em) { /* line 13, ../../app/assets/styles/partials/_header.sass */
   header { margin-left: 0%; width: 100%; float: left; margin-right: 1.69492%; } }
 
-@media (min-width: 48em) { /* line 44, ../../app/assets/styles/partials/_header.sass */
+@media (min-width: 48em) { /* line 45, ../../app/assets/styles/partials/_header.sass */
   header { max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; }
   /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   header:after { content: ""; display: table; clear: both; }
-  /* line 54, ../../app/assets/styles/partials/_header.sass */
+  /* line 55, ../../app/assets/styles/partials/_header.sass */
   header #main > ul { width: 33.33333%; float: left; margin-right: 0%; }
   /* line 211, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li { width: 20%; float: left; margin-right: 0%; }
@@ -104,9 +104,9 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
   /* line 40, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li > ul { display: none; }
-  /* line 70, ../../app/assets/styles/partials/_header.sass */
+  /* line 71, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(2) > ul, header #main > ul > li:nth-of-type(3) > ul, header #main > ul > li:nth-of-type(4) > ul, header #main > ul > li:nth-of-type(5) > ul { box-shadow: 0 1.5em 2.5em 0.5em rgba(36, 36, 36, 0.9); border-bottom: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 1.5em 2.5em 0.5em rgba(36, 36, 36, 0.9); border-top: 1px solid rgba(0, 0, 0, 0.2); overflow-y: auto; padding: 1.5em 0 1.5em 0; }
-  /* line 76, ../../app/assets/styles/partials/_header.sass */
+  /* line 77, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(2) > ul > li, header #main > ul > li:nth-of-type(3) > ul > li, header #main > ul > li:nth-of-type(4) > ul > li, header #main > ul > li:nth-of-type(5) > ul > li { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; height: auto; display: block; border-right: 1px solid rgba(0, 0, 0, 0.2); }
   /* line 62, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li > a, header #main > ul > li:nth-of-type(3) > ul > li > a, header #main > ul > li:nth-of-type(4) > ul > li > a, header #main > ul > li:nth-of-type(5) > ul > li > a { height: 100px; width: 95%; display: block; margin: 0 auto; text-align: center; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
@@ -114,7 +114,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(2) > ul > li > a > span, header #main > ul > li:nth-of-type(3) > ul > li > a > span, header #main > ul > li:nth-of-type(4) > ul > li > a > span, header #main > ul > li:nth-of-type(5) > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 1em; margin-top: 1em; font-size: 1.5em; display: block; text-transform: uppercase; }
   /* line 56, ../../app/assets/styles/mixins/_typography.sass */
   header #main > ul > li:nth-of-type(2) > ul > li > a > span:hover, header #main > ul > li:nth-of-type(3) > ul > li > a > span:hover, header #main > ul > li:nth-of-type(4) > ul > li > a > span:hover, header #main > ul > li:nth-of-type(5) > ul > li > a > span:hover { color: #ef0a08; }
-  /* line 81, ../../app/assets/styles/partials/_header.sass */
+  /* line 82, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(2) > ul > li:last-of-type, header #main > ul > li:nth-of-type(3) > ul > li:last-of-type, header #main > ul > li:nth-of-type(4) > ul > li:last-of-type, header #main > ul > li:nth-of-type(5) > ul > li:last-of-type { border: 0px transparent; }
   /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(1) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
@@ -128,7 +128,7 @@ header { position: absolute; z-index: 1000; background: url('/images/medium_back
   header #main > ul > li:nth-of-type(2) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
   /* line 264, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li:first-of-type { margin-left: 0%; }
-  /* line 99, ../../app/assets/styles/partials/_header.sass */
+  /* line 100, ../../app/assets/styles/partials/_header.sass */
   header #main > ul > li:nth-of-type(2) > ul > li { position: relative; overflow-y: auto; height: 10em; overflow: hidden; }
   /* line 170, ../../app/assets/styles/mixins/_navigation.sass */
   header #main > ul > li:nth-of-type(2) > ul > li > a { width: 100%; text-align: center; height: auto; }
