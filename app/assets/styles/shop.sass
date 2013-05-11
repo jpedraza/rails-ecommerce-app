@@ -1,0 +1,51 @@
+@import "config/base"
+@import "config/colors"
+
+@import "mixins/box"
+@import "mixins/box_styles"
+@import "mixins/general"
+@import "mixins/icons"
+@import "mixins/navigation"
+@import "mixins/typography"
+
+// idea is that all partials have the proper mixins loaded in before hand so that we don't need to multiple include dependencies etc 
+@import "partials/body"
+@import "partials/header"
+@import "partials/footer"
+
+// include other elements here....
+
+#shop
+
+	@include span-columns(8)
+	@include push(1)
+	margin-top: 5em
+	margin-bottom: 20em
+
+	#items				
+
+		> div
+
+			@include span-columns(1, 8)	
+			height: 10em
+			margin-right: 5em
+
+			> a	
+
+				position: relative
+				height: 90%
+				width: 90%
+				top: 5%
+				left: 5%
+				display: block
+				background-color: orange
+
+				> img
+
+					// display: none
+
+					height: 100%
+					width: 100%
+
+
+

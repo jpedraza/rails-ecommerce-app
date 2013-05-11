@@ -299,51 +299,11 @@ footer { background-color: gray; }
 /* line 9, ../../app/assets/styles/partials/_footer.sass */
 footer > p { width: 100%; display: block; text-align: center; vertical-align: middle; margin-left: 25.42373%; width: 49.15254%; float: left; margin-right: 1.69492%; display: inline; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 1em; color: white; }
 
-/* line 1, ../../app/assets/styles/pages/_home.sass */
-#gallery { margin-top: 2.6em; width: 100%; position: relative; }
-/* line 8, ../../app/assets/styles/pages/_home.sass */
-#gallery > div { width: 100%; overflow: hidden; *zoom: 1; }
-/* line 13, ../../app/assets/styles/pages/_home.sass */
-#gallery > div > img { width: 100%; }
-
-/* line 18, ../../app/assets/styles/pages/_home.sass */
-#about { *zoom: 1; max-width: 100%; _width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; margin-bottom: 10em; }
-/* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-#about:after { content: ""; display: table; clear: both; }
-/* line 23, ../../app/assets/styles/pages/_home.sass */
-#about > h1 { width: 151.28205%; float: left; margin-right: 2.5641%; display: inline; margin: 1em 0 1em 0; width: 100%; display: block; text-align: center; vertical-align: middle; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 2.9em; font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: 0em; text-transform: uppercase; padding: 0; font-weight: 900; color: white; }
-/* line 30, ../../app/assets/styles/pages/_home.sass */
-#about > div { position: relative; height: 10em; width: 23.72881%; float: left; margin-right: 1.69492%; display: inline; }
-/* line 35, ../../app/assets/styles/pages/_home.sass */
-#about > div:first-of-type { margin-left: 13.55932%; }
-/* line 5, ../../app/assets/styles/mixins/_box.sass */
-#about > div > div { height: 100%; width: 100%; position: absolute; top: 0; left: 0; background-color: orange; }
-/* line 13, ../../app/assets/styles/mixins/_box.sass */
-#about > div > div > h1 { position: absolute; top: 1em; width: 100%; display: block; text-align: center; vertical-align: middle; }
-/* line 18, ../../app/assets/styles/mixins/_box.sass */
-#about > div:hover { cursor: pointer; }
-/* line 23, ../../app/assets/styles/mixins/_box.sass */
-#about > div:hover > div:first-of-type { display: none; }
-/* line 27, ../../app/assets/styles/mixins/_box.sass */
-#about > div:hover > div:last-of-type { display: block; }
-/* line 32, ../../app/assets/styles/mixins/_box.sass */
-#about > div:hover img { display: none; }
-/* line 36, ../../app/assets/styles/mixins/_box.sass */
-#about > div > div:first-of-type { display: block; }
-/* line 41, ../../app/assets/styles/mixins/_box.sass */
-#about > div > div:first-of-type > img { position: absolute; height: 100%; width: 100%; }
-/* line 49, ../../app/assets/styles/mixins/_box.sass */
-#about > div > div:last-of-type { display: none; }
-/* line 53, ../../app/assets/styles/mixins/_box.sass */
-#about > div > div:last-of-type > h1 { position: relative; }
-/* line 57, ../../app/assets/styles/mixins/_box.sass */
-#about > div > div:last-of-type > p { position: relative; }
-
-/* line 40, ../../app/assets/styles/pages/_home.sass */
-#follow, #gallery > #follow { position: absolute; width: 15em; z-index: 20000; overflow: hidden; *zoom: 1; bottom: 2em; right: 4em; background: url('/images/medium_background.png?1319981578'); display: block; }
-/* line 52, ../../app/assets/styles/pages/_home.sass */
-#follow > h1, #gallery > #follow > h1 { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); display: block; text-align: center; margin-bottom: 0.5em; }
-/* line 62, ../../app/assets/styles/pages/_home.sass */
-#follow > div, #gallery > #follow > div { position: relative; width: 40%; float: left; }
-/* line 68, ../../app/assets/styles/pages/_home.sass */
-#follow > div:first-of-type, #gallery > #follow > div:first-of-type { margin-left: 10%; }
+/* line 18, ../../app/assets/styles/shop.sass */
+#shop { width: 100%; float: left; margin-right: 2.5641%; display: inline; margin-left: 12.82051%; margin-top: 5em; margin-bottom: 20em; }
+/* line 27, ../../app/assets/styles/shop.sass */
+#shop #items > div { width: 10.25641%; float: left; margin-right: 2.5641%; display: inline; height: 10em; margin-right: 5em; }
+/* line 33, ../../app/assets/styles/shop.sass */
+#shop #items > div > a { position: relative; height: 90%; width: 90%; top: 5%; left: 5%; display: block; background-color: orange; }
+/* line 43, ../../app/assets/styles/shop.sass */
+#shop #items > div > a > img { height: 100%; width: 100%; }

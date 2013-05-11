@@ -6,7 +6,8 @@ class ShopController < ApplicationController
 	# this is the main getter function etc for this particular application
 	def index 
 
-			
+		
+						
 
 
 
