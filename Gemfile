@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-# gem 'rails', :github => 'rails/rails'
 gem 'mongoid'
 
 # add binding of caller to the element
@@ -45,16 +43,16 @@ group :assets do
   # susy grid system -- actually the greatest!!!
   gem 'susy'
   # include color-themes 
-  gem 'compass-colors', :github => 'MorehouseJ09/compass-colors'
+  # gem 'compass-colors', :github => 'MorehouseJ09/compass-colors'
   # include sass button plugin for compass 
   # sassy-buttons is great but maybe not for this particular project?
   # gem 'sassy-buttons' 
   # animation library that is from my own github account
-  gem 'animate-sass', :github => 'MorehouseJ09/animate.sass'
+  # gem 'animate-sass', :github => 'MorehouseJ09/animate.sass'
   # use stitch framework for helpers throughout
   gem 'stitch'
   # sass helpers / assistance -- a little better than stitch but keep both for now?
-  gem 'toolkit', :github => 'MorehouseJ09/toolkit'
+  # gem 'toolkit', :github => 'MorehouseJ09/toolkit'
   # uglifier for elements
   gem 'uglifier', '>= 1.0.3'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes

@@ -1,28 +1,3 @@
-GIT
-  remote: git://github.com/MorehouseJ09/animate.sass.git
-  revision: a6e41ed48d3de9ccd9a47d505c3348d248fa70ab
-  specs:
-    animate-sass (0.1.1)
-      compass (>= 0.11.5)
-
-GIT
-  remote: git://github.com/MorehouseJ09/compass-colors.git
-  revision: 08334d1de5309f63a57e0fb1de27e98e3f1e128b
-  specs:
-    compass-colors (0.3.1)
-      compass (>= 0.8.7)
-
-GIT
-  remote: git://github.com/MorehouseJ09/toolkit.git
-  revision: 129d7bbb004d018a6203fe347a396bdfbcd24184
-  specs:
-    toolkit (0.2.6)
-      compass (>= 0.12.2)
-      respond-to (>= 2.6)
-      sassy-strings (>= 0.1)
-      singularitygs (>= 0.0.17)
-      susy (>= 1.0.5)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -60,9 +35,6 @@ GEM
       erubis (>= 2.6.6)
     binding_of_caller (0.7.1)
       debug_inspector (>= 0.0.1)
-    breakpoint (2.0.5)
-      compass (>= 0.12.1)
-      sass (>= 3.2.0)
     builder (3.0.4)
     capistrano (2.15.4)
       highline
@@ -185,8 +157,6 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     ref (1.0.4)
-    respond-to (2.6)
-      breakpoint (>= 1.3)
     routing_concerns (0.1.0)
       actionpack (>= 3.2.0)
       activemodel (>= 3.2.0)
@@ -207,17 +177,11 @@ GEM
       rspec-expectations (~> 2.13.0)
       rspec-mocks (~> 2.13.0)
     sass (3.2.8)
-    sassy-strings (0.3.1)
-      compass (>= 0.12.2)
     simple-navigation (3.10.1)
       activesupport (>= 2.3.2)
     simple_form (2.1.0)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
-    singularitygs (1.0.8)
-      breakpoint (>= 2.0.1)
-      compass (>= 0.12.2)
-      sass (>= 3.2.1)
     slop (3.4.4)
     sprockets (2.2.2)
       hike (~> 1.2)
@@ -249,14 +213,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  animate-sass!
   bcrypt-ruby (~> 3.0.0)
   better_errors (>= 0.3.2)
   binding_of_caller
   capistrano
   coffee-script
   compass
-  compass-colors!
   debugger
   figaro
   forgery
@@ -277,5 +239,4 @@ DEPENDENCIES
   susy
   therubyracer
   tmux-ruby
-  toolkit!
   uglifier (>= 1.0.3)

@@ -5,7 +5,7 @@
 
 require 'compass'
 require 'susy'
-require 'animate-sass'
+# require 'animate-sass'
 require 'stitch'
 
 http_path = "/"
