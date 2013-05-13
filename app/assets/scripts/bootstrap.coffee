@@ -48,14 +48,10 @@ require.config config
 # lets go ahead and require jquery before anything else
 
 # check to see if page site is live currently
+# if the site is currently live then go ahead and set up some more variables for live site loading etc
 if config.status
 
-	alert "HELLO WORLD"
-
-else
-	
-	alert "NOT LIVE"
-
+	require ['facebook', 'twitter']
 
 
 

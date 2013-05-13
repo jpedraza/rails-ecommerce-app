@@ -34,9 +34,7 @@
   require.config(config);
 
   if (config.status) {
-    alert("HELLO WORLD");
-  } else {
-    alert("NOT LIVE");
+    require(['facebook', 'twitter']);
   }
 
 }).call(this);

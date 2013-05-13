@@ -1,0 +1,610 @@
+/* line 17, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+/* line 22, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html { line-height: 1; }
+
+/* line 24, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul { list-style: none; }
+
+/* line 26, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 28, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+/* line 30, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote { quotes: none; }
+/* line 103, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+/* line 32, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img { border: none; }
+
+/* line 116, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+/* line 61, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html { font-size: 100%; }
+
+/* line 64, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html { font-size: 16px; line-height: 1.5em; }
+
+@font-face { font-family: "Icons"; src: url('/fonts/icons.eot') format('embedded-opentype'), url('/fonts/icons.svg') format('svg'), url('/fonts/icons.ttf') format('truetype'), url('/fonts/icons.woff') format('woff'); }
+
+/* line 1, ../../app/assets/styles/partials/_body.sass */
+html, body { height: 100%; }
+
+@media (min-width: 0em) { /* line 4, ../../app/assets/styles/partials/_body.sass */
+  body { max-width: 39em; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(10.25641%, rgba(100, 100, 225, 0.25)), color-stop(10.25641%, rgba(0, 0, 0, 0)), color-stop(12.82051%, rgba(0, 0, 0, 0)), color-stop(12.82051%, rgba(100, 100, 225, 0.25)), color-stop(23.07692%, rgba(100, 100, 225, 0.25)), color-stop(23.07692%, rgba(0, 0, 0, 0)), color-stop(25.64103%, rgba(0, 0, 0, 0)), color-stop(25.64103%, rgba(100, 100, 225, 0.25)), color-stop(35.89744%, rgba(100, 100, 225, 0.25)), color-stop(35.89744%, rgba(0, 0, 0, 0)), color-stop(38.46154%, rgba(0, 0, 0, 0)), color-stop(38.46154%, rgba(100, 100, 225, 0.25)), color-stop(48.71795%, rgba(100, 100, 225, 0.25)), color-stop(48.71795%, rgba(0, 0, 0, 0)), color-stop(51.28205%, rgba(0, 0, 0, 0)), color-stop(51.28205%, rgba(100, 100, 225, 0.25)), color-stop(61.53846%, rgba(100, 100, 225, 0.25)), color-stop(61.53846%, rgba(0, 0, 0, 0)), color-stop(64.10256%, rgba(0, 0, 0, 0)), color-stop(64.10256%, rgba(100, 100, 225, 0.25)), color-stop(74.35897%, rgba(100, 100, 225, 0.25)), color-stop(74.35897%, rgba(0, 0, 0, 0)), color-stop(76.92308%, rgba(0, 0, 0, 0)), color-stop(76.92308%, rgba(100, 100, 225, 0.25)), color-stop(87.17949%, rgba(100, 100, 225, 0.25)), color-stop(87.17949%, rgba(0, 0, 0, 0)), color-stop(89.74359%, rgba(0, 0, 0, 0)), color-stop(89.74359%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0))); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10.25641%, rgba(0, 0, 0, 0) 10.25641%, rgba(0, 0, 0, 0) 12.82051%, rgba(100, 100, 225, 0.25) 12.82051%, rgba(100, 100, 225, 0.25) 23.07692%, rgba(0, 0, 0, 0) 23.07692%, rgba(0, 0, 0, 0) 25.64103%, rgba(100, 100, 225, 0.25) 25.64103%, rgba(100, 100, 225, 0.25) 35.89744%, rgba(0, 0, 0, 0) 35.89744%, rgba(0, 0, 0, 0) 38.46154%, rgba(100, 100, 225, 0.25) 38.46154%, rgba(100, 100, 225, 0.25) 48.71795%, rgba(0, 0, 0, 0) 48.71795%, rgba(0, 0, 0, 0) 51.28205%, rgba(100, 100, 225, 0.25) 51.28205%, rgba(100, 100, 225, 0.25) 61.53846%, rgba(0, 0, 0, 0) 61.53846%, rgba(0, 0, 0, 0) 64.10256%, rgba(100, 100, 225, 0.25) 64.10256%, rgba(100, 100, 225, 0.25) 74.35897%, rgba(0, 0, 0, 0) 74.35897%, rgba(0, 0, 0, 0) 76.92308%, rgba(100, 100, 225, 0.25) 76.92308%, rgba(100, 100, 225, 0.25) 87.17949%, rgba(0, 0, 0, 0) 87.17949%, rgba(0, 0, 0, 0) 89.74359%, rgba(100, 100, 225, 0.25) 89.74359%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10.25641%, rgba(0, 0, 0, 0) 10.25641%, rgba(0, 0, 0, 0) 12.82051%, rgba(100, 100, 225, 0.25) 12.82051%, rgba(100, 100, 225, 0.25) 23.07692%, rgba(0, 0, 0, 0) 23.07692%, rgba(0, 0, 0, 0) 25.64103%, rgba(100, 100, 225, 0.25) 25.64103%, rgba(100, 100, 225, 0.25) 35.89744%, rgba(0, 0, 0, 0) 35.89744%, rgba(0, 0, 0, 0) 38.46154%, rgba(100, 100, 225, 0.25) 38.46154%, rgba(100, 100, 225, 0.25) 48.71795%, rgba(0, 0, 0, 0) 48.71795%, rgba(0, 0, 0, 0) 51.28205%, rgba(100, 100, 225, 0.25) 51.28205%, rgba(100, 100, 225, 0.25) 61.53846%, rgba(0, 0, 0, 0) 61.53846%, rgba(0, 0, 0, 0) 64.10256%, rgba(100, 100, 225, 0.25) 64.10256%, rgba(100, 100, 225, 0.25) 74.35897%, rgba(0, 0, 0, 0) 74.35897%, rgba(0, 0, 0, 0) 76.92308%, rgba(100, 100, 225, 0.25) 76.92308%, rgba(100, 100, 225, 0.25) 87.17949%, rgba(0, 0, 0, 0) 87.17949%, rgba(0, 0, 0, 0) 89.74359%, rgba(100, 100, 225, 0.25) 89.74359%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10.25641%, rgba(0, 0, 0, 0) 10.25641%, rgba(0, 0, 0, 0) 12.82051%, rgba(100, 100, 225, 0.25) 12.82051%, rgba(100, 100, 225, 0.25) 23.07692%, rgba(0, 0, 0, 0) 23.07692%, rgba(0, 0, 0, 0) 25.64103%, rgba(100, 100, 225, 0.25) 25.64103%, rgba(100, 100, 225, 0.25) 35.89744%, rgba(0, 0, 0, 0) 35.89744%, rgba(0, 0, 0, 0) 38.46154%, rgba(100, 100, 225, 0.25) 38.46154%, rgba(100, 100, 225, 0.25) 48.71795%, rgba(0, 0, 0, 0) 48.71795%, rgba(0, 0, 0, 0) 51.28205%, rgba(100, 100, 225, 0.25) 51.28205%, rgba(100, 100, 225, 0.25) 61.53846%, rgba(0, 0, 0, 0) 61.53846%, rgba(0, 0, 0, 0) 64.10256%, rgba(100, 100, 225, 0.25) 64.10256%, rgba(100, 100, 225, 0.25) 74.35897%, rgba(0, 0, 0, 0) 74.35897%, rgba(0, 0, 0, 0) 76.92308%, rgba(100, 100, 225, 0.25) 76.92308%, rgba(100, 100, 225, 0.25) 87.17949%, rgba(0, 0, 0, 0) 87.17949%, rgba(0, 0, 0, 0) 89.74359%, rgba(100, 100, 225, 0.25) 89.74359%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10.25641%, rgba(0, 0, 0, 0) 10.25641%, rgba(0, 0, 0, 0) 12.82051%, rgba(100, 100, 225, 0.25) 12.82051%, rgba(100, 100, 225, 0.25) 23.07692%, rgba(0, 0, 0, 0) 23.07692%, rgba(0, 0, 0, 0) 25.64103%, rgba(100, 100, 225, 0.25) 25.64103%, rgba(100, 100, 225, 0.25) 35.89744%, rgba(0, 0, 0, 0) 35.89744%, rgba(0, 0, 0, 0) 38.46154%, rgba(100, 100, 225, 0.25) 38.46154%, rgba(100, 100, 225, 0.25) 48.71795%, rgba(0, 0, 0, 0) 48.71795%, rgba(0, 0, 0, 0) 51.28205%, rgba(100, 100, 225, 0.25) 51.28205%, rgba(100, 100, 225, 0.25) 61.53846%, rgba(0, 0, 0, 0) 61.53846%, rgba(0, 0, 0, 0) 64.10256%, rgba(100, 100, 225, 0.25) 64.10256%, rgba(100, 100, 225, 0.25) 74.35897%, rgba(0, 0, 0, 0) 74.35897%, rgba(0, 0, 0, 0) 76.92308%, rgba(100, 100, 225, 0.25) 76.92308%, rgba(100, 100, 225, 0.25) 87.17949%, rgba(0, 0, 0, 0) 87.17949%, rgba(0, 0, 0, 0) 89.74359%, rgba(100, 100, 225, 0.25) 89.74359%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-position: left top; -webkit-background-origin: content; -moz-background-origin: content; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box; -webkit-background-clip: content-box; -moz-background-clip: content-box; background-clip: content-box; overflow-y: hidden; overflow-x: hidden; }
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  body:after { content: ""; display: table; clear: both; } }
+@media (min-width: 48em) { /* line 4, ../../app/assets/styles/partials/_body.sass */
+  body { max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.77966%, rgba(100, 100, 225, 0.25)), color-stop(6.77966%, rgba(0, 0, 0, 0)), color-stop(8.47458%, rgba(0, 0, 0, 0)), color-stop(8.47458%, rgba(100, 100, 225, 0.25)), color-stop(15.25424%, rgba(100, 100, 225, 0.25)), color-stop(15.25424%, rgba(0, 0, 0, 0)), color-stop(16.94915%, rgba(0, 0, 0, 0)), color-stop(16.94915%, rgba(100, 100, 225, 0.25)), color-stop(23.72881%, rgba(100, 100, 225, 0.25)), color-stop(23.72881%, rgba(0, 0, 0, 0)), color-stop(25.42373%, rgba(0, 0, 0, 0)), color-stop(25.42373%, rgba(100, 100, 225, 0.25)), color-stop(32.20339%, rgba(100, 100, 225, 0.25)), color-stop(32.20339%, rgba(0, 0, 0, 0)), color-stop(33.89831%, rgba(0, 0, 0, 0)), color-stop(33.89831%, rgba(100, 100, 225, 0.25)), color-stop(40.67797%, rgba(100, 100, 225, 0.25)), color-stop(40.67797%, rgba(0, 0, 0, 0)), color-stop(42.37288%, rgba(0, 0, 0, 0)), color-stop(42.37288%, rgba(100, 100, 225, 0.25)), color-stop(49.15254%, rgba(100, 100, 225, 0.25)), color-stop(49.15254%, rgba(0, 0, 0, 0)), color-stop(50.84746%, rgba(0, 0, 0, 0)), color-stop(50.84746%, rgba(100, 100, 225, 0.25)), color-stop(57.62712%, rgba(100, 100, 225, 0.25)), color-stop(57.62712%, rgba(0, 0, 0, 0)), color-stop(59.32203%, rgba(0, 0, 0, 0)), color-stop(59.32203%, rgba(100, 100, 225, 0.25)), color-stop(66.10169%, rgba(100, 100, 225, 0.25)), color-stop(66.10169%, rgba(0, 0, 0, 0)), color-stop(67.79661%, rgba(0, 0, 0, 0)), color-stop(67.79661%, rgba(100, 100, 225, 0.25)), color-stop(74.57627%, rgba(100, 100, 225, 0.25)), color-stop(74.57627%, rgba(0, 0, 0, 0)), color-stop(76.27119%, rgba(0, 0, 0, 0)), color-stop(76.27119%, rgba(100, 100, 225, 0.25)), color-stop(83.05085%, rgba(100, 100, 225, 0.25)), color-stop(83.05085%, rgba(0, 0, 0, 0)), color-stop(84.74576%, rgba(0, 0, 0, 0)), color-stop(84.74576%, rgba(100, 100, 225, 0.25)), color-stop(91.52542%, rgba(100, 100, 225, 0.25)), color-stop(91.52542%, rgba(0, 0, 0, 0)), color-stop(93.22034%, rgba(0, 0, 0, 0)), color-stop(93.22034%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0))); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-position: left top; -webkit-background-origin: content; -moz-background-origin: content; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box; -webkit-background-clip: content-box; -moz-background-clip: content-box; background-clip: content-box; overflow-y: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  body:after { content: ""; display: table; clear: both; } }
+@media (min-width: 50em) { /* line 4, ../../app/assets/styles/partials/_body.sass */
+  body { max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; overflow-y: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  body:after { content: ""; display: table; clear: both; } }
+
+/* line 28, ../../app/assets/styles/partials/_body.sass */
+#content { overflow: hidden; *zoom: 1; }
+@media (min-width: 0em) { /* line 28, ../../app/assets/styles/partials/_body.sass */
+  #content { width: 82.05128%; float: left; margin-right: 2.5641%; } }
+@media (min-width: 48em) { /* line 28, ../../app/assets/styles/partials/_body.sass */
+  #content { width: 100%; float: left; margin-right: 1.69492%; } }
+
+/* line 46, ../../app/assets/styles/partials/_body.sass */
+body { background: url('/images/global_background.png'); }
+/* line 53, ../../app/assets/styles/partials/_body.sass */
+body ul { list-style-type: none; }
+/* line 56, ../../app/assets/styles/partials/_body.sass */
+body ul > li { display: block; text-align: center; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; }
+/* line 56, ../../app/assets/styles/mixins/_typography.sass */
+body ul > li:hover { color: #ef0a08; }
+/* line 62, ../../app/assets/styles/partials/_body.sass */
+body ul > li > a { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; text-decoration: none; }
+/* line 56, ../../app/assets/styles/mixins/_typography.sass */
+body ul > li > a:hover { color: #ef0a08; }
+/* line 66, ../../app/assets/styles/partials/_body.sass */
+body ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; }
+/* line 56, ../../app/assets/styles/mixins/_typography.sass */
+body ul > li > a > span:hover { color: #ef0a08; }
+
+/* line 2, ../../app/assets/styles/partials/_header.sass */
+header { position: relative; height: 3em; z-index: 1000; background: url('/images/medium_background.png?1319981578'); }
+
+@media (min-width: 0em) { /* line 14, ../../app/assets/styles/partials/_header.sass */
+  header { width: 82.05128%; float: left; margin-right: 2.5641%; margin-left: -71.79487%; } }
+@media (min-width: 48em) { /* line 14, ../../app/assets/styles/partials/_header.sass */
+  header { margin-left: 0%; width: 100%; float: left; margin-right: 1.69492%; } }
+
+@media (min-width: 48em) { /* line 46, ../../app/assets/styles/partials/_header.sass */
+  header { max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  header:after { content: ""; display: table; clear: both; }
+  /* line 56, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul { width: 33.33333%; float: left; margin-right: 0%; }
+  /* line 211, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li { width: 20%; float: left; margin-right: 0%; }
+  /* line 213, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:last-of-type { width: 20%; float: right; margin-right: 0; }
+  /* line 10, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:hover > a { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background: transparent; border-bottom: 0px; }
+  /* line 18, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:hover > ul { display: block; transition: all 2s; opacity: 1; }
+  /* line 23, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
+  /* line 34, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
+  /* line 40, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li > ul { display: none; }
+  /* line 72, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(2) > ul, header #main > ul > li:nth-of-type(3) > ul, header #main > ul > li:nth-of-type(4) > ul, header #main > ul > li:nth-of-type(5) > ul { box-shadow: 0 1.5em 2.5em 0.5em rgba(36, 36, 36, 0.9); border-bottom: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 1.5em 2.5em 0.5em rgba(36, 36, 36, 0.9); border-top: 1px solid rgba(0, 0, 0, 0.2); overflow-y: auto; padding: 1.5em 0 1.5em 0; }
+  /* line 78, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li, header #main > ul > li:nth-of-type(3) > ul > li, header #main > ul > li:nth-of-type(4) > ul > li, header #main > ul > li:nth-of-type(5) > ul > li { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; height: auto; display: block; border-right: 1px solid rgba(0, 0, 0, 0.2); }
+  /* line 62, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > a, header #main > ul > li:nth-of-type(3) > ul > li > a, header #main > ul > li:nth-of-type(4) > ul > li > a, header #main > ul > li:nth-of-type(5) > ul > li > a { height: 100px; width: 95%; display: block; margin: 0 auto; text-align: center; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
+  /* line 74, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > a > span, header #main > ul > li:nth-of-type(3) > ul > li > a > span, header #main > ul > li:nth-of-type(4) > ul > li > a > span, header #main > ul > li:nth-of-type(5) > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 1em; margin-top: 1em; font-size: 1.5em; display: block; text-transform: uppercase; }
+  /* line 56, ../../app/assets/styles/mixins/_typography.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > a > span:hover, header #main > ul > li:nth-of-type(3) > ul > li > a > span:hover, header #main > ul > li:nth-of-type(4) > ul > li > a > span:hover, header #main > ul > li:nth-of-type(5) > ul > li > a > span:hover { color: #ef0a08; }
+  /* line 83, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li:last-of-type, header #main > ul > li:nth-of-type(3) > ul > li:last-of-type, header #main > ul > li:nth-of-type(4) > ul > li:last-of-type, header #main > ul > li:nth-of-type(5) > ul > li:last-of-type { border: 0px transparent; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(1) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(1) > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/black.png?1367305370'); background-position: center center; background-size: 90% auto; background-repeat: no-repeat; }
+  /* line 228, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -100%; position: relative; }
+  /* line 251, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul { overflow: hidden; background: url('/images/medium_background.png?1319981578'); overflow-y: auto; }
+  /* line 258, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
+  /* line 264, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li:first-of-type { margin-left: 0%; }
+  /* line 101, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li { position: relative; overflow-y: auto; height: 10em; overflow: hidden; }
+  /* line 170, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > a { width: 100%; text-align: center; height: auto; }
+  /* line 177, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li { height: 1.5em; }
+  /* line 181, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a { height: 100%; }
+  /* line 184, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-size: 1em; text-transform: uppercase; }
+  /* line 56, ../../app/assets/styles/mixins/_typography.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a > span:hover { color: #ef0a08; }
+  /* line 190, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a > span:hover { text-decoration: underline; }
+  /* line 147, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li:first-of-type > a { display: table; height: 100%; }
+  /* line 152, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li:first-of-type > a > span { display: table-cell; vertical-align: middle; }
+  /* line 228, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -200%; position: relative; }
+  /* line 251, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul { overflow: hidden; background: url('/images/medium_background.png?1319981578'); overflow-y: auto; }
+  /* line 258, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
+  /* line 264, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:first-of-type { margin-left: 16.66667%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a { background: url('/images/logos/characters/football.png?1368105134'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(2) > a { background: url('/images/logos/characters/soccer.png?1368105136'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(2) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(2) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a { background: url('/images/logos/characters/basketball.png?1368105028'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 137, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a { background-size: auto 75%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) > a { background: url('/images/logos/characters/running.png?1368105136'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 228, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -300.0%; position: relative; }
+  /* line 251, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul { overflow: hidden; background: url('/images/medium_background.png?1319981578'); overflow-y: auto; }
+  /* line 258, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
+  /* line 264, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:first-of-type { margin-left: 25%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) > a { background: url('/images/logos/tech/energy_dna.png?1366678511'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) > a > span { padding-top: 2.5em; }
+  /* line 162, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) > a { background-size: 70% auto; background-position: center center; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a { background: url('/images/logos/tech/celliant.png?1290014995'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(3) > a { background: url('/images/logos/tech/trimera.png?1365405104'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(3) > a > span { padding-top: 2.5em; }
+  /* line 228, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -400%; position: relative; }
+  /* line 251, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul { overflow: hidden; background: url('/images/medium_background.png?1319981578'); overflow-y: auto; }
+  /* line 258, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
+  /* line 264, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:first-of-type { margin-left: 16.66667%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(1) > a { background: url('/images/logos/footwear/running.png?1366689855'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(1) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(1) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) > a { background: url('/images/logos/footwear/basketball.png?1366689675'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(3) > a { background: url('/images/logos/footwear/football.png?1366689894'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(3) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(3) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(4) > a { background: url('/images/logos/footwear/soccer.png?1366689381'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(4) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(4) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 219, ../../app/assets/styles/partials/_header.sass */
+  header #social > ul { margin-left: 29.16667%; width: 16.66667%; float: left; margin-right: 0%; }
+  /* line 211, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li { width: 33.33333%; float: left; margin-right: 0%; }
+  /* line 213, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:last-of-type { width: 33.33333%; float: right; margin-right: 0; }
+  /* line 10, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:hover > a { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background: transparent; border-bottom: 0px; }
+  /* line 18, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:hover > ul { display: block; transition: all 2s; opacity: 1; }
+  /* line 23, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
+  /* line 34, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
+  /* line 40, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li > ul { display: none; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(1):hover > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(1):hover > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/facebook_hover.png?1367283044'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(1) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(1) > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/facebook.png?1367282776'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 235, ../../app/assets/styles/partials/_header.sass */
+  header #social > ul > li:nth-of-type(1) > a { border-left: 1px solid rgba(36, 36, 36, 0.9); }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(2):hover > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(2):hover > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/twitter_hover.png?1367283023'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(2) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(2) > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/twitter.png?1367283039'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(3):hover > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(3):hover > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/instagram_hover.png?1367283095'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(3) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(3) > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/instagram.png?1367282791'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 253, ../../app/assets/styles/partials/_header.sass */
+  header #interaction > ul { width: 20.83333%; float: left; margin-right: 0%; }
+  /* line 211, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li { width: 33.33333%; float: left; margin-right: 0%; }
+  /* line 213, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li:last-of-type { width: 33.33333%; float: right; margin-right: 0; }
+  /* line 10, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li:hover > a { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background: transparent; border-bottom: 0px; }
+  /* line 18, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li:hover > ul { display: block; transition: all 2s; opacity: 1; }
+  /* line 23, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
+  /* line 34, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
+  /* line 40, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li > ul { display: none; } }
+/* line 3, ../../app/assets/styles/partials/_footer.sass */
+footer { background-color: gray; }
+/* line 9, ../../app/assets/styles/partials/_footer.sass */
+footer > p { width: 100%; display: block; text-align: center; vertical-align: middle; margin-left: 25.42373%; width: 49.15254%; float: left; margin-right: 1.69492%; display: inline; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 1em; color: white; }
+
+@font-face { font-family: "Icons"; src: url('/fonts/icons.eot') format('embedded-opentype'), url('/fonts/icons.svg') format('svg'), url('/fonts/icons.ttf') format('truetype'), url('/fonts/icons.woff') format('woff'); }
+
+/* line 1, ../../app/assets/styles/partials/_body.sass */
+html, body { height: 100%; }
+
+@media (min-width: 0em) { /* line 4, ../../app/assets/styles/partials/_body.sass */
+  body { max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(10.25641%, rgba(100, 100, 225, 0.25)), color-stop(10.25641%, rgba(0, 0, 0, 0)), color-stop(12.82051%, rgba(0, 0, 0, 0)), color-stop(12.82051%, rgba(100, 100, 225, 0.25)), color-stop(23.07692%, rgba(100, 100, 225, 0.25)), color-stop(23.07692%, rgba(0, 0, 0, 0)), color-stop(25.64103%, rgba(0, 0, 0, 0)), color-stop(25.64103%, rgba(100, 100, 225, 0.25)), color-stop(35.89744%, rgba(100, 100, 225, 0.25)), color-stop(35.89744%, rgba(0, 0, 0, 0)), color-stop(38.46154%, rgba(0, 0, 0, 0)), color-stop(38.46154%, rgba(100, 100, 225, 0.25)), color-stop(48.71795%, rgba(100, 100, 225, 0.25)), color-stop(48.71795%, rgba(0, 0, 0, 0)), color-stop(51.28205%, rgba(0, 0, 0, 0)), color-stop(51.28205%, rgba(100, 100, 225, 0.25)), color-stop(61.53846%, rgba(100, 100, 225, 0.25)), color-stop(61.53846%, rgba(0, 0, 0, 0)), color-stop(64.10256%, rgba(0, 0, 0, 0)), color-stop(64.10256%, rgba(100, 100, 225, 0.25)), color-stop(74.35897%, rgba(100, 100, 225, 0.25)), color-stop(74.35897%, rgba(0, 0, 0, 0)), color-stop(76.92308%, rgba(0, 0, 0, 0)), color-stop(76.92308%, rgba(100, 100, 225, 0.25)), color-stop(87.17949%, rgba(100, 100, 225, 0.25)), color-stop(87.17949%, rgba(0, 0, 0, 0)), color-stop(89.74359%, rgba(0, 0, 0, 0)), color-stop(89.74359%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0))); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10.25641%, rgba(0, 0, 0, 0) 10.25641%, rgba(0, 0, 0, 0) 12.82051%, rgba(100, 100, 225, 0.25) 12.82051%, rgba(100, 100, 225, 0.25) 23.07692%, rgba(0, 0, 0, 0) 23.07692%, rgba(0, 0, 0, 0) 25.64103%, rgba(100, 100, 225, 0.25) 25.64103%, rgba(100, 100, 225, 0.25) 35.89744%, rgba(0, 0, 0, 0) 35.89744%, rgba(0, 0, 0, 0) 38.46154%, rgba(100, 100, 225, 0.25) 38.46154%, rgba(100, 100, 225, 0.25) 48.71795%, rgba(0, 0, 0, 0) 48.71795%, rgba(0, 0, 0, 0) 51.28205%, rgba(100, 100, 225, 0.25) 51.28205%, rgba(100, 100, 225, 0.25) 61.53846%, rgba(0, 0, 0, 0) 61.53846%, rgba(0, 0, 0, 0) 64.10256%, rgba(100, 100, 225, 0.25) 64.10256%, rgba(100, 100, 225, 0.25) 74.35897%, rgba(0, 0, 0, 0) 74.35897%, rgba(0, 0, 0, 0) 76.92308%, rgba(100, 100, 225, 0.25) 76.92308%, rgba(100, 100, 225, 0.25) 87.17949%, rgba(0, 0, 0, 0) 87.17949%, rgba(0, 0, 0, 0) 89.74359%, rgba(100, 100, 225, 0.25) 89.74359%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10.25641%, rgba(0, 0, 0, 0) 10.25641%, rgba(0, 0, 0, 0) 12.82051%, rgba(100, 100, 225, 0.25) 12.82051%, rgba(100, 100, 225, 0.25) 23.07692%, rgba(0, 0, 0, 0) 23.07692%, rgba(0, 0, 0, 0) 25.64103%, rgba(100, 100, 225, 0.25) 25.64103%, rgba(100, 100, 225, 0.25) 35.89744%, rgba(0, 0, 0, 0) 35.89744%, rgba(0, 0, 0, 0) 38.46154%, rgba(100, 100, 225, 0.25) 38.46154%, rgba(100, 100, 225, 0.25) 48.71795%, rgba(0, 0, 0, 0) 48.71795%, rgba(0, 0, 0, 0) 51.28205%, rgba(100, 100, 225, 0.25) 51.28205%, rgba(100, 100, 225, 0.25) 61.53846%, rgba(0, 0, 0, 0) 61.53846%, rgba(0, 0, 0, 0) 64.10256%, rgba(100, 100, 225, 0.25) 64.10256%, rgba(100, 100, 225, 0.25) 74.35897%, rgba(0, 0, 0, 0) 74.35897%, rgba(0, 0, 0, 0) 76.92308%, rgba(100, 100, 225, 0.25) 76.92308%, rgba(100, 100, 225, 0.25) 87.17949%, rgba(0, 0, 0, 0) 87.17949%, rgba(0, 0, 0, 0) 89.74359%, rgba(100, 100, 225, 0.25) 89.74359%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10.25641%, rgba(0, 0, 0, 0) 10.25641%, rgba(0, 0, 0, 0) 12.82051%, rgba(100, 100, 225, 0.25) 12.82051%, rgba(100, 100, 225, 0.25) 23.07692%, rgba(0, 0, 0, 0) 23.07692%, rgba(0, 0, 0, 0) 25.64103%, rgba(100, 100, 225, 0.25) 25.64103%, rgba(100, 100, 225, 0.25) 35.89744%, rgba(0, 0, 0, 0) 35.89744%, rgba(0, 0, 0, 0) 38.46154%, rgba(100, 100, 225, 0.25) 38.46154%, rgba(100, 100, 225, 0.25) 48.71795%, rgba(0, 0, 0, 0) 48.71795%, rgba(0, 0, 0, 0) 51.28205%, rgba(100, 100, 225, 0.25) 51.28205%, rgba(100, 100, 225, 0.25) 61.53846%, rgba(0, 0, 0, 0) 61.53846%, rgba(0, 0, 0, 0) 64.10256%, rgba(100, 100, 225, 0.25) 64.10256%, rgba(100, 100, 225, 0.25) 74.35897%, rgba(0, 0, 0, 0) 74.35897%, rgba(0, 0, 0, 0) 76.92308%, rgba(100, 100, 225, 0.25) 76.92308%, rgba(100, 100, 225, 0.25) 87.17949%, rgba(0, 0, 0, 0) 87.17949%, rgba(0, 0, 0, 0) 89.74359%, rgba(100, 100, 225, 0.25) 89.74359%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10.25641%, rgba(0, 0, 0, 0) 10.25641%, rgba(0, 0, 0, 0) 12.82051%, rgba(100, 100, 225, 0.25) 12.82051%, rgba(100, 100, 225, 0.25) 23.07692%, rgba(0, 0, 0, 0) 23.07692%, rgba(0, 0, 0, 0) 25.64103%, rgba(100, 100, 225, 0.25) 25.64103%, rgba(100, 100, 225, 0.25) 35.89744%, rgba(0, 0, 0, 0) 35.89744%, rgba(0, 0, 0, 0) 38.46154%, rgba(100, 100, 225, 0.25) 38.46154%, rgba(100, 100, 225, 0.25) 48.71795%, rgba(0, 0, 0, 0) 48.71795%, rgba(0, 0, 0, 0) 51.28205%, rgba(100, 100, 225, 0.25) 51.28205%, rgba(100, 100, 225, 0.25) 61.53846%, rgba(0, 0, 0, 0) 61.53846%, rgba(0, 0, 0, 0) 64.10256%, rgba(100, 100, 225, 0.25) 64.10256%, rgba(100, 100, 225, 0.25) 74.35897%, rgba(0, 0, 0, 0) 74.35897%, rgba(0, 0, 0, 0) 76.92308%, rgba(100, 100, 225, 0.25) 76.92308%, rgba(100, 100, 225, 0.25) 87.17949%, rgba(0, 0, 0, 0) 87.17949%, rgba(0, 0, 0, 0) 89.74359%, rgba(100, 100, 225, 0.25) 89.74359%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%); background-position: left top; -webkit-background-origin: content; -moz-background-origin: content; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box; -webkit-background-clip: content-box; -moz-background-clip: content-box; background-clip: content-box; overflow-y: hidden; overflow-x: hidden; }
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  body:after { content: ""; display: table; clear: both; } }
+@media (min-width: 48em) { /* line 4, ../../app/assets/styles/partials/_body.sass */
+  body { max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.77966%, rgba(100, 100, 225, 0.25)), color-stop(6.77966%, rgba(0, 0, 0, 0)), color-stop(8.47458%, rgba(0, 0, 0, 0)), color-stop(8.47458%, rgba(100, 100, 225, 0.25)), color-stop(15.25424%, rgba(100, 100, 225, 0.25)), color-stop(15.25424%, rgba(0, 0, 0, 0)), color-stop(16.94915%, rgba(0, 0, 0, 0)), color-stop(16.94915%, rgba(100, 100, 225, 0.25)), color-stop(23.72881%, rgba(100, 100, 225, 0.25)), color-stop(23.72881%, rgba(0, 0, 0, 0)), color-stop(25.42373%, rgba(0, 0, 0, 0)), color-stop(25.42373%, rgba(100, 100, 225, 0.25)), color-stop(32.20339%, rgba(100, 100, 225, 0.25)), color-stop(32.20339%, rgba(0, 0, 0, 0)), color-stop(33.89831%, rgba(0, 0, 0, 0)), color-stop(33.89831%, rgba(100, 100, 225, 0.25)), color-stop(40.67797%, rgba(100, 100, 225, 0.25)), color-stop(40.67797%, rgba(0, 0, 0, 0)), color-stop(42.37288%, rgba(0, 0, 0, 0)), color-stop(42.37288%, rgba(100, 100, 225, 0.25)), color-stop(49.15254%, rgba(100, 100, 225, 0.25)), color-stop(49.15254%, rgba(0, 0, 0, 0)), color-stop(50.84746%, rgba(0, 0, 0, 0)), color-stop(50.84746%, rgba(100, 100, 225, 0.25)), color-stop(57.62712%, rgba(100, 100, 225, 0.25)), color-stop(57.62712%, rgba(0, 0, 0, 0)), color-stop(59.32203%, rgba(0, 0, 0, 0)), color-stop(59.32203%, rgba(100, 100, 225, 0.25)), color-stop(66.10169%, rgba(100, 100, 225, 0.25)), color-stop(66.10169%, rgba(0, 0, 0, 0)), color-stop(67.79661%, rgba(0, 0, 0, 0)), color-stop(67.79661%, rgba(100, 100, 225, 0.25)), color-stop(74.57627%, rgba(100, 100, 225, 0.25)), color-stop(74.57627%, rgba(0, 0, 0, 0)), color-stop(76.27119%, rgba(0, 0, 0, 0)), color-stop(76.27119%, rgba(100, 100, 225, 0.25)), color-stop(83.05085%, rgba(100, 100, 225, 0.25)), color-stop(83.05085%, rgba(0, 0, 0, 0)), color-stop(84.74576%, rgba(0, 0, 0, 0)), color-stop(84.74576%, rgba(100, 100, 225, 0.25)), color-stop(91.52542%, rgba(100, 100, 225, 0.25)), color-stop(91.52542%, rgba(0, 0, 0, 0)), color-stop(93.22034%, rgba(0, 0, 0, 0)), color-stop(93.22034%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0))); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.77966%, rgba(0, 0, 0, 0) 6.77966%, rgba(0, 0, 0, 0) 8.47458%, rgba(100, 100, 225, 0.25) 8.47458%, rgba(100, 100, 225, 0.25) 15.25424%, rgba(0, 0, 0, 0) 15.25424%, rgba(0, 0, 0, 0) 16.94915%, rgba(100, 100, 225, 0.25) 16.94915%, rgba(100, 100, 225, 0.25) 23.72881%, rgba(0, 0, 0, 0) 23.72881%, rgba(0, 0, 0, 0) 25.42373%, rgba(100, 100, 225, 0.25) 25.42373%, rgba(100, 100, 225, 0.25) 32.20339%, rgba(0, 0, 0, 0) 32.20339%, rgba(0, 0, 0, 0) 33.89831%, rgba(100, 100, 225, 0.25) 33.89831%, rgba(100, 100, 225, 0.25) 40.67797%, rgba(0, 0, 0, 0) 40.67797%, rgba(0, 0, 0, 0) 42.37288%, rgba(100, 100, 225, 0.25) 42.37288%, rgba(100, 100, 225, 0.25) 49.15254%, rgba(0, 0, 0, 0) 49.15254%, rgba(0, 0, 0, 0) 50.84746%, rgba(100, 100, 225, 0.25) 50.84746%, rgba(100, 100, 225, 0.25) 57.62712%, rgba(0, 0, 0, 0) 57.62712%, rgba(0, 0, 0, 0) 59.32203%, rgba(100, 100, 225, 0.25) 59.32203%, rgba(100, 100, 225, 0.25) 66.10169%, rgba(0, 0, 0, 0) 66.10169%, rgba(0, 0, 0, 0) 67.79661%, rgba(100, 100, 225, 0.25) 67.79661%, rgba(100, 100, 225, 0.25) 74.57627%, rgba(0, 0, 0, 0) 74.57627%, rgba(0, 0, 0, 0) 76.27119%, rgba(100, 100, 225, 0.25) 76.27119%, rgba(100, 100, 225, 0.25) 83.05085%, rgba(0, 0, 0, 0) 83.05085%, rgba(0, 0, 0, 0) 84.74576%, rgba(100, 100, 225, 0.25) 84.74576%, rgba(100, 100, 225, 0.25) 91.52542%, rgba(0, 0, 0, 0) 91.52542%, rgba(0, 0, 0, 0) 93.22034%, rgba(100, 100, 225, 0.25) 93.22034%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%); background-position: left top; -webkit-background-origin: content; -moz-background-origin: content; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box; -webkit-background-clip: content-box; -moz-background-clip: content-box; background-clip: content-box; overflow-y: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  body:after { content: ""; display: table; clear: both; } }
+@media (min-width: 50em) { /* line 4, ../../app/assets/styles/partials/_body.sass */
+  body { max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; overflow-y: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  body:after { content: ""; display: table; clear: both; } }
+
+/* line 28, ../../app/assets/styles/partials/_body.sass */
+#content { overflow: hidden; *zoom: 1; }
+@media (min-width: 0em) { /* line 28, ../../app/assets/styles/partials/_body.sass */
+  #content { width: 82.05128%; float: left; margin-right: 2.5641%; } }
+@media (min-width: 48em) { /* line 28, ../../app/assets/styles/partials/_body.sass */
+  #content { width: 100%; float: left; margin-right: 1.69492%; } }
+
+/* line 46, ../../app/assets/styles/partials/_body.sass */
+body { background: url('/images/global_background.png'); }
+/* line 53, ../../app/assets/styles/partials/_body.sass */
+body ul { list-style-type: none; }
+/* line 56, ../../app/assets/styles/partials/_body.sass */
+body ul > li { display: block; text-align: center; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; }
+/* line 56, ../../app/assets/styles/mixins/_typography.sass */
+body ul > li:hover { color: #ef0a08; }
+/* line 62, ../../app/assets/styles/partials/_body.sass */
+body ul > li > a { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; text-decoration: none; }
+/* line 56, ../../app/assets/styles/mixins/_typography.sass */
+body ul > li > a:hover { color: #ef0a08; }
+/* line 66, ../../app/assets/styles/partials/_body.sass */
+body ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 0.9em; }
+/* line 56, ../../app/assets/styles/mixins/_typography.sass */
+body ul > li > a > span:hover { color: #ef0a08; }
+
+/* line 2, ../../app/assets/styles/partials/_header.sass */
+header { position: relative; height: 3em; z-index: 1000; background: url('/images/medium_background.png?1319981578'); }
+
+@media (min-width: 0em) { /* line 14, ../../app/assets/styles/partials/_header.sass */
+  header { width: 82.05128%; float: left; margin-right: 2.5641%; margin-left: -71.79487%; } }
+@media (min-width: 48em) { /* line 14, ../../app/assets/styles/partials/_header.sass */
+  header { margin-left: 0%; width: 100%; float: left; margin-right: 1.69492%; } }
+
+@media (min-width: 48em) { /* line 46, ../../app/assets/styles/partials/_header.sass */
+  header { max-width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  header:after { content: ""; display: table; clear: both; }
+  /* line 56, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul { width: 33.33333%; float: left; margin-right: 0%; }
+  /* line 211, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li { width: 20%; float: left; margin-right: 0%; }
+  /* line 213, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:last-of-type { width: 20%; float: right; margin-right: 0; }
+  /* line 10, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:hover > a { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background: transparent; border-bottom: 0px; }
+  /* line 18, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:hover > ul { display: block; transition: all 2s; opacity: 1; }
+  /* line 23, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
+  /* line 34, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
+  /* line 40, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li > ul { display: none; }
+  /* line 72, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(2) > ul, header #main > ul > li:nth-of-type(3) > ul, header #main > ul > li:nth-of-type(4) > ul, header #main > ul > li:nth-of-type(5) > ul { box-shadow: 0 1.5em 2.5em 0.5em rgba(36, 36, 36, 0.9); border-bottom: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 1.5em 2.5em 0.5em rgba(36, 36, 36, 0.9); border-top: 1px solid rgba(0, 0, 0, 0.2); overflow-y: auto; padding: 1.5em 0 1.5em 0; }
+  /* line 78, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li, header #main > ul > li:nth-of-type(3) > ul > li, header #main > ul > li:nth-of-type(4) > ul > li, header #main > ul > li:nth-of-type(5) > ul > li { overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; height: auto; display: block; border-right: 1px solid rgba(0, 0, 0, 0.2); }
+  /* line 62, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > a, header #main > ul > li:nth-of-type(3) > ul > li > a, header #main > ul > li:nth-of-type(4) > ul > li > a, header #main > ul > li:nth-of-type(5) > ul > li > a { height: 100px; width: 95%; display: block; margin: 0 auto; text-align: center; overflow: hidden; display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; }
+  /* line 74, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > a > span, header #main > ul > li:nth-of-type(3) > ul > li > a > span, header #main > ul > li:nth-of-type(4) > ul > li > a > span, header #main > ul > li:nth-of-type(5) > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 1em; margin-top: 1em; font-size: 1.5em; display: block; text-transform: uppercase; }
+  /* line 56, ../../app/assets/styles/mixins/_typography.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > a > span:hover, header #main > ul > li:nth-of-type(3) > ul > li > a > span:hover, header #main > ul > li:nth-of-type(4) > ul > li > a > span:hover, header #main > ul > li:nth-of-type(5) > ul > li > a > span:hover { color: #ef0a08; }
+  /* line 83, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li:last-of-type, header #main > ul > li:nth-of-type(3) > ul > li:last-of-type, header #main > ul > li:nth-of-type(4) > ul > li:last-of-type, header #main > ul > li:nth-of-type(5) > ul > li:last-of-type { border: 0px transparent; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(1) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(1) > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/black.png?1367305370'); background-position: center center; background-size: 90% auto; background-repeat: no-repeat; }
+  /* line 228, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -100%; position: relative; }
+  /* line 251, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul { overflow: hidden; background: url('/images/medium_background.png?1319981578'); overflow-y: auto; }
+  /* line 258, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
+  /* line 264, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li:first-of-type { margin-left: 0%; }
+  /* line 101, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li { position: relative; overflow-y: auto; height: 10em; overflow: hidden; }
+  /* line 170, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > a { width: 100%; text-align: center; height: auto; }
+  /* line 177, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li { height: 1.5em; }
+  /* line 181, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a { height: 100%; }
+  /* line 184, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a > span { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-size: 1em; text-transform: uppercase; }
+  /* line 56, ../../app/assets/styles/mixins/_typography.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a > span:hover { color: #ef0a08; }
+  /* line 190, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li > ul > li > a > span:hover { text-decoration: underline; }
+  /* line 147, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li:first-of-type > a { display: table; height: 100%; }
+  /* line 152, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(2) > ul > li:first-of-type > a > span { display: table-cell; vertical-align: middle; }
+  /* line 228, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -200%; position: relative; }
+  /* line 251, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul { overflow: hidden; background: url('/images/medium_background.png?1319981578'); overflow-y: auto; }
+  /* line 258, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
+  /* line 264, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:first-of-type { margin-left: 16.66667%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a { background: url('/images/logos/characters/football.png?1368105134'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(1) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(2) > a { background: url('/images/logos/characters/soccer.png?1368105136'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(2) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(2) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a { background: url('/images/logos/characters/basketball.png?1368105028'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 137, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a { background-size: auto 75%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) > a { background: url('/images/logos/characters/running.png?1368105136'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(3) > ul > li:nth-of-type(4) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 228, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -300.0%; position: relative; }
+  /* line 251, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul { overflow: hidden; background: url('/images/medium_background.png?1319981578'); overflow-y: auto; }
+  /* line 258, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
+  /* line 264, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:first-of-type { margin-left: 25%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) > a { background: url('/images/logos/tech/energy_dna.png?1366678511'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) > a > span { padding-top: 2.5em; }
+  /* line 162, ../../app/assets/styles/partials/_header.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) > a { background-size: 70% auto; background-position: center center; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a { background: url('/images/logos/tech/celliant.png?1290014995'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(3) > a { background: url('/images/logos/tech/trimera.png?1365405104'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(4) > ul > li:nth-of-type(3) > a > span { padding-top: 2.5em; }
+  /* line 228, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul { width: 1500%; float: left; margin-right: 0%; margin-left: -400%; position: relative; }
+  /* line 251, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul { overflow: hidden; background: url('/images/medium_background.png?1319981578'); overflow-y: auto; }
+  /* line 258, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li { width: 16.66667%; float: left; margin-right: 0%; }
+  /* line 264, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:first-of-type { margin-left: 16.66667%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(1) > a { background: url('/images/logos/footwear/running.png?1366689855'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(1) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(1) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) > a { background: url('/images/logos/footwear/basketball.png?1366689675'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(3) > a { background: url('/images/logos/footwear/football.png?1366689894'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(3) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(3) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 88, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(4) > a { background: url('/images/logos/footwear/soccer.png?1366689381'); background-repeat: no-repeat; background-size: 95% auto; background-position: center center; }
+  /* line 95, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(4) > a > span { padding-top: 2.5em; }
+  /* line 139, ../../app/assets/styles/mixins/_navigation.sass */
+  header #main > ul > li:nth-of-type(5) > ul > li:nth-of-type(4) > a { background-size: auto 50%; background-position: center 15%; }
+  /* line 219, ../../app/assets/styles/partials/_header.sass */
+  header #social > ul { margin-left: 29.16667%; width: 16.66667%; float: left; margin-right: 0%; }
+  /* line 211, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li { width: 33.33333%; float: left; margin-right: 0%; }
+  /* line 213, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:last-of-type { width: 33.33333%; float: right; margin-right: 0; }
+  /* line 10, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:hover > a { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background: transparent; border-bottom: 0px; }
+  /* line 18, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:hover > ul { display: block; transition: all 2s; opacity: 1; }
+  /* line 23, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
+  /* line 34, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
+  /* line 40, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li > ul { display: none; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(1):hover > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(1):hover > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/facebook_hover.png?1367283044'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(1) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(1) > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/facebook.png?1367282776'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 235, ../../app/assets/styles/partials/_header.sass */
+  header #social > ul > li:nth-of-type(1) > a { border-left: 1px solid rgba(36, 36, 36, 0.9); }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(2):hover > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(2):hover > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/twitter_hover.png?1367283023'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(2) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(2) > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/twitter.png?1367283039'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(3):hover > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(3):hover > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/instagram_hover.png?1367283095'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 103, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(3) > a { height: 100%; width: 100%; text-indent: -119988px; overflow: hidden; text-align: left; }
+  /* line 110, ../../app/assets/styles/mixins/_navigation.sass */
+  header #social > ul > li:nth-of-type(3) > a > span { cursor: pointer; transition: all 2s; height: 100%; width: 100%; background: url('/images/logos/social/instagram.png?1367282791'); background-position: center center; background-size: 40% auto; background-repeat: no-repeat; }
+  /* line 253, ../../app/assets/styles/partials/_header.sass */
+  header #interaction > ul { width: 20.83333%; float: left; margin-right: 0%; }
+  /* line 211, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li { width: 33.33333%; float: left; margin-right: 0%; }
+  /* line 213, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li:last-of-type { width: 33.33333%; float: right; margin-right: 0; }
+  /* line 10, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li:hover > a { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(101, 95, 95, 0.3)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(101, 95, 95, 0.3), rgba(170, 170, 170, 0.66)); background: transparent; border-bottom: 0px; }
+  /* line 18, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li:hover > ul { display: block; transition: all 2s; opacity: 1; }
+  /* line 23, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li > a { width: 100%; display: block; text-align: center; vertical-align: middle; overflow: hidden; border-right: 1px solid rgba(36, 36, 36, 0.9); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(204, 204, 204, 0.6)), color-stop(100%, rgba(170, 170, 170, 0.66))); background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6), rgba(170, 170, 170, 0.66)); }
+  /* line 34, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li > a > span { display: block; padding: 1em 0 1em 0; }
+  /* line 40, ../../app/assets/styles/mixins/_navigation.sass */
+  header #interaction > ul > li > ul { display: none; } }
+/* line 3, ../../app/assets/styles/partials/_footer.sass */
+footer { background-color: gray; }
+/* line 9, ../../app/assets/styles/partials/_footer.sass */
+footer > p { width: 100%; display: block; text-align: center; vertical-align: middle; margin-left: 25.42373%; width: 49.15254%; float: left; margin-right: 1.69492%; display: inline; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 1em; color: white; }
+
+/* line 1, ../../app/assets/styles/pages/_home.sass */
+#gallery { width: 100%; position: relative; }
+/* line 7, ../../app/assets/styles/pages/_home.sass */
+#gallery > div { width: 100%; overflow: hidden; *zoom: 1; }
+/* line 12, ../../app/assets/styles/pages/_home.sass */
+#gallery > div > img { width: 100%; }
+
+/* line 17, ../../app/assets/styles/pages/_home.sass */
+#about { *zoom: 1; max-width: 100%; _width: 100%; padding-left: 0em; padding-right: 0em; margin-left: auto; margin-right: auto; margin-bottom: 10em; }
+/* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@clothing/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#about:after { content: ""; display: table; clear: both; }
+/* line 22, ../../app/assets/styles/pages/_home.sass */
+#about > h1 { width: 151.28205%; float: left; margin-right: 2.5641%; display: inline; margin: 1em 0 1em 0; width: 100%; display: block; text-align: center; vertical-align: middle; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 2.9em; font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: 0em; text-transform: uppercase; padding: 0; font-weight: 900; color: white; }
+/* line 29, ../../app/assets/styles/pages/_home.sass */
+#about > div { position: relative; height: 10em; width: 23.72881%; float: left; margin-right: 1.69492%; display: inline; }
+/* line 34, ../../app/assets/styles/pages/_home.sass */
+#about > div:first-of-type { margin-left: 13.55932%; }
+/* line 5, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div { height: 100%; width: 100%; position: absolute; top: 0; left: 0; background-color: orange; }
+/* line 13, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div > h1 { position: absolute; top: 1em; width: 100%; display: block; text-align: center; vertical-align: middle; }
+/* line 18, ../../app/assets/styles/mixins/_box.sass */
+#about > div:hover { cursor: pointer; }
+/* line 23, ../../app/assets/styles/mixins/_box.sass */
+#about > div:hover > div:first-of-type { display: none; }
+/* line 27, ../../app/assets/styles/mixins/_box.sass */
+#about > div:hover > div:last-of-type { display: block; }
+/* line 32, ../../app/assets/styles/mixins/_box.sass */
+#about > div:hover img { display: none; }
+/* line 36, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div:first-of-type { display: block; }
+/* line 41, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div:first-of-type > img { position: absolute; height: 100%; width: 100%; }
+/* line 49, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div:last-of-type { display: none; }
+/* line 53, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div:last-of-type > h1 { position: relative; }
+/* line 57, ../../app/assets/styles/mixins/_box.sass */
+#about > div > div:last-of-type > p { position: relative; }
+
+/* line 39, ../../app/assets/styles/pages/_home.sass */
+#follow, #gallery > #follow { position: absolute; width: 15em; z-index: 20000; overflow: hidden; *zoom: 1; bottom: 2em; right: 4em; background: url('/images/medium_background.png?1319981578'); display: block; }
+/* line 51, ../../app/assets/styles/pages/_home.sass */
+#follow > h1, #gallery > #follow > h1 { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); font-size: 1em; font-family: "Oswald", sans-serif; font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: rgba(36, 36, 36, 0.9); display: block; text-align: center; margin-bottom: 0.5em; }
+/* line 61, ../../app/assets/styles/pages/_home.sass */
+#follow > div, #gallery > #follow > div { position: relative; width: 40%; float: left; }
+/* line 67, ../../app/assets/styles/pages/_home.sass */
+#follow > div:first-of-type, #gallery > #follow > div:first-of-type { margin-left: 10%; }
