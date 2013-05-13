@@ -11,10 +11,6 @@ define ['jquery', 'angular', 'angularResource', 'underscore'], ($, angular, angu
 		# bootstrap angular onto the document window!
 		angular.bootstrap document, ['app']
 
-		# now load in a few different modules etc
-		# require ['modules/social'], (social) ->
-
-			# do social.init
 
 
 	# return init element
