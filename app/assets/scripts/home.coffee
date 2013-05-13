@@ -2,13 +2,20 @@
 # initialize our global elements and configuration in this particular application etc by require the bootstrap element
 # some of the app set up stuff could be modularized into the bootstrap element later on if necessary
 # can also require individual page elements that are not angular related in this file
-require ['bootstrap', 'jquery', 'underscore'], (bootstrap, $, _) ->
+require ['bootstrap'], ->
 
-	# require any page elements!
-	require ['pages/home']
+	# require the apps that we need
+	require [
 
-	# grab some bootstrapped variables etc
-	angular = bootstrap.angular
-	app = bootstrap.app
-	config = bootstrap.config
+		'angular',
+		'angular_bootstrap',
+		'controllers/home'
+
+	], (angular, app) ->
+
+		# now load in angular when the element that we need is finished loading
+		angular.element(document).ready () ->
+
+			# now inject the angular element when we are finished loading 
+			angular.bootstrap document, ['app']
 
