@@ -54,8 +54,21 @@ if config.status
 	require ['facebook', 'twitter']
 
 
+# now we can return different elements and pieces here to the caller etc
+define ['angular', 'angularResource'], (angular, angularResource, _, $)->
 
+	# make sure we call the configuration again so that its exported into the caller's lexical scope
+	require.config config
 
+	# initialize our angular app as a module
+	app = angular.module 'app', ['ngResource']
 
+	# return our angular app etc
+	return {
 
-
+		# return various modules etc
+		angular: angular
+		app: app 
+		config: config
+	}
+	
