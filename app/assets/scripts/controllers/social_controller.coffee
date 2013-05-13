@@ -1,8 +1,10 @@
 define ['angular_bootstrap'], (app) ->
 
-	app.controller 'twitter', () ->
+	app.controller 'facebook', () ->
 
 		alert "HELLO WORLD"
 
+	return app
 
-		
+
+			
