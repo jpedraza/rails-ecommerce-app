@@ -2,12 +2,15 @@
   var config;
 
   config = {
+    status: false,
     paths: {
       jquery: "/components/jquery/jquery",
       angular: "/components/angular/angular",
       underscore: "/components/underscore/underscore",
       angularResource: "/components/angular-resource/angular-resource",
-      gallery: "/components/iosslider/_src/jquery.iosslider"
+      gallery: "/components/iosslider/_src/jquery.iosslider",
+      facebook: "//connect.facebook.net/en_US/all.js#xfbml=1",
+      twitter: "http://platform.twitter.com/widgets"
     },
     shim: {
       angular: {
@@ -30,10 +33,10 @@
 
   require.config(config);
 
-  require(['jquery', 'angular', 'underscore', 'facebook', 'twitter'], function($, angular, _) {
-    return $(document).ready(function() {
-      return alert(document.URL);
-    });
-  });
+  if (config.status) {
+    alert("HELLO WORLD");
+  } else {
+    alert("NOT LIVE");
+  }
 
 }).call(this);

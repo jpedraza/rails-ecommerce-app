@@ -1,6 +1,9 @@
 # declare our require js config json object
 config = 
 
+	# set this true / false to set up api loading from external sources
+	status: false
+
 	# declare paths -- this will need to be uploaded later on!
 	paths: 
 		jquery: "/components/jquery/jquery"
@@ -10,9 +13,9 @@ config =
 		gallery: "/components/iosslider/_src/jquery.iosslider"
 
 		# load in facebook sdk etc
-		# facebook: "//connect.facebook.net/en_US/all.js#xfbml=1"
+		facebook: "//connect.facebook.net/en_US/all.js#xfbml=1"
 		# facebook: "/components/facebook/all"
-		# twitter: "http://platform.twitter.com/widgets"
+		twitter: "http://platform.twitter.com/widgets"
 
 	# initialize some shims to help us load our different modules
 	shim:
@@ -43,17 +46,20 @@ require.config config
 # when we are requiring the various jquery elements into our namespace, we can simply just pull the code in etc. It will then be passed to the jquery element
 # simply extend the jquery element
 # lets go ahead and require jquery before anything else
-# we don't want to require it seperately in our different modules because we only want 1 instance of the jquery object!
-require ['jquery', 'angular', 'underscore', 'facebook', 'twitter'], ($, angular, _) ->
 
-	$(document).ready () ->
-		# require our main application etc etc
-		# require ['application'], (application) ->
+# check to see if page site is live currently
+if config.status
 
-			# initialize our application so now when we call application.app we have a valid, bootstrapped angular object
-			# do application.init
+	alert "HELLO WORLD"
 
-			alert document.URL	
+else
+	
+	alert "NOT LIVE"
+
+
+
+
+
 
 
 
