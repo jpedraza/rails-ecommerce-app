@@ -8,7 +8,7 @@
 		= stylesheet_link_tag @config[:stylesheet]
 
 		/ now include the require js main module
-		%script{:src => "/components/requirejs/require.js", "data-main" => "javascripts/bootstrap.js"}
+		%script{:src => "/components/requirejs/require.js", "data-main" => "javascripts/#{@config[:require_app]}.js"}
 		%script{:src => "/components/modernizr/modernizr.js"}
 
 	%body
