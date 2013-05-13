@@ -21,8 +21,7 @@ require ['bootstrap'], ->
 		'angular_bootstrap',
 		'jquery',
 		'controllers/social_controller',
-		'routes/social_route'
-
+		'routes/social_router'
 		# load in a non-angular related resource etc
 		# 'pages/home'
 

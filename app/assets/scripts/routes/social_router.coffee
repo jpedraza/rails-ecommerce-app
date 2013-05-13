@@ -5,11 +5,20 @@ define ['angular_bootstrap', 'controllers/social_controller'], (app, controller)
 	setup = ($routeProvider) ->	
 
 		# initialize our routeProvider for the facebook bumpbox!
-		$routeProvider.when '/#facebook', {
+		$routeProvider.when '/facebook', {
 
-			# templateUrl: 'partials/bumpbox.html'
+			templateUrl: 'partials/social_bumpbox.html'
 			controller: 'facebook'
 		}
 
+		$routeProvider.when '/twitter', {
+
+			templateUrl: 'partials/social_bumpbox.html'	
+			controller: 'twitter'
+		}
+
+
 	# now return the application with our configured routes etc
 	app.config ['$routeProvider', setup]
+
+	

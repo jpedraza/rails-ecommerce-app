@@ -43,7 +43,7 @@ module.exports = (grunt) ->
         tasks: ["livereload"]
 
       jade:
-        files: ["<%= yeoman.app %>/scripts/{,*/}*.jade"]
+        files: ["<%= yeoman.app %>/scripts/{,*/}*.{jade}"]
         tasks: ["jade:compile"]
 
     connect:

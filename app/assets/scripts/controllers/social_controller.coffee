@@ -1,9 +1,11 @@
+# initialize angular and proper bootstrapped module to grab our app
 define ['angular_bootstrap'], (app) ->
 
-	app.controller 'facebook', () ->
+	# initialize the application controller
+	app.controller 'socialBumpbox', () ->
 
-		alert "HELLO WORLD"
-
+		# do some cool stuff here!	
+		
 	return app
 
 
