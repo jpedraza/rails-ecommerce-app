@@ -1,14 +1,6 @@
 (function() {
-  define(['angular', 'angularResource'], function(angular, angularResource, _, $) {
-    var app;
-
-    require.config(config);
-    app = angular.module('app', ['ngResource']);
-    return {
-      angular: angular,
-      app: app,
-      config: config
-    };
+  define(['angular', 'angularResource'], function(angular, angularResource) {
+    return angular.module('app', ['ngResource']);
   });
 
 }).call(this);
