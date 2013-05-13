@@ -10,9 +10,9 @@ config =
 		gallery: "/components/iosslider/_src/jquery.iosslider"
 
 		# load in facebook sdk etc
-		facebook: "//connect.facebook.net/en_US/all.js#xfbml=1"
+		# facebook: "//connect.facebook.net/en_US/all.js#xfbml=1"
 		# facebook: "/components/facebook/all"
-		twitter: "http://platform.twitter.com/widgets"
+		# twitter: "http://platform.twitter.com/widgets"
 
 	# initialize some shims to help us load our different modules
 	shim:
@@ -48,13 +48,12 @@ require ['jquery', 'angular', 'underscore', 'facebook', 'twitter'], ($, angular,
 
 	$(document).ready () ->
 		# require our main application etc etc
-		require ['application'], (application) ->
+		# require ['application'], (application) ->
 
 			# initialize our application so now when we call application.app we have a valid, bootstrapped angular object
-			do application.init
+			# do application.init
 
-		
-
+			alert document.URL	
 
 
 

@@ -7,9 +7,7 @@
       angular: "/components/angular/angular",
       underscore: "/components/underscore/underscore",
       angularResource: "/components/angular-resource/angular-resource",
-      gallery: "/components/iosslider/_src/jquery.iosslider",
-      facebook: "//connect.facebook.net/en_US/all.js#xfbml=1",
-      twitter: "http://platform.twitter.com/widgets"
+      gallery: "/components/iosslider/_src/jquery.iosslider"
     },
     shim: {
       angular: {
@@ -34,9 +32,7 @@
 
   require(['jquery', 'angular', 'underscore', 'facebook', 'twitter'], function($, angular, _) {
     return $(document).ready(function() {
-      return require(['application'], function(application) {
-        return application.init();
-      });
+      return alert(document.URL);
     });
   });
 
