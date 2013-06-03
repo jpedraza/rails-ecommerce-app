@@ -8,7 +8,7 @@ gem 'mongoid'
 # add binding of caller to the element
 gem "binding_of_caller"
 
-# 
+# global  gemsetc
 group :development, :test, :production do
 
   # haml templating!!!!!!!!
@@ -23,7 +23,6 @@ group :development, :test, :production do
 
   # figaro gem for grabbing / storing all the keys etc for different twitter / networks
   gem 'figaro'
-
   # other rails functionality
   gem 'routing_concerns'
   
